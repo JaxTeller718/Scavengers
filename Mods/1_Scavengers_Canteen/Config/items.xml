@@ -1,0 +1,118 @@
+<JaxTeller718>
+
+
+	<append xpath="/items">	
+
+
+		<item name="drinkCanteenEmpty">
+			<property name="HoldType" value="3"/>
+			<property name="Meshfile" value="#Other/Items?Food/emptyJarPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="125"/>
+			<!-- STK resource -->
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientTime" value="9"/>
+			<property class="Action1">
+				<!-- UseAction -->
+				<property name="Class" value="ExchangeItem"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Change_item_to" value="drinkCanteenFull"/>
+				<property name="Do_block_action" value="deplete1"/>
+				<property name="Focused_blockname_1" value="water"/>
+				<property name="Focused_blockname_2" value="waterMoving"/>
+				<property name="Focused_blockname_3" value="waterStaticBucket"/>
+				<property name="Focused_blockname_4" value="waterMovingBucket"/>
+				<property name="Focused_blockname_5" value="terrWaterPOI"/>
+				<property name="Sound_start" value="bucketfill_water"/>
+			</property>
+			<property name="Group" value="Resources"/>
+		</item>
+
+		<item name="drinkCanteenFull">
+			<property name="HoldType" value="3"/>
+			<property name="DisplayType" value="waterDysentery"/>
+			<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="125"/>
+			<!-- STK resource -->
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="20"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="0"/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="drinkCanteenEmpty"/>
+			</property>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
+				<display_value name="dStaminaRegen" value=".15"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
+				<display_value name="dDysenteryRisk" value=".12"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatch">
+					<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+		<item name="drinkCanteenCleaned">
+			<property name="HoldType" value="3"/>
+			<property name="DisplayType" value="waterDysentery"/>
+			<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="10"/>
+			<!-- STK drink -->
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="40"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<property name="Create_item" value="drinkCanteenEmpty"/>
+			</property>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
+				<display_value name="dStaminaRegen" value=".15"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="3"/>
+				<display_value name="dDysenteryRisk" value=".03"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatch">
+					<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+			</effect_group>
+
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+
+	</append>
+
+</JaxTeller718>

@@ -1,0 +1,10 @@
+<configs>
+
+	<!-- Remove initial quest to find trader -->
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival8']/reward[@type='Quest']"/>
+
+	<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']"/>
+
+
+
+</configs>

@@ -1,0 +1,50 @@
+Key,Source,Context,Changes,English,German
+createTrueInventory,description,backpack,new,This block/item was created by the [e0c977]True Inventory[-] Mod.,Dieser Block/Gegenstand wurde durch die [e0c977]True Inventory[-] Mod erstellt.
+removedTrueInventory,description,backpack,new,This item has been removed by the [e0c977]True Inventory[-] Mod. It is still there to avoid errors but has no effect!,Dieser Gegenstand wurde durch die [e0c977]True Inventory[-] Mod entfernt. Er ist zwar noch vorhanden um Fehler zu vermeiden aber hat keinen Effekt mehr!
+TrueInventoryTip_title,description,diary,new,[e0c977]True Inventory[-] Mod,[e0c977]True Inventory[-] Mod
+TrueInventoryTip,description,diary,new,The [e0c977]True Inventory[-] Mod changes the existing inventory system and adds backpacks of different sizes. These can be produced in different ways. All backpacks can be placed as a block. Additional slots can be gained through different pocket mods / steroids / perks. \n\nShabby Backpack / 10 slots / always unlocked \nNormal Backpack / 30 slots / unlock via book \nKucci Backpack / 30 slots / unlock via book \nMilitary Backpack / 40 slots / complete Needel&Thread \nAll backpacks can be bought at trader \n\nGucci Backpack / 60 slots / creative menue (dev) \nAll backpacks can be placed as block \n\nSmall Pocket Mod / 2 slots / always unlocked \nLarge Pocket Mod / 4 slots / unlock via book \nCoat Pocket Mod / 6 slots / complete Needel&Thread \n\nRework Steroide / 10 slots \nRework Packmule / (max) 10 slots \n\n[C24942]Attention! Used to equip Drag and Drop to avoid errors![-] \n\nThe mod was created by Eihwaz with the support of Telric/Mastermatrix/Khaine. \n[e0c977]www.eihwaz.de[-],Die [e0c977]True Inventory[-] Mod ändert das vorhandene Inventarsystem und fügt Rucksäcke unterschiedlicher Größe hinzu. Diese können auf verschiedene Arten hergestellt werden. Alle Rucksäcke können als Block platziert werden. Zusätzliche Slots können durch verschiedene Taschen Mods/Steroide/Fähigkeiten freigeschaltet werden. \n\nSchäbiger Rucksack / 10 Plätze / immer freigeschaltet \nNormaler Rucksack / 30 Plätze / über Buch freischalten \nKucci Rucksack / 30 Plätze / über Buch freischalten \nKampftasche / 40 Steckplätze / komplett Needel&Thread \nAlle Rucksäcke können beim Händler gekauft werden \n\nGucci Rucksack / 60 Slots / Kreativmenü (dev) \nAlle Rucksäcke können als Block platziert werden \n\nKleine Taschen Mod / 2 Plätze / immer freigeschaltet \nGroße Taschen Mod / 4 Plätze / über Buch freischalten \nManteltaschen Mod / 6 Plätze / komplett Needel&Thread \n\nRework Steroide / 10 Plätze \nRework Packesel / 10 Plätze \n\n[C24942]Achtung! Verwendet Drag & Drop zum auszurüsten um Fehler zu vermeiden![-] \n\nDie Mod wurde von Eihwaz mit Unterstützung von Telric/Mastermatrix/Khaine erstellt. \n[e0c977]www.eihwaz.de[-]
+
+lblEyewear,UI,Tooltip,rework,Accessoire,Accessoire
+lblFace,UI,Tooltip,rework,Backpack,Rucksack
+lblAccessoireDesc,description,lblEyewear,rework,This item get now equipped in the new [e0c977]accessoire[-] slot.,Dieser Gegenstand wird nun im neuen [e0c977]Accessoire[-] Platz angelegt.
+
+backpackT0,items,backpack,new,Hobo Backpack,Schäbiger Rucksack
+backpackT0Desc,items,description,new,This hobo backpack doesn't look like much - but it does the job. \n\n[C24942]Use Drag and Drop to equip this item![-],Dieser schäbige Rucksack macht nicht besonders viel her aber erfüllt seinen Zweck. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT0block,blocks,backpack,new,Hobo Backpack,Schäbiger Rucksack
+
+
+backpackT1,items,backpack,new,Shabby Backpack,Schäbiger Rucksack
+backpackT1Desc,items,description,new,This shabby backpack doesn't look like much - but it does the job. \n\n[C24942]Use Drag and Drop to equip this item![-],Dieser schäbige Rucksack macht nicht besonders viel her aber erfüllt seinen Zweck. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT1block,blocks,backpack,new,Shabby Backpack,Schäbiger Rucksack
+
+backpackT2,items,backpack,new,Backpack,Rucksack
+backpackT2Desc,items,backpack,new,An ordinary backpack with a decent size - but worth gold in the Apocalypse. \n\n[C24942]Use Drag and Drop to equip this item![-],Ein gewöhnlicher Rucksack mit einer anständigen größe - aber in der Apokalypse Gold wert. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT2block,blocks,backpack,new,Backpack,Rucksack
+
+backpackT2V2,items,backpack,new,Kucci Backpack,Kucci Rucksack
+backpackT2V2Desc,items,backpack,new,It looks like a Gucci backpack but something is wrong ... at least it has a decent size. \n\n[C24942]Use Drag and Drop to equip this item![-],Er sieht aus wie ein Gucci Rucksack aber irgendwas stimmt damit nicht ... immerhin hat er anständig viel Platz. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT2V2block,blocks,backpack,new,Kucci Backpack,Kucci Rucksack
+bookFakeGucci,schematic,backpack,new,Pattern: Gucci Backpack,Muster: Gucci Rucksack
+bookFakeGucciDesc,schematic,backpack,new,In the book you can see an illustration of how to make a Gucci backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
+
+bookFakeGucci1,schematic,backpack,new,Pattern: Backpack,Muster: Gucci Rucksack
+bookFakeGucciDesc,schematic,backpack,new,In the book you can see an illustration of how to make a backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
+
+bookFakeGucci2,schematic,backpack,new,Pattern: Military Backpack,Muster: Gucci Rucksack
+bookFakeGucciDesc,schematic,backpack,new,In the book you can see an illustration of how to make a Military backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
+
+backpackT3,items,backpack,new,Military Backpack,Kampftasche
+backpackT3Desc,items,backpack,new,The military backpack is the survivor's best friend and offers enough space for all your prey. \n\n[C24942]Use Drag and Drop to equip this item![-],Die Kampftasche ist der beste Freund des Überlebenskünstlers und bietet ausreichend Platz für eure Beute. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT3block,blocks,backpack,new,Military Backpack,Kampftasche
+
+backpackT4,items,backpack,new,Gucci Backpack,Gucci Rucksack
+backpackT4Desc,items,backpack,new,This designer backpack is as outrageously large as it was expensive - you have to have influential friends to own it! \n\n[C24942]Use Drag and Drop to equip this item![-],Dieser Designer Rucksack ist so unverschämt groß wie er teuer war - du musst einflussreiche Freunde haben um ihn zu besitzen! \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT4block,blocks,backpack,new,Gucci Backpack,Gucci Rucksack
+
+modClothingStoragePocket,itemMods,pocket,rework,Small Pocket,Kleine Tasche
+modClothingCargoStoragePocket,itemMods,pocket,rework,Large Pocket,Große Tasche
+modClothingCargo2StoragePocket,itemMods,pocket,new,Coat Pocket,Manteltasche
+pocketDesc,description,pocket,new,A pocket that you can sew on your pants or jacket to carry more items.,Eine Tasche die du an deine Hose oder Jacke nähen kannst um mehr Gegenstände zu tragen.
+pocket2Desc,description,pocket,new,A pocket that you can sew on your jacket to carry more items.,Eine Tasche die du an deine Jacke nähen kannst um mehr Gegenstände zu tragen.
+
+drugSteroidsDesc,description,drugs,rework,Steroids make you stronger and increase melee damage by 50% and your inventory size by 9. \n\nSide effects may include low strength and addiction for some users after discontinued use.,Steroide machen dich stärker und erhöhen deinen Nahkampfschaden um 50% sowie deine Inventargröße um 9. \n\nAls Nebenwirkungen können nach dem Absetzen bei manchen Anwendern unter anderem Schwäche und Abhängigkeit auftreten.

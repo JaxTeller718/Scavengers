@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="ZScavengers_NoItemVariance" />
+		<Description value="Removes all random item variances" />
+		<Author value="Griz1231" />
+		<Version value=".1" />
+	</ModInfo>
+</xml>

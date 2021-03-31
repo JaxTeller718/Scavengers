@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="1_Scavengers_NerfFrames" />
+		<Description value="Frames are used only for construction and break when you walk on them. When blocks are destroyed they are not downgraded to frames." />
+		<Author value="VenomScorp" />
+		<Version value="A19" />
+		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
+	</ModInfo>
+</xml>

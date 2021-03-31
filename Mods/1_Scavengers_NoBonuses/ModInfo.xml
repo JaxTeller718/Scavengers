@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="1_Scavengers_NoBonuses" />
+		<Description value="Removes bonus from clothes, food and drinks" />
+		<Author value="Craluminum2413" />
+		<Version value="A19" />
+		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
+	</ModInfo>
+</xml>

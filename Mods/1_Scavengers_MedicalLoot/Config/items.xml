@@ -1,0 +1,103 @@
+<config>
+
+		<remove xpath="/items/item[@name='medicalPlasterCast']/property[@name='UnlockedBy']" />
+		<remove xpath="/items/item[@name='medicalFirstAidKit']/property[@name='UnlockedBy']" />
+		<remove xpath="/items/item[@name='drugAntibiotics']/property[@name='UnlockedBy']" />
+		<remove xpath="/items/item[@name='medicalSplint']" />
+		
+<insertAfter xpath="/items/item[@name='medicalFirstAidKit']">
+<item name="medicalSplint">
+	<property name="Tags" value="medical"/>
+	<property name="HoldType" value="64"/>
+	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mwood"/>
+	<property name="Stacknumber" value="5"/> <!-- STK loot -->
+	<property name="FuelValue" value="40"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="Group" value="Science,Medical"/>
+
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/> <!-- obsolete? -->
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_bandage"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="UseOther"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_bandage"/>
+	</property>
+
+	<effect_group name="Primary Action" tiered="false"> <!-- splint -->
+		<requirement name="HasBuff" buff="buffLegSprained"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffLegSplinted"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffLegSprained"/>
+	</effect_group>
+
+	<effect_group name="Primary Action" tiered="false"> <!-- splint -->
+		<requirement name="HasBuff" buff="buffArmSprained"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffArmSplinted"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffArmSprained"/>
+	</effect_group>
+
+	<effect_group name="Secondary Action" tiered="false"> <!-- splint other leg -->
+		<requirement name="HasBuff" buff="buffLegSprained"/>
+			<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="other" buff="buffLegSplinted"/>
+			<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" target="other" buff="buffLegSprained"/>
+	</effect_group>
+
+	<effect_group name="Secondary Action" tiered="false"> <!-- splint other arm -->
+		<requirement name="HasBuff" buff="buffArmSprained"/>
+			<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="other" buff="buffArmSplinted"/>
+			<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" target="other" buff="buffArmSprained"/>
+	</effect_group>
+
+	<effect_group tiered="false">
+		<!-- medical XP gains -->
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="LT" value="1"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="40">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="1"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="60">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="80">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="120">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="5"/>
+		</triggered_effect>
+	</effect_group>
+
+	<effect_group tiered="false">
+		<!-- medical XP secondary action gains -->
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="20">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="LT" value="1"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="40">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="1"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="60">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="80">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="GiveExp" exp="100">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="120">
+			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="5"/>
+		</triggered_effect>
+	</effect_group>
+</item>
+</insertAfter>
+
+</config>

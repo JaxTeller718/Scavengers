@@ -1,0 +1,149 @@
+<!-- - - - - - - - - - - -
+#########################
+##### True Inventory ####
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<config>
+<!-- Buff Fix -->
+<set xpath="/buffs/buff[@name='buffEncumberedInv']/effect_group/triggered_effect[@operation='multiply']/@value">0.05</set>
+<remove xpath="/buffs/buff[@name='buffDrugSteroids']"/>
+<append xpath="/buffs">
+<buff name="buffDrugSteroids" name_key="drugSteroids" description_key="drugSteroidsDesc" icon="ui_game_symbol_steroids">
+	<stack_type value="replace"/><duration value="0"/>
+	<display_value value=".buffDrugSteroidsDisplay"/><display_value_format value="time"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="subtract" value="@$MetabolismDuration"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDrugSteroidsDisplay" operation="set" value="@$buffDrugSteroidsDuration"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffDrugSteroidsDisplay" operation="divide" value="@$MetabolismDuration"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="CVarCompare" cvar="$buffDrugSteroidsDuration" operation="LTE" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffDrugSteroidsDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffDrugSteroidsDuration" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffDrugSteroids"/>
+	</effect_group>
+	<effect_group>
+		<passive_effect name="AttributeLevel" operation="base_add" value="3" tags="attStrength"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+		<passive_effect name="WaterChangeOT" operation="base_subtract" value=".083"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="NotHasBuff" buff="backpackT4"/>
+		<passive_effect name="CarryCapacity" operation="base_add" value="10"/>
+	</effect_group>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffDrugSteroidsSideEffect"/>
+		<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffDrugSteroidsSideEffect">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25"/>
+		</triggered_effect>
+	</effect_group>
+</buff>
+</append>
+
+<!-- Backpacks -->
+<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">60</set>
+<append xpath="/buffs">
+
+<buff name="backpackT0" hidden="true">
+	<stack_type value="ignore"/>
+	<update_rate value="0.2"/>
+	<duration value="0"/>
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="5"/>
+	
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
+			<requirement name="IsFPV"/> <!--1st-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="backpack" prefab="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2" parentTransform="Spine" localPos="-0.12,0,-0.02" localRot="0,-170,-90">
+			<requirement name="!IsFPV"/> <!--3rd-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
+	</effect_group>
+</buff>
+<buff name="backpackT1" hidden="true">
+	<stack_type value="ignore"/>
+	<update_rate value="0.2"/>
+	<duration value="0"/>
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="10"/>
+	
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
+			<requirement name="IsFPV"/> <!--1st-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="backpack" prefab="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2" parentTransform="Spine" localPos="-0.12,0,-0.02" localRot="0,-170,-90">
+			<requirement name="!IsFPV"/> <!--3rd-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
+	</effect_group>
+</buff>
+<buff name="backpackT2" hidden="true">
+	<stack_type value="ignore"/>
+	<update_rate value="0.2"/>
+	<duration value="0"/>
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="30"/>
+	
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
+			<requirement name="IsFPV"/> <!--1st-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="backpack" prefab="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_3" parentTransform="Spine" localPos="-0.11,0,-0.05" localRot="0,-170,-90">
+			<requirement name="!IsFPV"/> <!--3rd-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
+	</effect_group>
+</buff>
+<buff name="backpackT2V2" hidden="true">
+	<stack_type value="ignore"/>
+	<update_rate value="0.2"/>
+	<duration value="0"/>
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="30"/>
+	
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
+			<requirement name="IsFPV"/> <!--1st-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="backpack" prefab="#@modfolder:Resources/trueInventory_adminBackpack.unity3d?propertyOfEihwaz_backpackAdmin" parentTransform="Spine" localPos="0.03,0,-0.15" localRot="0,-175,-90">
+			<requirement name="!IsFPV"/> <!--3rd-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
+	</effect_group>
+</buff>
+<buff name="backpackT3" hidden="true">
+	<stack_type value="ignore"/>
+	<update_rate value="0.2"/>
+	<duration value="0"/>
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="40"/>
+		
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
+			<requirement name="IsFPV"/> <!--1st-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="backpack" prefab="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_4" parentTransform="Spine" localPos="-0.12,0,-0.18" localRot="0,-183,-90">
+			<requirement name="!IsFPV"/> <!--3rd-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
+	</effect_group>
+</buff>
+<buff name="backpackT4" hidden="true">
+	<stack_type value="ignore"/>
+	<update_rate value="0.2"/>
+	<duration value="0"/>
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="60"/>
+	
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
+			<requirement name="IsFPV"/> <!--1st-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="backpack" prefab="#@modfolder:Resources/trueInventory_adminBackpack.unity3d?propertyOfEihwaz_backpackAdmin" parentTransform="Spine" localPos="0.03,0,-0.15" localRot="0,-175,-90">
+			<requirement name="!IsFPV"/> <!--3rd-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
+	</effect_group>
+</buff>
+</append>
+</config>

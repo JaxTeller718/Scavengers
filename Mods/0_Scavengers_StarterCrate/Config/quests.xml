@@ -1,0 +1,31 @@
+<JaxTeller718>
+
+
+
+  <append xpath="/quests">
+  
+	<quest id="q_starterkit">
+		<property name="name_key" value="starterkitName" />
+		<property name="subtitle_key" value="starterkit_subtitle" />
+		<property name="description_key" value="starterkit_description" />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="shareable" value="false" />
+		<property name="repeatable" value="false"/>
+		<property name="difficulty" value="hard" />
+
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="starterkit_offer" />
+
+		<reward type="Item" id="drinkCanteenCleaned" value="1" isfixed="true"/>
+		<reward type="Item" id="foodCanChili" value="2" isfixed="true"/>
+		<!-- <reward type="Item" id="craftingBackpack" value="1" isfixed="true"/> -->
+		<reward type="Item" id="keystoneBlock" value="1" isfixed="true"/>
+<!-- 		<reward type="Item" id="cntStartingStorage" value="1" isfixed="true"/>
+		<reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="6" isfixed="true"/> -->
+		<reward type="Item" id="meleePlank" value="6" isfixed="true"/>
+
+	</quest>
+
+  </append>
+</JaxTeller718>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="ZScavengers_TrueInventory" />
+		<Description value="Brings you true progression based inventory." />
+		<Author value="Eihwaz" />
+		<Version value="2.0" compat="A18"/>
+		<Website value="www.eihwaz.de" />
+	</ModInfo>
+</xml>

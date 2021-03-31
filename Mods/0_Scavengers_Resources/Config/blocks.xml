@@ -1,0 +1,113 @@
+<JaxTeller718>
+
+	<insertAfter xpath="//drop[@event='Harvest' and @name='resourceWood' and @count='30']">
+	<drop event="Harvest" name="resourceOakWood" count="10" tag="oakWoodHarvest"/>
+	</insertAfter>
+
+	<insertAfter xpath="//drop[@event='Harvest' and @name='resourceWood' and @count='70']">
+	<drop event="Harvest" name="resourceOakWood" count="25" tag="oakWoodHarvest"/>
+	</insertAfter>
+
+	<insertAfter xpath="//drop[@event='Harvest' and @name='resourceWood' and @count='110']">
+	<drop event="Harvest" name="resourceOakWood" count="40" tag="oakWoodHarvest"/>
+	</insertAfter>
+
+	<insertAfter xpath="//drop[@event='Harvest' and @name='resourceWood' and @count='150']">
+	<drop event="Harvest" name="resourceOakWood" count="60" tag="oakWoodHarvest"/>
+	</insertAfter>
+
+	<set xpath="/blocks/block[@name='rWoodMaster']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceOakWood</set>
+
+
+	<insertAfter xpath="/blocks/block[@name='treeMaster']/drop[@event='Destroy']">
+		<drop event="Harvest" name="resourceStick" count="15" tag="allHarvest"/>
+
+	</insertAfter>
+
+	<insertAfter xpath="/blocks/block[@name='treeGrassMaster']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceStick" count="1" prob="0.55"/>
+
+	</insertAfter>
+
+
+
+	
+
+	<append xpath="/blocks/block
+[
+@name='secureDoorWooden'
+or (contains(@name, 'woodFrameMaster'))
+		
+]
+/property
+[
+@class='RepairItems'
+]">
+		<property name="resourceWoodNail" value="2"/>
+	</append>
+
+	<append xpath="/blocks/block
+[
+@name='scrapIronFrameMaster'
+or @name='scrapIronNoUpgradeMaster'
+or @name='rScrapIronMaster'
+or @name='ironDoor1_v1'
+or @name='scrapHatch_v1'
+or @name='vaultDoor01'
+or @name='vaultHatch_v1'
+or @name='garageDoorMetal_v1'
+or @name='metalReinforcedWoodDrawBridge'
+]
+/property
+[
+@class='RepairItems'
+]">
+		<property name="resourceScrews" value="2"/>
+	</append>
+
+
+
+	<append xpath="/blocks/block
+[
+@name='scrapIronFrameMaster'
+or @name='scrapIronNoUpgradeMaster'
+or @name='rScrapIronMaster'
+or @name='ironDoor1_v1'
+or @name='scrapHatch_v1'
+or @name='vaultDoor01'
+or @name='vaultHatch_v1'
+or @name='garageDoorMetal_v1'
+or @name='cntCar03SedanDamage0'
+or @name='cntCar03SedanDamage1'
+or @name='cntCar03SedanDamage2'
+or @name='metalReinforcedWoodDrawBridge'
+or @name='crushedCars'
+or @name='airConditioner'
+or @name='airConditionVentFan'
+or @name='workbench'
+or @name='cntCollapsedWorkbench'
+or @name='cementMixer'
+or @name='cntCollapsedCementMixer'
+or @name='chemistryStation'
+or @name='cntCollapsedChemistryStation'
+or @name='generatorbank'
+or @name='cntCollapsedGeneratorbank'
+or @name='solarbank'
+or @name='cntCollapsedSolarbank'
+or @name='batterybank'
+or @name='cntCollapsedBatterybank'
+or @name='fusebox'
+or @name='cntMicrowaveOvenVer1Open'
+or @name='cntRetroFridgeVer1Closed'
+or @name='cntFridgeTop'
+or @name='cntFridgeBottom'
+or (contains(@name, 'controlPanel'))
+or (contains(@name, 'satelliteDish'))
+or (contains(@name, 'cntBus'))
+or (contains(@name, 'cntCar03SedanDamage0v'))
+or (contains(@name, 'cntCar03SedanDamage1v'))
+]">
+		<drop event="Harvest" name="resourceScrews" count="2,5" tag="allHarvest"/>
+	</append>
+
+</JaxTeller718>

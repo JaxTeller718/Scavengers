@@ -1,0 +1,4 @@
+<Craluminum2413>
+<remove xpath="//trader_item_group[@name='foodCandy']"/>
+<remove xpath="//trader_info[@id='4']/trader_items/item[@group='foodCandy']"/>
+</Craluminum2413>

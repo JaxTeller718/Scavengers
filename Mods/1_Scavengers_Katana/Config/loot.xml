@@ -1,0 +1,29 @@
+<JaxTeller718>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT2']" >
+		<item name="meleeWpnBladeT3KatanaSchematic"/>
+	</append>
+
+
+
+
+	<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
+		<item name="meleeWpnBladeT3Katana"/>
+
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='groupWeapons_MeleeParts']">
+		<item name="meleeToolKnifeKatanaParts" count="2,5"/>
+
+	</append>
+
+
+
+	<append xpath="lootcontainers/lootgroup[@name='weaponParts']">
+		<item name="meleeToolKnifeKatanaParts" count="1,4"/>
+
+	</append>
+
+
+
+
+</JaxTeller718>

@@ -1,0 +1,7 @@
+<config>
+
+	<!-- All Mod Slots -->
+	<set xpath="/items/item/effect_group/passive_effect[@name='ModSlots' and @value='1,1,2,2,3,4']/@value">1,1,1,2,2,3</set>
+
+
+</config>

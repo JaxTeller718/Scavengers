@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+<append xpath="/quests">
+
+	<quest id="challenge_hotrod">
+		<property name="name_key" value="H0tr0d's Request" />
+		<property name="subtitle_key" value="Gather rotting flesh." />
+		<property name="description_key" value="Some shady guy who calls himself H0tr0D has an unsual request that you obtain for him rotting flesh. You don't understand his reasoning but he promises a nice reward." />
+		<property name="icon" value="ui_game_symbol_radiation" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Some shady guy who calls himself H0tr0D has an unsual request that you obtain for him rotting flesh. You don't understand his reasoning but he promises a nice reward." />
+		<property name="difficulty" value="easy" />
+
+		<objective type="Fetch" id="foodRottingFlesh" value="50" phase="1"/>
+		
+		<reward type="Item" id="mysteryMeat" value="10" />
+		<reward type="Quest" id="challenge_hotrod2" />
+	</quest>
+
+	<quest id="challenge_hotrod2">
+		<property name="name_key" value="An Aquired Taste" />
+		<property name="subtitle_key" value="An Aquired Taste" />
+		<property name="description_key" value="You're not certain what H0tr0D's mystery meat is made out of... but it sure smells... good..." />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="repeatable" value="false" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />
+
+		<objective type="FetchKeep" id="foodRottingFlesh" value="15" phase="1"/>
+		<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="9" phase="1"/>
+		<objective type="FetchKeep" id="drinkJarBoiledWater" value="3" phase="1"/>
+		
+		<reward type="Item" id="mysteryMeatCrafted_Book" value="1"/>
+		<reward type="Quest" id="challenge_hotrod3" />
+	</quest>
+	
+	<quest id="challenge_hotrod3">
+		<property name="name_key" value="Craft The Meat" />
+		<property name="subtitle_key" value="Mystery Meat Crafting" />
+		<property name="description_key" value="You're not certain what H0tr0D's mystery meat is made out of... but it sure smells... good...and you wanna make more of them." />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="repeatable" value="false" />
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy" />
+		
+		<objective type="Craft" id="mysteryMeatCrafted" value="3" phase="1"/>
+		
+		<reward type="Exp" value="1000"/>
+	</quest>
+	
+	<quest id="challenge_feedthemole">
+		<property name="name_key" value="Feed the Mole" />
+		<property name="subtitle_key" value="Feed the Mole" />
+		<property name="description_key" value="Gather some raw meat and water." />
+		<property name="icon" value="ui_game_symbol_spatula" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Joel is hungry and needs a day's worth of food. Fetch him some and he might reward you." />
+		<property name="difficulty" value="easy" />
+		
+		<objective type="Fetch" id="foodRawMeat" value="125" phase="1"/>
+		
+		<objective type="Fetch" id="drinkJarBoiledWater" value="10" phase="2"/>
+		
+		<reward type="Exp" value="1000"/>
+		<reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="2"/>
+		<reward type="Item" id="Grill_Steak_Sandwich" value="3"/>
+	</quest>
+	
+	<quest id="challenge_Sandwich">
+		<property name="name_key" value="Feed the People" />
+		<property name="subtitle_key" value="Feed the People" />
+		<property name="description_key" value="Gather or craft some Sandwich." />
+		<property name="icon" value="ui_game_symbol_spatula" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Traders are hungry and needs a day's worth of food. Fetch for them some and they might reward you." />
+		<property name="difficulty" value="medium" />
+		
+		<objective type="Fetch" id="Tuna_Sandwich" value="5" phase="1"/>
+		
+		<objective type="Fetch" id="drinkJarBoiledWater" value="3" phase="2"/>
+		
+		<objective type="InteractWithNPC">
+		<property name="phase" value="3"/>
+		</objective>
+		
+		<reward type="Exp" value="1500"/>
+		<reward type="Item" id="casinoCoin" value="2500"/>
+		<reward type="Item" id="foodRawMeat" value="20"/>
+	</quest>
+	
+</append>
+</configs>

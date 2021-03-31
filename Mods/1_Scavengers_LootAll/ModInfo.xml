@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="1_Scavengers_LootAll" />
+		<Description value="Change Loot probabilities so you can find anything at any level." />
+		<Author value="Fawk" />
+		<Version value="A19" />
+		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
+	</ModInfo>
+</xml>

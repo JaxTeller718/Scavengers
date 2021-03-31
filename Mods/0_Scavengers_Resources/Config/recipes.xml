@@ -1,0 +1,219 @@
+<JaxTeller718>
+
+  <set xpath="//ingredient[@name='foodRawMeat']/@count">1</set>
+  
+  
+	<append xpath="/recipes">
+		<recipe name="resourceArrowHeadStone" count="2" craft_time="1">
+			<ingredient name="resourceRockSmall" count="1"/>
+		</recipe>
+
+		<recipe name="resourceArrowShaft" count="2" craft_time="0.5">
+			<ingredient name="resourceStick" count="2"/>
+			<ingredient name="resourceFeather" count="2"/>
+		</recipe>
+		
+<recipe name="resourceSharpenedStone" count="1" craft_time="1">
+	<ingredient name="resourceRockSmall" count="1"/>
+</recipe>
+		
+	</append>
+
+	<set xpath="/recipes/recipe[@name='ammoArrowIron']/ingredient[@name='resourceWood']/@name">resourceArrowShaft</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowStone']/ingredient[@name='resourceWood']/@name">resourceArrowShaft</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltIron']/ingredient[@name='resourceWood']/@name">resourceArrowShaft</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']/ingredient[@name='resourceWood']/@name">resourceArrowShaft</set>
+
+
+	<set xpath="/recipes/recipe[@name='ammoArrowStone']/ingredient[@name='resourceRockSmall']/@name">resourceArrowHeadStone</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']/ingredient[@name='resourceRockSmall']/@name">resourceArrowHeadStone</set>
+
+	<remove xpath="/recipes/recipe[@name='ammoArrowIron']/ingredient[@name='resourceFeather']"/>
+	<remove xpath="/recipes/recipe[@name='ammoArrowStone']/ingredient[@name='resourceFeather']"/>
+	<remove xpath="/recipes/recipe[@name='ammoCrossbowBoltIron']/ingredient[@name='resourceFeather']"/>
+	<remove xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']/ingredient[@name='resourceFeather']"/>
+
+
+	<append xpath="/recipes">
+		<recipe name="resourceStick" count="2" craft_time="1">
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="resourceFiberCordage" count="1" craft_time="1">
+			<ingredient name="resourceYuccaFibers" count="3"/>
+		</recipe>
+
+	</append>
+
+
+	<set xpath="/recipes/recipe[@name='gunBowT0PrimitiveBow']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnSpearT0StoneSpear']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
+	<set xpath="/recipes/recipe[@name='meleeToolShovelT0StoneShovel']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT0StoneSledgehammer']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
+	<set xpath="/recipes/recipe[@name='meleeToolRepairT0StoneAxe']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
+	<set xpath="/recipes/recipe[@name='bedroll']/ingredient[@name='resourceYuccaFibers']/@count">24</set>
+
+
+
+	<append xpath="/recipes">
+		<recipe name="resourceSewingKit" count="1" craft_time="3">
+			<ingredient name="resourceTwine" count="2"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceCloth" count="5"/>
+		</recipe>
+		
+		<recipe name="resourceWoodNail" count="2" craft_time="1">
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+
+	</append>
+
+
+
+	<insertAfter xpath="/recipes/recipe[@name='bedroll']/ingredient[@name='resourceYuccaFibers']">
+		<ingredient name="resourceFiberCordage" count="3"/>
+		<ingredient name="resourceStick" count="10"/>
+
+	</insertAfter>
+
+	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberGloves']/ingredient[@name='resourceYuccaFibers']">
+		<ingredient name="resourceFiberCordage" count="2"/>
+
+	</insertAfter>
+
+	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberHat']/ingredient[@name='resourceYuccaFibers']">
+		<ingredient name="resourceFiberCordage" count="2"/>
+
+	</insertAfter>
+
+	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberHood']/ingredient[@name='resourceYuccaFibers']">
+		<ingredient name="resourceFiberCordage" count="2"/>
+
+	</insertAfter>
+
+	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberPants']/ingredient[@name='resourceYuccaFibers']">
+		<ingredient name="resourceFiberCordage" count="2"/>
+
+	</insertAfter>
+
+	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberShirt']/ingredient[@name='resourceYuccaFibers']">
+		<ingredient name="resourceFiberCordage" count="2"/>
+
+	</insertAfter>
+
+	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberShoes']/ingredient[@name='resourceYuccaFibers']">
+		<ingredient name="resourceFiberCordage" count="2"/>
+
+	</insertAfter>
+
+	<setattribute xpath="/recipes/recipe[@name='bedroll']" name="craft_time">6</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='apparelPlantFiberGloves']" name="craft_time">4</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='apparelPlantFiberHat']" name="craft_time">4</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='apparelPlantFiberHood']" name="craft_time">4</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='apparelPlantFiberPants']" name="craft_time">4</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='apparelPlantFiberShirt']" name="craft_time">4</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='apparelPlantFiberShoes']" name="craft_time">4</setattribute>
+
+	<append xpath="/recipes/recipe[
+starts-with(@name, 'woodFrame')
+		
+or (contains(@name, 'secureDoorWooden'))
+		
+]">
+		<ingredient name="resourceWoodNail" count="4"/>
+	</append>
+
+
+<!-- 	<append xpath="/recipes/recipe[@name='woodFrameBlockVariantHelper']">
+		<ingredient name="resourceWoodFrameParts" count="4"/>
+
+	</append>	 -->
+<!-- 	<setattribute xpath="/recipes/recipe
+       [
+		
+ starts-with(@name, 'woodFrame')
+		
+		
+        ]" name="craft_time">1</setattribute> -->
+
+
+	<insertAfter xpath="/recipes/recipe[@name='meleeWpnClubT0WoodenClub']">
+		<ingredient name="resourceDuctTape" count="1"/>
+
+	</insertAfter>	
+
+	<append xpath="/recipes/recipe[
+contains(@name, 'meleeToolAxeT1IronFireaxe')
+or (contains(@name, 'MailBox'))
+or (contains(@name, 'thrownAmmoPipeBomb'))
+or (contains(@name, 'meleeToolAxeT2SteelAxe'))
+or (contains(@name, 'meleeToolFarmT1IronHoe'))
+or (contains(@name, 'meleeToolPickT1IronPickaxe'))
+or (contains(@name, 'meleeToolPickT2SteelPickaxe'))
+or (contains(@name, 'meleeToolShovelT1IronShovel'))
+or (contains(@name, 'meleeToolShovelT2SteelShovel'))
+or (contains(@name, 'meleeWpnSledgeT1IronSledgehammer'))
+or (contains(@name, 'meleeToolWireTool'))
+or (contains(@name, 'switch'))
+or (contains(@name, 'electrictimerrelay'))
+]">
+		<ingredient name="resourceScrews" count="1"/>
+	</append>
+
+
+	<append xpath="/recipes/recipe[
+starts-with(@name, 'scrapIronFrame')
+or (contains(@name, 'meleeToolPickT3Auger'))
+or (contains(@name, 'meleeToolAxeT3Chainsaw'))
+or (contains(@name, 'cntBeerCooler'))
+or (contains(@name, 'Safe'))
+or (contains(@name, 'cntGreenDrawerSecure'))
+or (contains(@name, 'Fridge'))
+or (contains(@name, 'garageDoorMetal_v1'))
+or (contains(@name, 'rustyIronTable'))
+or (contains(@name, 'cntLockersShortClosed'))
+or (contains(@name, 'metalReinforcedWoodDrawBridge'))
+or (contains(@name, 'vehicleBicycleChassis'))
+or (contains(@name, 'vehicle4x4TruckAccessories'))
+or (contains(@name, 'officeChair01'))
+or (contains(@name, 'storeShelving01'))
+or (contains(@name, 'tv'))
+or (contains(@name, 'vaultDoor01'))
+or (contains(@name, 'vaultHatch_v1'))
+or (contains(@name, 'tableSaw'))
+or (contains(@name, 'generatorbank'))
+or (contains(@name, 'batterybank'))
+or (contains(@name, 'ceilingLight01_player'))
+or (contains(@name, 'spotlightPlayer'))
+or (contains(@name, 'speaker'))
+or (contains(@name, 'motionsensor'))
+or (contains(@name, 'bladeTrap'))
+or (contains(@name, 'dartTrap'))
+or (contains(@name, 'ironDoor1_v1'))
+or (contains(@name, 'scrapHatch_v1'))
+]">
+		<ingredient name="resourceScrews" count="4"/>
+	</append>
+
+	<!-- 
+-->
+
+	<append xpath="/recipes">
+
+		<recipe name="resourceScrews" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
+			<ingredient name="unit_iron" count="1"/>
+			<ingredient name="unit_clay" count="1"/>
+		</recipe>
+		
+
+<recipe name="resourceLeather" count="3" craft_time="30" craft_area="tanningRack">
+	<ingredient name="resourceAnimalHide" count="1"/>
+</recipe>
+
+	</append>	
+
+
+</JaxTeller718>

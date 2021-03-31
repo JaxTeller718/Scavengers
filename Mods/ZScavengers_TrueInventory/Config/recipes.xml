@@ -1,0 +1,36 @@
+
+<config>
+<append xpath="/recipes" >
+
+<recipe name="backpackT0" count="1" craft_time="30">
+	<ingredient name="resourceYuccaFibers" count="32"/>
+	<ingredient name="resourceFiberCordage" count="8"/>
+	<ingredient name="resourceStick" count="12"/>
+</recipe>
+<recipe name="backpackT1" count="1" craft_time="30">
+	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="resourceYuccaFibers" count="6"/>
+	<ingredient name="resourceScrapIron" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="backpackT2" count="1" craft_time="60" tags="learnable">
+	<ingredient name="resourceCloth" count="12"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+<recipe name="backpackT2V2" count="1" craft_time="90" tags="learnable">
+	<ingredient name="resourceCloth" count="10"/>
+	<ingredient name="resourceLeather" count="4"/>
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="resourceSewingKit" count="3"/>
+</recipe>
+<recipe name="backpackT3" count="1" craft_time="90" tags="learnable">
+	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="resourceMilitaryFiber" count="8"/>
+	<ingredient name="resourceLeather" count="4"/>
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceSewingKit" count="5"/>
+</recipe>
+</append>
+</config>

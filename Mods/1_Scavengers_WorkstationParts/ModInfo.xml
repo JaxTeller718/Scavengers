@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="1_Scavengers_WorkstationParts" />
+		<Description value="Adds workstation parts to broken stations to use to craft benches" />
+		<Author value="JaxTeller718"/>
+		<Version value="A19" />
+		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
+	</ModInfo>
+</xml>

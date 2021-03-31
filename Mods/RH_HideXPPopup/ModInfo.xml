@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="RH_HideXPPopup" />
+    <Description value="RH_HideXPPopup" />
+    <Author value="w00kie n00kie" />
+    <Version value="1.0.0.0" />
+    <Website value="" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>

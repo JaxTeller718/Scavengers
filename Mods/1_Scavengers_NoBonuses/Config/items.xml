@@ -1,0 +1,8 @@
+<Craluminum2413>
+<remove xpath="//item[@name='apparelShades' or @name='apparelToughGuySunglasses' or @name='apparelAviatorGoggles' or @name='apparelSkiGoggles' or @name='apparelNerdGlasses' or @name='apparelCigar']/effect_group"></remove>
+<remove xpath="//item[@name='apparelCoatJacketLetterZU']/effect_group/passive_effect[@name='RunSpeed']"></remove>
+<remove xpath="//item[@name='apparelCoatJacketLetterZU']/effect_group/display_value[@name='dRunSpeed']"></remove>
+<set xpath="//item[@name='apparelShades' or @name='apparelToughGuySunglasses' or @name='apparelAviatorGoggles' or @name='apparelSkiGoggles' or @name='apparelNerdGlasses' or @name='apparelCigar']/property[@name='EconomicValue']/@value">100</set>
+
+<remove xpath="//item[contains(@name,'food') or contains(@name,'drink')]/effect_group/triggered_effect[@cvar='foodHealthAmount']"></remove>
+</Craluminum2413>

@@ -1,0 +1,108 @@
+<JaxTeller718>
+
+
+
+	<append xpath="/items">	
+
+
+
+
+		<item name="meleePlank">
+			<!-- T1 clubs -->
+			<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="Group" value="Ammo/Weapons,Basics"/>
+			<property name="Meshfile" value="#@modfolder:Resources/meleePlank.unity3d?meleePlank.prefab"/>
+			<property name="HoldType" value="2"/>
+			<property name="Material" value="Mwood"/>
+			<property name="RepairTools" value="resourceWood"/>
+			<property name="SoundDestroy" value="wooddestroy1"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="EconomicValue" value="175"/>
+			<property name="FuelValue" value="250"/>
+			<property name="ShowQuality" value="true"/>
+
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sound_start" value="club_swinglight"/>
+				<property name="Sphere" value=".1"/>
+				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".25"/>
+				<property name="GrazeEnd" value=".32"/>
+				<property name="SwingDegrees" value="65"/>
+				<property name="SwingAngle" value="180"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="woodhitorganic"/>
+				</property>
+				<property class="GrazeSounds">
+					<property name="Override0" value="organic" param1="woodgrazeorganic"/>
+				</property>
+			</property>
+
+			<property class="Action1">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sound_start" value="club_swingheavy"/>
+				<property name="Sphere" value=".15"/>
+				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+				<property name="UsePowerAttackAnimation" value="true"/>
+
+				<property name="UseGrazingHits" value="true"/>
+				<property name="IsHorizontalSwing" value="true"/>
+				<property name="GrazeStart" value=".25"/>
+				<property name="GrazeEnd" value=".32"/>
+				<property name="SwingDegrees" value="120"/>
+				<property name="SwingAngle" value="90"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="woodhitorganic"/>
+				</property>
+				<property class="GrazeSounds">
+					<property name="Override0" value="organic" param1="woodgrazeorganic"/>
+				</property>
+			</property>
+
+			<effect_group name="meleePlank">
+				<passive_effect name="EntityDamage" operation="base_set" value="9.8"/>
+				<!-- meleeClubWood -->
+				<passive_effect name="BlockDamage" operation="base_set" value="10.6"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="13.5" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="60,110" tier="1,6" tags="perkPummelPete"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.9"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3"/>
+
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+				<!-- tier bonus -->
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+				<!-- tier bonus -->
+
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value=".5" tags="treeHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value="1" tags="stickBushHarvest"/>
+
+			</effect_group>
+			<effect_group name="Power Attack">
+				<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_add" value="20.2" tags="secondary"/>
+
+				<triggered_effect trigger="onSelfSecondaryActionStart" action="AddJournalEntry" journal="powerAttackTip"/>
+			</effect_group>
+		</item>
+	</append>
+
+</JaxTeller718>

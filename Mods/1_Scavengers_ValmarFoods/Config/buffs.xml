@@ -1,0 +1,20 @@
+<configs>
+<append xpath="/buffs">
+	<buff name="peculiarTaste" name_key="peculiarTasteNAME" description_key="You're not sure what you just ate but it didn't taste like chicken." tooltip_key="A peculiar taste..." icon="ui_game_symbol_dysentery">
+		<damage_type value="disease"/>
+		<stack_type value="ignore"/>
+		<duration value="30"/>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$dysenteryCounter" operation="add" value="1080"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$dysenteryNextPoopAttack" operation="set" value="0"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDysenteryMain">
+				<requirement name="NotHasBuff" buff="buffDysenteryMain"/>
+			</triggered_effect>
+		</effect_group>
+	</buff>
+
+
+</append>
+</configs>

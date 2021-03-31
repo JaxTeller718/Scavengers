@@ -1,0 +1,7 @@
+<configs>
+	<append xpath="/controls/ingredient_row/rect[@name='row']">
+		<rect name="activeIngredientOverlay" controller="IngredientEntryOverlay, Harmony-ActiveIngredients" depth="2" width="447" height="48" on_press="true" on_hover="true">
+			<sprite depth="2" name="background" sprite="menu_empty3px" width="447" height="50" color="[transparent]" fillcenter="false" />
+		</rect>
+	</append>
+</configs>

@@ -1,0 +1,76 @@
+<configs>
+	<append xpath="/recipes">
+
+		<recipe name="Hamburger_Name" count="1" craft_time="30" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingGrill">
+		<ingredient name="foodRawMeat" count="5"/>
+		<ingredient name="foodCornBread" count="2"/>
+		</recipe>
+		
+		<recipe name="Bacon Egg Sandwich" count="1" craft_time="15" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingGrill">
+        <ingredient name="foodBaconAndEggs" count="2"/>
+        <ingredient name="foodCornBread" count="2"/>
+		</recipe>
+		
+		<recipe name="Fish Pie" count="1" craft_time="20" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingPot">
+        <ingredient name="foodEgg" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+        <ingredient name="foodCanTuna" count="2"/>
+		</recipe>
+		
+		<recipe name="Honey Ham" count="1" craft_time="25" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingGrill">
+        <ingredient name="foodBoiledMeat" count="1"/>
+        <ingredient name="foodHoney" count="1"/>
+		</recipe>
+		
+		<recipe name="Grill Steak" count="1" craft_time="15" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingGrill">
+        <ingredient name="foodRawMeat" count="15"/>
+		</recipe>
+		
+		<recipe name="Grill_Steak_Sandwich" count="1" craft_time="15" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingGrill">
+        <ingredient name="Grill Steak" count="1"/>
+		<ingredient name="foodCornBread" count="2"/>
+		</recipe>
+		
+		<recipe name="Biscuit_Name" count="1" craft_time="10" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingPot">
+        <ingredient name="foodCornMeal" count="3"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="Biscuit With Jam" count="1" craft_time="5" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingPot">
+        <ingredient name="foodCropBlueberries" count="2"/>
+		<ingredient name="Biscuit_Name" count="1"/>
+		</recipe>
+		
+		<recipe name="Ramen Soup" count="1" craft_time="30" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingPot">
+        <ingredient name="Ramen Noodles" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="Tuna_Sandwich" count="1" craft_time="20" tags="perkMasterChef,learnable">
+        <ingredient name="foodCanTuna" count="1"/>
+		<ingredient name="foodCornBread" count="2"/>
+		</recipe>
+		
+		<recipe name="Soup_Mushroom" count="1" craft_time="50" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingPot">
+        <ingredient name="foodCropMushrooms" count="5"/>
+		<ingredient name="drinkJarBoiledWater" count="2"/>
+		</recipe>
+		
+		<recipe name="Soup_ChunkyBeef" count="1" craft_time="60" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingPot">
+        <ingredient name="foodCanBeef" count="2"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="mysteryMeatCrafted" count="1" craft_time="15" craft_area="campfire" tags="learnable" craft_tool="toolCookingGrill">
+        <ingredient name="foodRottingFlesh" count="5"/>
+		<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="Health_Drink" count="1" craft_time="60" craft_area="campfire" tags="perkMasterChef,learnable" craft_tool="toolCookingPot">
+        <ingredient name="drugPainkillers" count="1"/>
+		<ingredient name="drugVitamins" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+	</append>
+</configs>

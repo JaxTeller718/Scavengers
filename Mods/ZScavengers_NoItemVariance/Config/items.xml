@@ -1,0 +1,85 @@
+<NoItemVariance>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='perc_add'][@value='-.15,.15']/@value">.15</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='perc_add'][@value='-.08,.08']/@value">.08</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='perc_add'][@value='-.05,.05']/@value">.05</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='perc_add'][@value='-.2,.2']/@value">.2</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='perc_add'][@value='-.122,.122']/@value">.122</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='perc_add'][@value='-.122,.24']/@value">.24</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='perc_add'][@value='-.09,.09']/@value">.09</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='perc_add'][@value='-.085,.085']/@value">.085</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='perc_add'][@value='-.1,.1']/@value">.1</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@operation='base_add'][@value='-.5,1.6']/@value">1.6</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.043,0.053']/@value">.053</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.05,0.061']/@value">.061</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.055,0.068']/@value">.068</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.061,0.076']/@value">.076</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='ElementalDamageResist'][@value='5.27,7.47']/@value">7.47</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='ElementalDamageResist'][@value='6.23,8.93']/@value">8.93</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='ElementalDamageResist'][@value='7.25,10.25']/@value">10.25</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='ElementalDamageResist'][@value='8.21,11.71']/@value">11.71</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='5.27,7.47']/@value">5.27</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='6.23,8.93']/@value">6.23</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='7.25,10.25']/@value">10.25</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='8.21,11.71']/@value">11.71</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='21.5,25.5']/@value">25.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='2.8,5.2']/@value">5.2</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='6.5,9.5']/@value">9.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='1.8,4.2']/@value">4.2</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='10.5,13.2']/@value">13.2</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='4.8,7.2']/@value">7.2</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='7.2,10.8']/@value">10.8</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='11.7,15.5']/@value">15.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='13.5,17.5']/@value">17.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HypothermalResist'][@value='21.5,26.5']/@value">26.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HyperthermalResist'][@value='1.5,2.5']/@value">2.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HyperthermalResist'][@value='5.5,8.5']/@value">8.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HyperthermalResist'][@value='1,3.5']/@value">3.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HyperthermalResist'][@value='1,5']/@value">5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HyperthermalResist'][@value='10.5,14.3']/@value">14.3</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HyperthermalResist'][@value='7.5,10.5']/@value">10.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HyperthermalResist'][@value='3.5,4.5']/@value">4.5</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HyperthermalResist'][@value='6.8,9.2']/@value">9.2</set>
+
+	<set xpath="/items/item/effect_group/passive_effect[@name='HyperthermalResist'][@value='17.5,22.5']/@value">22.5</set>
+
+</NoItemVariance>

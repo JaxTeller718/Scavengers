@@ -1,0 +1,4 @@
+Key,Source,Context,English
+qStarterItems,items,Quest - Note,Starter Kit,,,,,
+qStarterItemsDesc,items,Quest - Note,Note from Jax\n\nThe rest of the club is either scattered or dead. You and I are all that is left. I had to head north. I have left you some stuff to help you get to us. Use your special skill wisely because it is all you have in this fucked up world.,,,,,
+

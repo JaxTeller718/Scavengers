@@ -1,0 +1,91 @@
+<configs>
+
+
+
+
+	<remove xpath="/buffs/buff[@name='buffAutoWeaponsComplete']"/>
+
+	<!-- After respawn set hunger and thirst to  value below -->
+	<insertAfter xpath="/buffs/buff[@name='buffAutoWeaponsRagdoll']">
+	<buff name="buffAutoWeaponsComplete" name_key="buffAutoWeaponsCompleteName" description_key="buffAutoWeaponsCompleteDesc" showonhud="false" icon="ui_game_symbol_rifle" icon_color="0,255,0">
+		<duration value="10"/>
+		<stack_type value="replace"/>
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".05"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffShotgunMessiahComplete" name_key="buffShotgunMessiahCompleteName" description_key="buffShotgunMessiahCompleteDesc" showonhud="false" icon="ui_game_symbol_shotgun" icon_color="0,255,0">
+		<duration value="10"/>
+		<stack_type value="replace"/>
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".10"/>
+		</effect_group>
+	</buff>
+	</insertAfter>
+
+
+	<remove xpath="/buffs/buff[@name='buffBarBrawling3KillerInstinct']"/>
+
+	<!-- After respawn set hunger and thirst to  value below -->
+	<insertAfter xpath="/buffs/buff[@name='buffBarBrawling6RageMode']">
+	<buff name="buffBarBrawling3KillerInstinct" name_key="buffBarBrawling3KillerInstinctName" description_key="perkBarBrawling3KillerInstinctLongDesc" showonhud="true" icon="ui_game_symbol_boxer" icon_color="0,255,0">
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value value=".BarBrawling3KillerInstinctEffectDisplay"/>
+		<display_value_key value="+{0:0}%"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffect" operation="set" value=".02"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffect" operation="add" value=".02">
+				<requirement name="CVarCompare" cvar=".BarBrawling3KillerInstinctEffect" operation="LT" value=".10"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffectDisplay" operation="set" value="@.BarBrawling3KillerInstinctEffect"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffectDisplay" operation="set" value="@.BarBrawling3KillerInstinctEffect"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffectDisplay" operation="multiply" value="100"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffectDisplay" operation="multiply" value="100"/>
+
+			<passive_effect name="EntityDamage" operation="perc_add" value="@.BarBrawling3KillerInstinctEffect">
+				<requirement name="ItemHasTags" tags="perkBrawler"/>
+			</passive_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctDuration" operation="set" value="10"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctDuration" operation="set" value="10"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctDuration" operation="add" value="-1"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar=".BarBrawling3KillerInstinctDuration" operation="LTE" value="0"/>
+			<requirement name="CVarCompare" cvar=".BarBrawling3KillerInstinctEffect" operation="GT" value=".1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffect" operation="add" value="-.05"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctDuration" operation="set" value="10"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffectDisplay" operation="set" value="@.BarBrawling3KillerInstinctEffect"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffectDisplay" operation="multiply" value="100"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBarBrawling3KillerInstinct">
+				<requirement name="CVarCompare" cvar=".BarBrawling3KillerInstinctDuration" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffect" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctEffectDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".BarBrawling3KillerInstinctDuration" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+	</insertAfter>
+
+
+	<remove xpath="/buffs/buff[@name='buffEnforcerCriminalPursuit']"/>
+
+	<!-- After respawn set hunger and thirst to  value below -->
+	<insertAfter xpath="/buffs/buff[@name='buffAutoWeaponsRagdoll']">
+	<buff name="buffEnforcerCriminalPursuit" name_key="buffEnforcerCriminalPursuitName" description_key="buffEnforcerCriminalPursuitDesc" showonhud="false" icon="ui_game_symbol_run_and_gun" icon_color="0,255,0">
+		<duration value="20"/>
+		<stack_type value="replace"/>
+		<effect_group>
+				<passive_effect name="StaminaChangeOT" operation="perc_add" level="1" value=".1" tags="running"/>
+		</effect_group>
+	</buff>
+	</insertAfter>
+
+
+
+</configs>

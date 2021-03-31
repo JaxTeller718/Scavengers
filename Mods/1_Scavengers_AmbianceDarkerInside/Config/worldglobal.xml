@@ -1,0 +1,12 @@
+
+<Doughs>
+  <!-- a19 Defaults
+  <property name="ambientInsideThreshold" value="1"/>
+-->
+
+  <!-- How much light the moon gives off?
+    do not know wht teh settings *is* just setting it to 1 makes indoors darker, mostly
+  -->
+  <set xpath="/worldglobal/environment/property[@name='ambientInsideThreshold']/@value">2</set>
+
+</Doughs>

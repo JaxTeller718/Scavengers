@@ -1,0 +1,9 @@
+<configs>
+	<append xpath="/recipes">	
+
+		<recipe name="drinkCanteenCleaned" count="1" craft_area="campfire" craft_time="40" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+			<ingredient name="drinkCanteenFull" count="1"/>
+		</recipe>
+	</append>
+
+</configs>

@@ -1,0 +1,5 @@
+Key,Source,Context,English
+
+meleeToolSalvageT1Crowbar,items,Melee,Crowbar,,,,,
+meleeToolSalvageT1CrowbarDesc,items,Melee,"Not only is this crowbar good for smashing the heads of the undead, it can also be used to harvest more quickly.",,,,,
+meleeToolSalvageT1CrowbarSchematic,items,Melee,Crowbar Schematic,,,,,

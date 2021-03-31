@@ -1,0 +1,70 @@
+<JaxTeller718>
+
+
+
+	<insertAfter xpath="/recipes/recipe[@name='workbench']/ingredient[@name='resourceWood']">
+		<ingredient name="partsWorkbench" count="15"/>
+
+	</insertAfter>
+
+
+<!-- 	<insertAfter xpath="/recipes/recipe[@name='tableSaw']/ingredient[@name='resourceSpring']">
+		<ingredient name="partsTableSaw" count="15"/>
+
+	</insertAfter> -->
+
+
+	<insertAfter xpath="/recipes/recipe[@name='forge']/ingredient[@name='resourceMetalPipe']">
+		<ingredient name="partsForge" count="15"/>
+
+	</insertAfter>
+
+
+	<insertAfter xpath="/recipes/recipe[@name='cementMixer']/ingredient[@name='resourceMechanicalParts']">
+		<ingredient name="partsCementMixer" count="15"/>
+
+	</insertAfter>
+
+
+	<insertAfter xpath="/recipes/recipe[@name='chemistryStation']/ingredient[@name='resourceAcid']">
+		<ingredient name="partsChemistryStation" count="15"/>
+
+	</insertAfter>
+
+
+	<insertAfter xpath="/recipes/recipe[@name='generatorbank']/ingredient[@name='resourceElectricParts']">
+		<ingredient name="partsGenerator" count="15"/>
+
+	</insertAfter>
+
+
+
+	<insertAfter xpath="/recipes/recipe[@name='batterybank']/ingredient[@name='resourceScrapPolymers']">
+		<ingredient name="partsBatteryBank" count="15"/>
+
+	</insertAfter>
+
+	<set xpath="/recipes/recipe[@name='workbench']/@tags">workbenchCrafting</set>
+	<!-- <set xpath="/recipes/recipe[@name='tableSaw']/@tags">workbenchCrafting</set> -->
+	<set xpath="/recipes/recipe[@name='forge']/@tags">workbenchCrafting</set>
+	<set xpath="/recipes/recipe[@name='cementMixer']/@tags">workbenchCrafting</set>
+	<set xpath="/recipes/recipe[@name='chemistryStation']/@tags">workbenchCrafting</set>
+	<set xpath="/recipes/recipe[@name='generatorbank']/@tags">perkAdvancedEngineering</set>
+	<set xpath="/recipes/recipe[@name='batterybank']/@tags">workbenchCrafting</set>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</JaxTeller718>

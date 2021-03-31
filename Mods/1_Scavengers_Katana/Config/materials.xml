@@ -1,0 +1,16 @@
+<JaxTeller718>
+
+	<append xpath="/materials">
+
+		<material id="MmeleeToolKnifeKatana">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="meleeToolKnifeKatanaParts"/>
+			<property name="Experience" value="6"/>
+		</material>
+
+	</append>
+
+
+
+</JaxTeller718>

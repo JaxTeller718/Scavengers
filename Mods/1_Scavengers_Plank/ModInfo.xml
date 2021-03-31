@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="1_Scavengers_Plank" />
+		<Description value="Adds a Stone Pickaxe to the game for early game mining but reduces the effectiveness against metal and stone for the Stone Axe." />
+		<Author value="JaxTeller718" />
+		<Version value="A19" />
+		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
+	</ModInfo>
+</xml>

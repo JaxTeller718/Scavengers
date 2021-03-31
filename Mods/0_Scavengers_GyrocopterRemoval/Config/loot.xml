@@ -1,0 +1,12 @@
+<config>
+
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT2']/item[@name='vehicleGyroCopterChassisSchematic']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT2']/item[@name='vehicleGyroCopterAccessoriesSchematic']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']/item[@group='gyroCopterParts']" />
+
+
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT2']/item[@name='vehicle4x4TruckChassisSchematic']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT2']/item[@name='vehicle4x4TruckAccessoriesSchematic']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']/item[@group='4x4Parts']" />
+
+</config>

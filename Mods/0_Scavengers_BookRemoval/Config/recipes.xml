@@ -1,0 +1,44 @@
+<recipes>
+
+	<remove xpath="/recipes/recipe[@name='resourceRockSmallBundle']"/>
+	<remove xpath="/recipes/recipe[@name='resourceWoodBundle']"/>
+	<remove xpath="/recipes/recipe[@name='resourceScrapIronBundle']"/>
+	<remove xpath="/recipes/recipe[@name='resourceOilShaleBundle']"/>
+	<remove xpath="/recipes/recipe[@name='resourcePotassiumNitratePowderBundle']"/>
+	<remove xpath="/recipes/recipe[@name='resourceLeadBundle']"/>
+	<remove xpath="/recipes/recipe[@name='resourceCoalBundle']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletBall']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleBlunderbuss']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleShotgunShell']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleJunkTurretRegular']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleJunkTurretShell']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleArrowExploding']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleArrowIron']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleArrowSteelAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleArrowStone']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltIron']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltSteelAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltStone']"/>
+	<remove xpath="/recipes/recipe[@name='ammoGasCanBundle']"/>
+	<remove xpath="/recipes/recipe[@name='resourceLockPickBundle']"/>
+	<remove xpath="/recipes/recipe[@name='resourceGunPowderBundle']"/>
+
+
+
+</recipes>
+
+		

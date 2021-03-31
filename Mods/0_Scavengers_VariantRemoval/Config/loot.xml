@@ -1,0 +1,11 @@
+<config>
+
+
+
+	<remove xpath="/lootcontainers/lootgroup[@name='decorativeBlocks']/item[@name='cntWoodFurnitureBlockVariantHelper']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='decorativeBlocks']/item[@name='metalFurnitureBlockVariantHelper']" />
+	<remove xpath="/lootcontainers/lootcontainer[@id='88']/item[@name='woodFrameBlockVariantHelper']" />
+	<remove xpath="/lootcontainers/lootcontainer[@id='88']/item[@name='rebarFrameBlockVariantHelper']" />
+
+
+</config>

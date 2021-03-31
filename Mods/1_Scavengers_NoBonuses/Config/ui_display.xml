@@ -1,0 +1,3 @@
+<Craluminum2413>
+<remove xpath="//item_display_info[@display_type='clothingJacketLetter' or @display_type='clothingShades' or @display_type='apparelToughGuySunglasses' or @display_type='clothingSkiGoggles' or @display_type='clothingNerdGlasses' or @display_type='clothingAviatorGoggles' or @display_type='clothingCigar']/display_entry[@name='AttributeLevel' or @name='dRunSpeed' or @name='LootGamestage' or @name='dTreasureBlocksPerReduction' or @name='dCraftingTime' or @name='dPlayerExpGain' or @name='BarteringBuying']"></remove>
+</Craluminum2413>

@@ -1,0 +1,2 @@
+﻿Key,Source,Context,English
+medicalSplintDesc,items,Medical,Heals an injured arm or leg but does not protect against further injury.\nUse the secondary action to treat another player.

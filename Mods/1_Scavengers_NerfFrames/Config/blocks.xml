@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<append xpath="/blocks/block[@name='woodFrameMaster']">
+	
+		<property name="Class" value="TrapDoor"/>
+		<property name="TriggerDelay" value="0.25"/>
+		<property name="TriggerSound" value="stepwoodsmallcreak"/>
+	
+	</append>
+	
+	<append xpath="/blocks/block[@name='scrapIronFrameMaster']">
+   
+		<property name="Class" value="TrapDoor"/>
+		<property name="TriggerDelay" value="0.25"/>
+		<property name="TriggerSound" value="stepmetalbigcreak"/>
+
+	</append>
+	
+	<append xpath="/blocks/block[@name='rebarFrameMaster']">
+	
+		<property name="Class" value="TrapDoor"/>
+		<property name="TriggerDelay" value="0.25"/>
+		<property name="TriggerSound" value="stepmetalbigcreak"/>
+
+	</append>
+	
+
+	<remove xpath="/blocks/block[@name='woodBlock']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeCNRInsideBottom']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeCNRInsideTop']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeStairs']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeTipStairs']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodHalf']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodStairs25CornerCNR']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodGableInvertedSteep']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeCNRInsideSteepTop']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodArch']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodQuarterCNR']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeIncline']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodCNRRampFiller']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodQuarterCNR3Way']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeCNRSteepTop']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeCNRSteepBase']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodQuarterSCtr']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodQuarterTeeSCtr']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeCNRInsideSteepBase']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodGableQuarter']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodGableInvertedQuarter']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodGableInvertedHalf']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeTipCNRFullBottom']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedgeTipCNRFullTop']/property[@name='DowngradeBlock']" />	
+	<remove xpath="/blocks/block[@name='woodPlateOffset']/property[@name='DowngradeBlock']" />	
+	<remove xpath="/blocks/block[@name='woodBlockTileBroken01']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodWedge']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodRamp']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodCNRInside']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='woodCNRFull']/property[@name='DowngradeBlock']" />
+	
+	<remove xpath="/blocks/block[@name='scrapIronWedgeIncline']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeTipCNRFullTop']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeTipStairs']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeTipCNRFullBottom']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeStairs']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeCNRInsideBottom']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeCNRInsideTop']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronCNRRampFiller']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronStairs25CornerCNR']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronGableInvertedSteep']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeCNRInsideSteepTop']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronArch']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronQuarterCNR']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeTip']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronHalf']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeCNRSteepTop']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronQuarterTeeSCtr']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeCNRSteepBase']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronPillar100Cap']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronQuarterSCtr']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedgeCNRInsideSteepBase']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronGableQuarter']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronGableInvertedQuarter']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronGableInvertedHalf']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronQuarterCNR3Way']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronPlateOffset']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronWedge']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronBlock']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronCNRInside']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronCNRFull']/property[@name='DowngradeBlock']" />
+	<remove xpath="/blocks/block[@name='scrapIronRamp']/property[@name='DowngradeBlock']" />
+	
+	
+</configs>

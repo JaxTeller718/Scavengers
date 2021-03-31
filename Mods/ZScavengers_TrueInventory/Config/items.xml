@@ -1,0 +1,437 @@
+<!-- - - - - - - - - - - -
+#########################
+##### True Inventory ####
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<config>
+<!-- Pocket Mod Fix -->
+<set xpath="/items/item[@name='apparelHazmatJacket']/property[@name='Tags']/@value">upperbody,chest,clothing,pocketMod,pocketMod2,canHaveCosmetic</set>
+<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/property[@name='Tags']/@value">upperbody,chest,clothing,pocketMod,pocketMod2,canHaveCosmetic</set>
+<set xpath="/items/item[@name='apparelCoatLeatherDuster']/property[@name='Tags']/@value">upperbody,lowerbody,chest,clothing,pocketMod,pocketMod2,canHaveCosmetic</set>
+<set xpath="/items/item[@name='apparelCoatPufferCoat']/property[@name='Tags']/@value">upperbody,chest,clothing,pocketMod,pocketMod2,canHaveCosmetic</set>
+<set xpath="/items/item[@name='apparelCoatJacketGeneric']/property[@name='Tags']/@value">upperbody,chest,clothing,pocketMod,pocketMod2,canHaveCosmetic</set>
+<append xpath="/items/item[@name='apparelCoatJacketLetterZU']" >
+	<property name="Tags" value="upperbody,chest,clothing,pocketMod,pocketMod2,canHaveCosmetic"/>
+</append>
+
+<set xpath="/items/item[@name='apparelPlantFiberShirt']/property[@name='Tags']/@value">chest,clothing,canHaveCosmetic</set>
+<set xpath="/items/item[@name='apparelTankTop']/property[@name='Tags']/@value">upperbody,chest,clothing,canHaveCosmetic</set>
+<set xpath="/items/item[@name='apparelSweatshirt']/property[@name='Tags']/@value">upperbody,chest,clothing,canHaveCosmetic</set>
+<set xpath="/items/item[@name='apparelTShirtPlain']/property[@name='Tags']/@value">upperbody,chest,clothing,canHaveCosmetic</set>
+<set xpath="/items/item[@name='apparelHoodySweatshirt']/property[@name='Tags']/@value">upperbody,chest,clothing,canHaveCosmetic</set>
+<set xpath="/items/item[@name='apparelLongShirt']/property[@name='Tags']/@value">upperbody,chest,clothing,canHaveCosmetic</set>
+<append xpath="/items/item[@name='apparelFlannelShirt']" >
+	<property name="Tags" value="chest,clothing,canHaveCosmetic"/>
+</append>
+<append xpath="/items/item[@name='apparelArmyShirt']" >
+	<property name="Tags" value="chest,clothing,canHaveCosmetic"/>
+</append>
+<append xpath="/items/item[@name='apparelTShirtZU']" >
+	<property name="Tags" value="upperbody,chest,clothing,canHaveCosmetic"/>
+</append>
+
+<remove xpath="/items/item[@name='modArmorStoragePocketSchematic']"/>
+<remove xpath="/items/item[@name='modArmorDoubleStoragePocketSchematic']"/>
+<remove xpath="/items/item[@name='modArmorTripleStoragePocketSchematic']"/>
+<append xpath="/items" >
+<item name="modArmorStoragePocketSchematic">
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CustomIcon" value="modArmorStoragePocket"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DescriptionKey" value="removedTrueInventory"/>
+</item>
+<item name="modArmorDoubleStoragePocketSchematic">
+	<property name="Extends" value="modArmorStoragePocketSchematic"/>
+	<property name="CustomIcon" value="modArmorDoubleStoragePocket"/>
+	<property name="CreativeMode" value="Dev"/>
+</item>
+<item name="modArmorTripleStoragePocketSchematic">
+	<property name="Extends" value="modArmorStoragePocketSchematic"/>
+	<property name="CustomIcon" value="modArmorTripleStoragePocket"/>
+	<property name="CreativeMode" value="Dev"/>
+</item>
+</append>
+
+<!-- Face Slot Fix -->
+<remove xpath="/items/item[@name='apparelCigar']"/>
+<remove xpath="/items/item[@name='apparelCigarette']"/>
+<remove xpath="/items/item[@name='apparelFacialPiercings']"/>
+<remove xpath="/items/item[@name='apparelBandana']"/>
+<append xpath="/items" >
+<item name="apparelCigar">
+	<property name="CustomIcon" value="apparelCigar"/>
+	<property name="DescriptionKey" value="equipAccessoiresDesc"/>
+	<property name="DisplayType" value="clothingCigar"/>
+	<property name="UnlockedBy" value="perkUrbanCombatControlledBreathing"/>
+	<property name="Group" value="Clothing"/>
+	<property name="Tags" value="head"/>
+
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mplants"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="3"/>
+	<property name="EconomicValue" value="50"/>
+	<property name="EquipSlot" value="Eyes"/>
+	<property class="UMA">
+		<property name="Mesh" value="gear_cigar"/>
+		<property name="Overlay0" value="gear_cigar"/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Eyewear"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>
+		<passive_effect name="BarteringBuying" operation="base_add" value=".1"/>
+		<passive_effect name="BarteringSelling" operation="base_add" value=".1"/>
+	</effect_group>
+</item>
+<item name="apparelCigarette">
+	<property name="Extends" value="apparelCigar" param1="UnlockedBy"/>
+	<property name="CustomIcon" value="apparelCigarette"/>
+	<property name="DisplayType" value="clothingCigar"/>
+	<property name="Tags" value="head"/>
+	<property class="UMA">
+		<property name="Mesh" value="cigarette"/>
+		<property name="Overlay0" value="cigarette"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BarteringBuying" operation="base_add" value=".1"/>
+		<passive_effect name="BarteringSelling" operation="base_add" value=".1"/>
+	</effect_group>
+</item>
+<item name="apparelFacialPiercings">
+	<property name="Extends" value="apparelCigar" param1="UnlockedBy"/>
+	<property name="CustomIcon" value="apparelFacialPiercings"/>
+	<property name="DisplayType" value="clothing"/>
+	<property name="Tags" value="head,clothing,canHaveCosmetic"/>
+	
+	<property name="Material" value="Mmetal"/>
+	<property name="Weight" value="1"/>
+	<property class="UMA">
+		<property name="Mesh" value="piercings"/>
+		<property name="Overlay0" value="piercings"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="HypothermalResist" operation="base_add" value="0"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="0"/>
+	</effect_group>
+</item>
+<item name="apparelBandana">
+	<property name="Extends" value="apparelCigar" param1="UnlockedBy"/>
+	<property name="CustomIcon" value="bandanaIcon"/>
+	<property name="DisplayType" value="clothing"/>
+	<property name="Tags" value="head,clothing,canHaveCosmetic"/>
+	
+	<property name="Material" value="Mcloth"/>
+	<property name="Weight" value="15"/>
+	<property class="UMA">
+		<property name="Mesh" value="gear_bandana"/>
+		<property name="Overlay0" value="gear_bandana"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="1.5,2.5"/>
+	</effect_group>
+</item>
+</append>
+
+<!-- Backpacks -->
+<append xpath="/items" >
+<item name="backpackT0">
+	<property name="CustomIcon" value="backpackT1Icon"/>
+	<property name="DescriptionKey" value="backpackT0Desc"/>
+	<property name="PickupJournalEntry" value="TrueInventoryTip"/>
+	<property name="Tags" value="backpack"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Group" value="Clothing,common,tailorRole"/>
+	
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Weight" value="24"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="EconomicValue" value="2500"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EquipSlot" value="Face"/>
+	<property class="UMA">
+		<property name="Mesh" value=""/>
+		<property name="Overlay0" value=""/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Face"/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="backpackT0block"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<display_value name="dCarryCapacity" value="5"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!HoldingItemHasTags" tags="backpack"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT0"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT0"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.03"/>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.03"/>
+		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.05"/>
+	</effect_group>
+</item>
+<item name="backpackT1">
+	<property name="CustomIcon" value="backpackT1Icon"/>
+	<property name="DescriptionKey" value="backpackT1Desc"/>
+	<property name="PickupJournalEntry" value="TrueInventoryTip"/>
+	<property name="Tags" value="backpack"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Group" value="Clothing,common,tailorRole"/>
+	
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Weight" value="24"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="EconomicValue" value="2500"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EquipSlot" value="Face"/>
+	<property class="UMA">
+		<property name="Mesh" value=""/>
+		<property name="Overlay0" value=""/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Face"/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="backpackT1block"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<display_value name="dCarryCapacity" value="10"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!HoldingItemHasTags" tags="backpack"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT1"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT1"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.03"/>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.03"/>
+		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.05"/>
+	</effect_group>
+</item>
+<item name="backpackT2">
+	<property name="CustomIcon" value="backpackT2Icon"/>
+	<property name="DescriptionKey" value="backpackT2Desc"/>
+	<property name="PickupJournalEntry" value="TrueInventoryTip"/>
+	<property name="UnlockedBy" value="bookFakeGucci1"/>
+	<property name="Tags" value="backpack"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Group" value="Clothing,tailorRole"/>
+	
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_3"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Weight" value="24"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="8"/>
+	<property name="EconomicValue" value="5000"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EquipSlot" value="Face"/>
+	<property class="UMA">
+		<property name="Mesh" value=""/>
+		<property name="Overlay0" value=""/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Face"/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="backpackT2block"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<display_value name="dCarryCapacity" value="30"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!HoldingItemHasTags" tags="backpack"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT2"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT2"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.05"/>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.05"/>
+		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.08"/>
+	</effect_group>
+</item>
+<item name="backpackT2V2" tiered="false">
+	<property name="CustomIcon" value="backpackT4Icon"/>
+	<property name="DescriptionKey" value="backpackT2V2Desc"/>
+	<property name="PickupJournalEntry" value="TrueInventoryTip"/>
+	<property name="UnlockedBy" value="bookFakeGucci"/>
+	<property name="Tags" value="backpack"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Group" value="Clothing,tailorRole"/>
+	
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/trueInventory_adminBackpack.unity3d?propertyOfEihwaz_backpackAdmin"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Weight" value="24"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="12"/>
+	<property name="EconomicValue" value="7500"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EquipSlot" value="Face"/>
+	<property class="UMA">
+		<property name="Mesh" value=""/>
+		<property name="Overlay0" value=""/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Face"/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="backpackT2V2block"/>
+	</property>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<display_value name="dCarryCapacity" value="30"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="!HoldingItemHasTags" tags="backpack"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT2V2"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT2V2"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.05"/>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.05"/>
+		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.08"/>
+	</effect_group>
+</item>
+<item name="bookFakeGucci">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
+	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
+	<property name="Unlocks" value="backpackT2V2"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT2V2" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="bookFakeGucci1">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
+	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
+	<property name="Unlocks" value="backpackT2V2"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT2V2" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="bookFakeGucci2">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
+	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
+	<property name="Unlocks" value="backpackT2V2"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT2V2" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+<item name="backpackT3" tiered="false">
+	<property name="CustomIcon" value="backpackT3Icon"/>
+	<property name="DescriptionKey" value="backpackT3Desc"/>
+	<property name="PickupJournalEntry" value="TrueInventoryTip"/>
+	<property name="UnlockedBy" value="bookFakeGucci2"/>
+	<property name="Tags" value="backpack"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Group" value="Clothing,tailorRole"/>
+	
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_4"/>
+	<property name="Material" value="MmilitaryFiber"/>
+	<property name="Weight" value="24"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="12"/>
+	<property name="EconomicValue" value="15000"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EquipSlot" value="Face"/>
+	<property class="UMA">
+		<property name="Mesh" value=""/>
+		<property name="Overlay0" value=""/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Face"/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="backpackT3block"/>
+	</property>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<display_value name="dCarryCapacity" value="40"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="!HoldingItemHasTags" tags="backpack"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT3"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT3"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.08"/>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.08"/>
+		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.1"/>
+	</effect_group>
+</item>
+<item name="backpackT4" tiered="false">
+	<property name="CustomIcon" value="backpackT4Icon"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DescriptionKey" value="backpackT4Desc"/>
+	<property name="PickupJournalEntry" value="TrueInventoryTip"/>
+	<property name="Tags" value="backpack"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Group" value="Clothing,tailorRole"/>
+	
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/trueInventory_adminBackpack.unity3d?propertyOfEihwaz_backpackAdmin"/>
+	<property name="Material" value="MmilitaryFiber"/>
+	<property name="Weight" value="24"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="12"/>
+	<property name="EquipSlot" value="Face"/>
+	<property class="UMA">
+		<property name="Mesh" value=""/>
+		<property name="Overlay0" value=""/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Face"/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="backpackT4block"/>
+	</property>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<display_value name="dCarryCapacity" value="60"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="!HoldingItemHasTags" tags="backpack"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT4"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT4"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.03"/>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.03"/>
+		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.05"/>
+	</effect_group>
+</item>
+</append>
+</config>

@@ -1,0 +1,77 @@
+﻿Key,Source,Context,English
+xuiOptionsVideoRavenhearst,UI,XUI,Scavengers
+xuiOptionsVideoShowCrosshair,UI,XUI,Show Crosshair
+xuiOptionsVideoShowCrosshairTooltip,UI,XUI,Show Crosshair.
+xuiOptionsVideoCrosshairColor,UI,XUI,Crosshair Color
+xuiOptionsVideoCrosshairColorTooltip,UI,XUI,Crosshair Color.
+xuiOptionsVideoFieldOfViewNew,UI,XUI,Field of View
+xuiOptionsVideoFieldOfViewNewTooltip,UI,XUI,How wide your view angle is.\nPerformance Impact: Low\n,Modifie la largeur de votre angle de vision.\nImpact sur la performance : bas\n,Weite deines Blickwinkels.\nAuswirkung auf die Leistung: Gering\n,,La amplitud del ángulo de visión.\nEfecto en el rendimiento: Bajo\n,
+xuiOptionsVideoShowActivationText,UI,XUI,Activation Text
+xuiOptionsVideoShowActivationTextTooltip,UI,XUI,Activation Text.
+xuiRavenhearst,XUi,Menu,Scavengers,,,,,
+
+goPOIZombieMultiplier,UI,Menu,City Zombie Multiplier,,,,,
+goPOIZombieMultiplierDesc,UI,Menu,Multiplier for how many extra zeds to spawn in cites. For each POI X extra zombies will spawn i.e. if 2 POIs and multiplier is set to 5 it will spawn 10 zombies.,,,,,
+
+goHeadShotOnly,UI,Menu,Head Shot Only,,,,,
+goHeadShotOnlyDesc,UI,Menu,Only head shots do damage to zombies.,,,,,
+
+goShowFetchItemOnCompass,UI,Menu,Show Fetch Items On Compass,,,,,
+goShowFetchItemOnCompassDesc,UI,Menu,Show Fetch Items On Compass.,,,,,
+goShowFetchDistanceIndicator,UI,Menu,Show Fetch Distance Indicator,,,,,
+goShowFetchDistanceIndicatorDesc,UI,Menu,Show Fetch Distance Indicator.,,,,,
+
+goZombieRage,UI,Menu,Zombie Rage,,,,,
+goZombieRageDesc,UI,Menu,Zombie Rage.,,,,,
+goZombieSuperRage,UI,Menu,Zombie Super Rage,,,,,
+goZombieSuperRageDesc,UI,Menu,Just Zombie Super Rage normal rage is still enabled.,,,,,
+goOnceRagedAlwaysRage,UI,Menu,Once Raged Always Raged,,,,,
+goOnceRagedAlwaysRageDesc,UI,Menu,Once a zombie has Raged its always raged.,,,,,
+goZombieRageOn,UI,Menu,On,,,,,
+goZombieRageOff,UI,Menu,Off,,,,,
+goZombieRageGS10,UI,Menu,Gamestage 10,,,,,
+goZombieRageGS20,UI,Menu,Gamestage 20,,,,,
+goZombieRageGS30,UI,Menu,Gamestage 30,,,,,
+goZombieRageGS50,UI,Menu,Gamestage 50,,,,,
+goZombieRageGS100,UI,Menu,Gamestage 100,,,,,
+
+goSightRange,UI,Menu,Zombie Sight Range,,,,,
+goSightRangeDesc,UI,Menu,Add X metres to Zombie Sight Range.,,,,,
+goSightRange0,UI,Menu,+0 Metres,,,,,
+goSightRange10,UI,Menu,+10 Metres,,,,,
+goSightRange25,UI,Menu,+25 Metres,,,,,
+goSightRange50,UI,Menu,+50 Metres,,,,,
+goSightRange75,UI,Menu,+75 Metres,,,,,
+goSightRange100,UI,Menu,+100 Metres,,,,,
+goSightRange150,UI,Menu,+150 Metres,,,,,
+goSightRange200,UI,Menu,+200 Metres,,,,,
+
+goWanderingHordeFrequency,UI,Menu,Wandering Horde Frequency,,,,,
+goWanderingHordeFrequencyDesc,UI,Menu,Wandering Horde Frequency.,,,,,
+goWanderingHordeFrequency1,UI,Menu,12 - 24 hrs,,,,,
+goWanderingHordeFrequency2,UI,Menu,10 - 22 hrs,,,,,
+goWanderingHordeFrequency3,UI,Menu,8 - 20 hrs,,,,,
+goWanderingHordeFrequency4,UI,Menu,6 - 18 hrs,,,,,
+goWanderingHordeFrequency5,UI,Menu,4 - 16 hrs,,,,,
+goWanderingHordeFrequency6,UI,Menu,2 - 14 hrs,,,,,
+
+goWanderingHordeMaxCount,UI,Menu,Wandering Horde Max Count,,,,,
+goWanderingHordeMaxCountDesc,UI,Menu,Wandering Horde Max Count.,,,,,
+goWanderingHordeMaxCount1,UI,Menu,1 horde,,,,,
+goWanderingHordeMaxCount2,UI,Menu,2 horde,,,,,
+goWanderingHordeMaxCount3,UI,Menu,3 horde,,,,,
+goWanderingHordeMaxCount4,UI,Menu,4 horde,,,,,
+goWanderingHordeMaxCount5,UI,Menu,5 horde,,,,,
+goWanderingHordeMaxCountInfinite,UI,Menu,No Limits !,,,,,
+
+goWanderingHordeMultiplier,UI,Menu,Wandering Horde Zombie Multiplier,,,,,
+goWanderingHordeMultiplierDesc,UI,Menu,Increase the number of zombies that spawn per horde.,,,,,
+goWanderingHordeMultiplier1,UI,Menu,1X,,,,,
+goWanderingHordeMultiplier2,UI,Menu,2X,,,,,
+goWanderingHordeMultiplier3,UI,Menu,3X,,,,,
+goWanderingHordeMultiplier4,UI,Menu,4X,,,,,
+goWanderingHordeMultiplier5,UI,Menu,5X,,,,,
+
+CraftingArea,items,Item,Crafting Area  
+Tool,items,Item,Tool
+Slots,items,Item,Slots 

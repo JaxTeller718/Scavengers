@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tinsBuffs>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkDeepCuts' and @value='1']/@progression_name">perkASBladed</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkDeepCuts' and @value='2']/@progression_name">perkASBladed</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkDeepCuts' and @value='3']/@progression_name">perkASBladed</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkDeepCuts' and @value='4']/@progression_name">perkASBladed</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkDeepCuts' and @value='5']/@progression_name">perkASBladed</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkASBladed' and @value='1']/@value">10</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkASBladed' and @value='2']/@value">20</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkASBladed' and @value='3']/@value">30</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkASBladed' and @value='4']/@value">40</set>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkASBladed' and @value='5']/@value">50</set>
+	<set xpath="/buffs/buff[@name='buffDeadEye']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkDeadEye' and @value='3']/@progression_name">perkASPistols</set>
+	<set xpath="/buffs/buff[@name='buffDeadEye']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkDeadEye' and @value='4']/@progression_name">perkASPistols</set>
+	<set xpath="/buffs/buff[@name='buffDeadEye']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkDeadEye' and @value='5']/@progression_name">perkASPistols</set>
+	<set xpath="/buffs/buff[@name='buffDeadEye']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkASPistols' and @value='3']/@value">30</set>
+	<set xpath="/buffs/buff[@name='buffDeadEye']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkASPistols' and @value='4']/@value">40</set>
+	<set xpath="/buffs/buff[@name='buffDeadEye']/effect_group/triggered_effect/requirement[@name='ProgressionLevel' and @progression_name='perkASPistols' and @value='5']/@value">50</set>
+	<append xpath="/buffs">
+		<!-- Action Skill Control -->
+		
+    <buff name="buffAthleticSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+        <stack_type value="ignore"/>
+        <duration value="1"/>
+        <effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASAthletics" operation="add" value="1"/>
+        </effect_group>    
+    </buff> 	
+
+		<buff name="buffLockpickingSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASLockpicking" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+    <buff name="buffScavengingSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+        <stack_type value="ignore"/>
+        <duration value="1"/>
+        <effect_group name="Action Skills">
+			<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASScavenging" operation="add" value="1"/>
+        </effect_group>    
+    </buff> 	
+	
+		<buff name="buffBrawlerSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASBrawler" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffDemolitionsSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASDemolitions" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffJavelinSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASJavelin" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffTurretSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASTurret" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffElectricSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASElectric" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffCToolsSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASConstructionTools" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffMToolsSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASMiningTools" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffArcherySkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASArchery" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffAutomaticSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASAutomatics" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffBluntSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASBlunt" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffSledgehammersSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASSledgehammers" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffBladesSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASBladed" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffPistolSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASPistols" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffShotgunSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASShotguns" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffRiflesSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASRifles" operation="add" value="1"/>
+			</effect_group>
+		</buff>
+		<buff name="buffBrawlerSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Brawler_XP" operation="add" value="5">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffDemolitionsSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Demolitions_XP" operation="add" value="5">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffJavelinSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Javelin_XP" operation="add" value="5">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffTurretSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Turret_XP" operation="add" value="5">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffElectricSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Electric_XP" operation="add" value="5">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffArcherySkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="0.05"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Archery_XP" operation="add" value="8">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffElectricSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Electric_XP" operation="add" value="15"/>
+			</effect_group>
+		</buff>
+		<buff name="buffTurretSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Turret_XP" operation="add" value="15"/>
+			</effect_group>
+		</buff>
+		<buff name="buffDemolitionsSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Demolitions_XP" operation="add" value="15"/>
+			</effect_group>
+		</buff>
+		<buff name="buffJavelinSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Javelin_XP" operation="add" value="15"/>
+			</effect_group>
+		</buff>
+		<buff name="buffBrawlerSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Brawler_XP" operation="add" value="15"/>
+			</effect_group>
+		</buff>
+		<buff name="buffArcherySkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Archery_XP" operation="add" value="25"/>
+			</effect_group>
+		</buff>
+		<buff name="buffAutomaticSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="0.05"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Automatics_XP" operation="add" value="5">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffAutomaticSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Automatics_XP" operation="add" value="15"/>
+			</effect_group>
+		</buff>
+		<buff name="buffBluntSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="0.5"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$AS_Blunt_XP" operation="add" value="5"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$AS_Blunt_XP" operation="add" value="2">
+					<requirement name="HoldingItemHasTags" tags="perkPummelPete"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffBluntSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Blunt_XP" operation="add" value="12"/>
+			</effect_group>
+		</buff>
+		<buff name="buffSledgehammersSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="0.5"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$AS_Sledgehammers_XP" operation="add" value="8"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$AS_Sledgehammers_XP" operation="add" value="2">
+					<requirement name="HoldingItemHasTags" tags="perkSkullCrusher"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffSledgehammersSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Sledgehammers_XP" operation="add" value="15"/>
+			</effect_group>
+		</buff>
+		<buff name="buffBladedSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Bladed_XP" operation="add" value="5">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffBladedSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Bladed_XP" operation="add" value="12"/>
+			</effect_group>
+		</buff>
+		<buff name="buffConstructionSkillXP" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<requirement name="HoldingItemHasTags" tags="constructionToolRH"/>
+				<triggered_effect trigger="onSelfRepairBlock" action="ModifyCVar" cvar="$AS_ConstructionTools_XP" operation="add" value="5"/>
+				<triggered_effect trigger="onSelfUpgradedBlock" action="ModifyCVar" cvar="$AS_ConstructionTools_XP" operation="add" value="5"/>
+				<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="$AS_ConstructionTools_XP" operation="add" value="5"/>
+			</effect_group>
+		</buff>
+		<buff name="buffMiningSkillXP" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<requirement name="HoldingItemHasTags" tags="miningToolRH"/>
+				<triggered_effect trigger="onSelfHarvestBlock" action="ModifyCVar" cvar="$AS_MiningTools_XP" operation="add" value="5"/>
+			</effect_group>
+		</buff>
+		<buff name="buffPistolSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="0.05"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$AS_Pistols_XP" operation="add" value="4"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$AS_Pistols_XP" operation="add" value="2">
+					<requirement name="HoldingItemHasTags" tags="pistol"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$AS_Pistols_XP" operation="add" value="4">
+					<requirement name="HoldingItemHasTags" tags="revolver"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffPistolSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Pistols_XP" operation="add" value="15"/>
+			</effect_group>
+		</buff>
+		<buff name="buffShotgunSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="0.02"/>
+			<effect_group name="Action Skills">
+				<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Shotguns_XP" operation="add" value="2"/>
+			</effect_group>
+		</buff>
+		<buff name="buffShotgunSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Shotguns_XP" operation="add" value="7"/>
+			</effect_group>
+		</buff>
+		<buff name="buffRifleSkillXPInjure" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$AS_Rifles_XP" operation="add" value="5">
+					<requirement name="StatCompareCurrent" target="other" stat="health" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffRifleSkillXPKill" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$AS_Rifles_XP" operation="add" value="15"/>
+			</effect_group>
+		</buff>
+		<!-- Dealing with the Junk Turret + action skills -->
+		<buff name="buffTurretNerf">
+			<!-- Buff to nerf the turret a bit cos that shit is dumb -->
+			<stack_type value="replace"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="buffTurretASWorkaround" target_tags="player"/>
+			</effect_group>
+		</buff>
+		<buff name="buffTurretASWorkaround" icon="ui_game_symbol_electric_turret" icon_color="132,0,155" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="1"/>
+		</buff>
+		
+	<buff name="buffAthleticsSkillXPTick" hidden="true" remove_on_death="false">
+		<stack_type value="ignore"/>
+		<duration value="5"/><!--This is your delay duration-->
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self" cvar="$AS_Athletics_XP" operation="add" value="2"/>
+		</effect_group>
+	</buff>
+	
+		<buff name="buffLockpickingSkillXP" hidden="true" remove_on_death="false">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group name="Action Skills">
+				<requirement name="HoldingItemHasTags" tags="lockpickingRH"/>
+				<triggered_effect trigger="onSelfUpgradedBlock" action="ModifyCVar" cvar="$AS_Lockpicking_XP" operation="add" value="5"/>
+			</effect_group>
+		</buff>
+	
+	<buff name="buffArmorSkillXP" hidden="true" remove_on_death="false">
+		<stack_type value="ignore"/>
+		<duration value="2"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self" cvar="$AS_ArmorUse_XP" operation="add" value="2"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Armor XP Skill Tick Debug Message"/>
+		</effect_group>
+	</buff>		
+	
+	<buff name="buffScavengingSkillXPTick" hidden="true" remove_on_death="false">
+		<stack_type value="ignore"/>
+		<duration value="2"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self" cvar="$AS_Scavenging_XP" operation="add" value="2"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffScavengingDisassembleSkillXPTick" hidden="true" remove_on_death="false">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self" cvar="$AS_Scavenging_XP" operation="add" value="2"/>
+		</effect_group>
+	</buff>
+	</append>
+	
+	<remove xpath="/buffs/buff[@name='buffPerkAbilityUpdate']"/>
+	
+	
+	<append xpath="/buffs">
+	
+	<buff name="buffPerkAbilityUpdate" hidden="true" remove_on_death="false">
+		<!-- There is no trigger for a perk being lowered by the governing attribute dropping below a perk level's requirement. -->
+		<stack_type value="replace"/>
+		<effect_group>
+			<!--
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$DrunkMelee" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$DrunkStam" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$DrunkRes" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$DrunkHeal" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfDied" action="ModifyCVar" cvar=".DeadEyeKillCounter" operation="set" value="0"/>
+
+			<triggered_effect trigger="onSelfRespawn" action="ModifyCVar" cvar="$DrunkMelee" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfRespawn" action="ModifyCVar" cvar="$DrunkStam" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfRespawn" action="ModifyCVar" cvar="$DrunkRes" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfRespawn" action="ModifyCVar" cvar="$DrunkHeal" operation="set" value="0"/>
+			-->
+
+			<!-- perkIntrinsicImmunity update; will likely have to overhaul diseases but... not now -->
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$illnessChance" operation="set" value="20">
+				<requirement name="ProgressionLevel" progression_name="perkIntrinsicImmunity" operation="Equals" value="0"/> </triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$illnessChance" operation="set" value="18">
+				<requirement name="ProgressionLevel" progression_name="perkIntrinsicImmunity" operation="Equals" value="1"/> </triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$illnessChance" operation="set" value="16">
+				<requirement name="ProgressionLevel" progression_name="perkIntrinsicImmunity" operation="Equals" value="2"/> </triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$illnessChance" operation="set" value="14">
+				<requirement name="ProgressionLevel" progression_name="perkIntrinsicImmunity" operation="Equals" value="3"/> </triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$illnessChance" operation="set" value="12">
+				<requirement name="ProgressionLevel" progression_name="perkIntrinsicImmunity" operation="Equals" value="4"/> </triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$illnessChance" operation="set" value="10">
+				<requirement name="ProgressionLevel" progression_name="perkIntrinsicImmunity" operation="Equals" value="5"/> </triggered_effect>
+
+			<!-- perkSlowMetabolism : food poisoning / dysentery resistence -->
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismResist" operation="set" value="0">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismResist" operation="set" value="-1">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="1"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismResist" operation="set" value="-2">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="2"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismResist" operation="set" value="-3">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="3"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismResist" operation="set" value="-4">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="4"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismResist" operation="set" value="-5">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="5"/></triggered_effect>
+
+			<!-- Drowning time based on athletics -->
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="set" value="30">
+				<requirement name="ProgressionLevel" progression_name="perkASAthletics" operation="GTE" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="set" value="36">
+				<requirement name="ProgressionLevel" progression_name="perkASAthletics" operation="GTE" value="15"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="set" value="42">
+				<requirement name="ProgressionLevel" progression_name="perkASAthletics" operation="GTE" value="30"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="set" value="48">
+				<requirement name="ProgressionLevel" progression_name="perkASAthletics" operation="GTE" value="45"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="set" value="54">
+				<requirement name="ProgressionLevel" progression_name="perkASAthletics" operation="GTE" value="60"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="set" value="60">
+				<requirement name="ProgressionLevel" progression_name="perkASAthletics" operation="Equals" value="75"/></triggered_effect>
+				
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="add" value="5">
+				<requirement name="ProgressionLevel" progression_name="perkOxygenOptimization" operation="Equals" value="1"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="add" value="10">
+				<requirement name="ProgressionLevel" progression_name="perkOxygenOptimization" operation="Equals" value="2"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="add" value="15">
+				<requirement name="ProgressionLevel" progression_name="perkOxygenOptimization" operation="Equals" value="3"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="add" value="20">
+				<requirement name="ProgressionLevel" progression_name="perkOxygenOptimization" operation="Equals" value="4"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$DrowningTimerMax" operation="add" value="25">
+				<requirement name="ProgressionLevel" progression_name="perkOxygenOptimization" operation="Equals" value="5"/></triggered_effect>
+
+			<!-- perkSlowMetabolism : buff duration update, $MetabolismDuration is 1 to .5 -->
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value="1">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value=".909">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="1"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value=".833">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="2"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value=".769">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="3"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value=".714">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="4"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value=".667">
+				<requirement name="ProgressionLevel" progression_name="perkSlowMetabolism" operation="Equals" value="5"/></triggered_effect>
+
+			<!-- perkPhysician update, regular health per tick -->
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="medicRegHealthIncreaseSpeed" operation="set" value="2"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="medicRegHealthIncreaseSpeed" operation="set" value="2.5">
+				<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="1"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="medicRegHealthIncreaseSpeed" operation="set" value="2.8">
+				<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="2"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="medicRegHealthIncreaseSpeed" operation="set" value="3.1">
+				<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="3"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="medicRegHealthIncreaseSpeed" operation="set" value="3.5">
+				<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="4"/></triggered_effect>
+
+			<!-- perkParkour update, fall damage/height -->
+			<!-- 1m = .01414 -->
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="set" value="0">
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="Equals" value="0"/> </triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="set" value=".0162">
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="Equals" value="1"/> </triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="set" value=".0304">
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="Equals" value="2"/> </triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="set" value=".0587">
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="Equals" value="3"/> </triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="set" value=".0728">
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="Equals" value="4"/> </triggered_effect>
+		</effect_group>
+	</buff>	
+	</append>
+
+</tinsBuffs>

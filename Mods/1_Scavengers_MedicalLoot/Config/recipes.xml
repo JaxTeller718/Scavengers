@@ -1,0 +1,13 @@
+<JaxTeller718>
+
+	<remove xpath="/recipes/recipe[@name='medicalPlasterCast']"/>
+	<remove xpath="/recipes/recipe[@name='medicalFirstAidKit']"/>
+	<remove xpath="/recipes/recipe[@name='drugAntibiotics']"/>
+
+  
+  
+
+
+	
+
+</JaxTeller718>

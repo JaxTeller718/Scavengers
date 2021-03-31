@@ -1,0 +1,18 @@
+<configs>
+<append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']" >
+		<property name="Shape" value="ModelEntity" />
+        <property name="Model" value="#@modfolder:Resources/HDHQPlants.unity3d?HDHQGoldenrodPrefab"/>
+</append>	
+
+<append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']" >
+		<property name="Shape" value="ModelEntity" />
+        <property name="Model" value="#@modfolder:Resources/HDHQPlants.unity3d?HDHQChrysanthemumPrefab"/>
+</append>	
+
+<append xpath="/blocks/block[@name='plantedCotton3Harvest']" >
+		<property name="Shape" value="ModelEntity" />
+        <property name="Model" value="#@modfolder:Resources/HDHQPlants.unity3d?HDHQCottonPrefab"/>
+</append>	
+
+
+</configs>

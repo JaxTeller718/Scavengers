@@ -1,0 +1,33 @@
+<!-- - - - - - - - - - - -
+#########################
+##### True Inventory ####
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<config>
+
+<remove xpath="/lootcontainers/lootgroup[@name='modArmorT1']/item[@name='modArmorStoragePocket']" />
+<remove xpath="/lootcontainers/lootgroup[@name='modArmorT2']/item[@name='modArmorDoubleStoragePocket']" />
+<remove xpath="/lootcontainers/lootgroup[@name='modArmorT3']/item[@name='modArmorTripleStoragePocket']" />
+
+<!-- Vehicle Fix -->
+<!--bicycle-->
+<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">3,1</set>
+<!--minibike-->
+<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">9,1</set>
+<!--motorcycle-->
+<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">9,2</set>
+<!--4x4Truck-->
+<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">9,3</set>
+<!--gyrocopter-->
+<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">9,1</set>
+
+<!-- Backpack -->
+<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">8,10</set>
+<append xpath="lootcontainers/lootgroup[@name='schematicsToolsT0']"><item name="bookFakeGucci1" prob=".1"/></append>
+<append xpath="lootcontainers/lootgroup[@name='schematicsToolsT1']"><item name="bookFakeGucci" prob=".1"/></append>
+<append xpath="lootcontainers/lootgroup[@name='schematicsToolsT2']"><item name="bookFakeGucci2" prob=".1"/></append>
+</config>

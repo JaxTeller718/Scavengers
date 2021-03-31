@@ -1,0 +1,19 @@
+<JaxTeller718>
+
+	<append xpath="/items" >
+	
+	<item name="qStarterItems">
+		<property name="Extends" value="questMaster" />
+		<property name="CustomIcon" value="novelSurvivalGuide"/>
+			<property name="Meshfile" value="#@modfolder:Resources/starterBook.unity3d?starterBook.Prefab"/>
+		<property name="Description" value="qStarterItemsDesc"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="q_starterkit" />
+
+		</property>
+	</item>   
+	</append>
+	
+
+	
+</JaxTeller718>

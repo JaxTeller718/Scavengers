@@ -1,0 +1,49 @@
+<JaxTeller718>
+
+	<!-- <remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']/item[@name='tableSawSchematic']"/> -->
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsT0']/item[@name='forgeSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']/item[@name='workbenchSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']/item[@name='chemistryStationSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']/item[@name='cementMixerSchematic']"/>
+
+	<remove xpath="/lootcontainers/lootcontainer[@id='91']/item[@name='forgeSchematic']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='92']/item[@name='workbenchSchematic']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='93']/item[@name='cementMixerSchematic']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='94']/item[@name='chemistryStationSchematic']"/>
+
+	<append xpath="/lootcontainers/lootgroup[@name='toolParts']">
+		<item name="partsForge" count="1,3" prob="0.15" />
+		<item name="partsWorkbench" count="1,3" prob="0.15" />
+		<!-- <item name="partsTableSaw" count="1,3" prob="0.15" /> -->
+		<item name="partsCementMixer" count="1,3" prob="0.15" />
+		<item name="partsChemistryStation" count="1,3" prob="0.15" />
+		<item name="partsBatteryBank" count="1,3" prob="0.15" />
+		<item name="partsGenerator" count="1,3" prob="0.15" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='91']">
+		<item name="partsForge" count="1,3" prob="0.15" />
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='92']">
+		<item name="partsWorkbench" count="1,3" prob="0.15" />
+		<!-- <item name="partsTableSaw" count="1,3" prob="0.15" /> -->
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='93']">
+		<item name="partsCementMixer" count="1,3" prob="0.15" />
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='94']">
+		<item name="partsChemistryStation" count="1,3" prob="0.15" />
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='97']">
+		<item name="partsBatteryBank" count="1,3" prob="0.15" />
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='98']">
+		<item name="partsGenerator" count="1,3" prob="0.15" />
+	</append>	
+
+</JaxTeller718>

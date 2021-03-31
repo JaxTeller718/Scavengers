@@ -1,0 +1,158 @@
+<!-- - - - - - - - - - - -
+#########################
+##### True Inventory ####
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<config>
+<!-- Backpacks -->
+<append xpath="/blocks">
+<block name="backpackT0block">
+	<property name="CustomIcon" value="backpackT1Icon"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DescriptionKey" value="createTrueInventory"/>
+	<property name="Tags" value="backpackBlock"/>
+	<property name="Group" value="Clothing"/>
+
+	<property name="Material" value="Mcloth"/>
+	<property name="Path" value="solid"/>
+	<property name="MaxDamage" value="25"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2"/>
+	<property name="ModelOffset" value="0,0.25,-0.53"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"><property name="resourceCloth" value="1"/></property>
+	<property name="CanPickup" value="true" param1="backpackT0"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="SellableToTrader" value="false"/>
+	<drop event="Destroy" name="resourceCloth" count="1,4"/>
+</block>
+<block name="backpackT1block">
+	<property name="CustomIcon" value="backpackT1Icon"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DescriptionKey" value="createTrueInventory"/>
+	<property name="Tags" value="backpackBlock"/>
+	<property name="Group" value="Clothing"/>
+
+	<property name="Material" value="Mcloth"/>
+	<property name="Path" value="solid"/>
+	<property name="MaxDamage" value="25"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2"/>
+	<property name="ModelOffset" value="0,0.25,-0.53"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"><property name="resourceCloth" value="1"/></property>
+	<property name="CanPickup" value="true" param1="backpackT1"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="SellableToTrader" value="false"/>
+	<drop event="Destroy" name="resourceCloth" count="1,4"/>
+</block>
+<block name="backpackT2block">
+	<property name="CustomIcon" value="backpackT2Icon"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DescriptionKey" value="createTrueInventory"/>
+	<property name="Tags" value="backpackBlock"/>
+	<property name="Group" value="Clothing"/>
+
+	<property name="Material" value="Mcloth"/>
+	<property name="Path" value="solid"/>
+	<property name="MaxDamage" value="50"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_3"/>
+	<property name="ModelOffset" value="0,0.25,-0.52"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"><property name="resourceCloth" value="3"/></property>
+	<property name="CanPickup" value="true" param1="backpackT2"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="SellableToTrader" value="false"/>
+	<drop event="Destroy" name="resourceCloth" count="3,6"/>
+</block>
+<block name="backpackT2V2block">
+	<property name="CustomIcon" value="backpackT4Icon"/>
+	<property name="DescriptionKey" value="createTrueInventory"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Tags" value="backpackBlock"/>
+	<property name="Group" value="Clothing"/>
+
+	<property name="Material" value="Mcloth"/>
+	<property name="Path" value="solid"/>
+	<property name="MaxDamage" value="50"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/trueInventory_adminBackpack.unity3d?propertyOfEihwaz_backpackAdmin"/>
+	<property name="ModelOffset" value="0,0.0,-0.43"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"><property name="resourceCloth" value="3"/></property>
+	<property name="CanPickup" value="true" param1="backpackT2V2"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="SellableToTrader" value="false"/>
+	<drop event="Destroy" name="resourceCloth" count="3,6"/>
+</block>
+<block name="backpackT3block">
+	<property name="CustomIcon" value="backpackT3Icon"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DescriptionKey" value="createTrueInventory"/>
+	<property name="Tags" value="backpackBlock"/>
+	<property name="Group" value="Clothing"/>
+
+	<property name="Material" value="MmilitaryFiber"/>
+	<property name="Path" value="solid"/>
+	<property name="MaxDamage" value="100"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_4"/>
+	<property name="ModelOffset" value="0,0.25,-0.4"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"><property name="resourceMilitaryFiber" value="1"/></property>
+	<property name="CanPickup" value="true" param1="backpackT3"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="SellableToTrader" value="false"/>
+	<drop event="Destroy" name="resourceCloth" count="3,6"/>
+</block>
+<block name="backpackT4block">
+	<property name="CustomIcon" value="backpackT4Icon"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DescriptionKey" value="createTrueInventory"/>
+	<property name="Tags" value="backpackBlock"/>
+	<property name="Group" value="Clothing"/>
+
+	<property name="Material" value="MmilitaryFiber"/>
+	<property name="Path" value="solid"/>
+	<property name="MaxDamage" value="1000"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/trueInventory_adminBackpack.unity3d?propertyOfEihwaz_backpackAdmin"/>
+	<property name="ModelOffset" value="0,0.0,-0.43"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"><property name="resourceMilitaryFiber" value="3"/></property>
+	<property name="CanPickup" value="true" param1="backpackT4"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="SellableToTrader" value="false"/>
+	<drop event="Destroy" name="resourceCloth" count="3,6"/>
+</block>
+</append>
+</config>

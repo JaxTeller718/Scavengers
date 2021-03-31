@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+	<append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT0']">
+  	<item name="Biscuit Recipe"/>
+  	<item name="Biscuit With Jam Recipe"/>
+  	<item name="Ramen Soup Recipe"/>
+	<item name="Mushroom Soup Recipe"/>
+	<item name="Tuna Sandwich Recipe"/>
+	</append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT1']">
+    <item name="Bacon Egg Sandwich Recipe"/>
+    <item name="Fish Pie Recipe"/>
+	<item name="Grill Steak Recipe"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT2']">
+    <item name="Hamburger Recipe"/>
+    <item name="Honey Ham Recipe"/>
+	<item name="Grill Steak Sandwich Recipe"/>
+	<item name="Chunky Beef Soup Recipe"/>
+	<item name="Health Drink Recipe"/>
+  </append>
+  
+  <append xpath="/lootcontainers/lootgroup[@name='cupboard']">
+    <item name="Bag Of Hot Chips" prob="0.2"/>
+    <item name="Bag Of Chips" prob="0.2"/>
+	<item name="Candy Bar" prob="0.2"/>
+	<item name="Ramen Noodles" prob="0.2"/>
+  </append>
+  
+   <append xpath="/lootcontainers/lootgroup[@name='groupQuestChallenge']">
+    <item name="qc_hotrod"/>
+	<item name="qc_Feedthemole"/>
+	<item name="qc_Sandwich"/>
+  </append>
+
+</configs>

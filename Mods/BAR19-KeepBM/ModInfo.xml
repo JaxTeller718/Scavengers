@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="BAR19-KeepBM" />
+		<Description value="Keeps the bloodmoon going after death" />
+		<Author value="Bar0th" />
+		<Version value="A19.2b4" />
+		<Website value="" />
+	</ModInfo>
+</xml>

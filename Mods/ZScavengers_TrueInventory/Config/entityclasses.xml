@@ -1,0 +1,14 @@
+<!-- - - - - - - - - - - -
+#########################
+##### True Inventory ####
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<config>
+<append xpath="/entity_classes/entity_class[@name='playerMale']">
+	<effect_group><passive_effect name="CarryCapacity" operation="base_set" value="7"/></effect_group>
+</append>
+</config>

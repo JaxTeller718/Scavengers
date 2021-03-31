@@ -1,0 +1,7 @@
+﻿Key,Source,Context,English
+drinkCanteenEmpty,items,Tool,Canteen (Empty),,,,,
+drinkCanteenEmptyDesc,items,Tool,"Take this empty canteen to some water to fill it. Then cook it in a campfire. This can be reused.",,,,,
+drinkCanteenFull,items,Tool,Canteen (Uncooked),,,,,
+drinkCanteenFullDesc,items,Tool,"You should probably cook this in a campfire so you don't get very sick.",,,,,
+drinkCanteenCleaned,items,Tool,Canteen (Full),,,,,
+drinkCanteenCleanedDesc,items,Tool,"This canteen is safe to drink. Well as safe as it can be.",,,,,

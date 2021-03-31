@@ -1,0 +1,14 @@
+<JaxTeller718>
+
+	<append xpath="/materials">	
+
+		<material id="MresourceStick">
+			<property name="damage_category" value="wood"/>
+			<property name="surface_category" value="wood"/>
+			<property name="forge_category" value="stick"/>
+			<property name="Experience" value="1.5"/>
+		</material>
+
+	</append>
+
+</JaxTeller718>

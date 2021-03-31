@@ -1,0 +1,264 @@
+<JaxTeller718>
+
+
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']"/>
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']"/>
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']"/>
+
+
+	<append xpath="/item_modifiers">
+
+
+	<item_modifier name="modGunScopeSmall" installable_tags="smallTopAttachments" modifier_tags="scope" blocked_tags="noMods,noScopes" type="attachment">
+		<property name="UnlockedBy" value="modGunScopeSmallSchematic"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+		<item_property_overrides name="*">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+			<property name="Zoom_max_out" value="40"/>
+			<property name="Zoom_max_in" value="40"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT1Pistol">
+			<property name="ScopeOffset" value="0,.074,.078"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.0225,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunShotgunT2PumpShotgun">
+			<property name="ScopeOffset" value="0,.056,.013"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT1AK47">
+			<property name="ScopeOffset" value="0,.088,-.2"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.04,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT2TacticalAR">
+			<property name="ScopeOffset" value="0,0.1047,-0.2"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.022,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT2Magnum44">
+			<property name="ScopeOffset" value="0,.1037,.0689"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT3SMG5">
+			<property name="ScopeOffset" value="0,.0999,-.2534"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT1HuntingRifle">
+			<property name="ScopeOffset" value="-.0006,.081,.005"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.01,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT2MarksmanRifle">
+			<property name="ScopeOffset" value="0,.0736,-.1497"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunExplosivesT3RocketLauncher">
+			<property name="ScopeOffset" value="-.082,.012,.186"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+			<property name="ScopeRotation" value="0,0,80"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunBowT1IronCrossbow">
+			<property name="ScopeOffset" value="0,.061,-.0761"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunBowT3CompoundCrossbow">
+			<property name="ScopeOffset" value="0,.092,-.06"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT3DesertVulture">
+			<property name="ScopeCameraOffset" value="0,-.03,-.2"/>
+		</item_property_overrides>
+
+		<!-- visible attachment: scope x2 -->
+		<effect_group tiered="false" name="external attachment prefab (old way)">
+			<requirement name="!HoldingItemHasTags" tags="attachmentsIncluded"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#Other/Items?Mods/Scopes/scope_2xPrefab.prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<effect_group tiered="false" name="internal attachment prefab (A19)">
+			<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="scope"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="mod effects">
+			<!-- removed shotgun perk, turrets -->
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.1" tags="perkGunslinger,perkDeadEye,perkMachineGunner,perkArchery,admin"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.1" tags="perkDeadEye,perkArchery,admin">
+				<requirement name="ItemHasTags" tags="perkDeadEye,crossbow"/></passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".05">
+				<requirement name="ProgressionLevel" progression_name="perkSniperDamage" operation="Equals" value="1"/>
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+	<!-- visible -->
+	<item_modifier name="modGunScopeMedium" installable_tags="mediumTopAttachments" modifier_tags="scope" blocked_tags="noMods,noScopes,shotguns" type="attachment">
+		<property name="UnlockedBy" value="modGunScopeMediumSchematic"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+		<item_property_overrides name="*">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+			<property name="Zoom_max_out" value="30"/>
+			<property name="Zoom_max_in" value="20"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT1AK47">
+			<property name="ScopeOffset" value="0,.085,-.14"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.022,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT2TacticalAR">
+			<property name="ScopeOffset" value="0,0.1,-0.117"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.022,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT3SMG5">
+			<property name="ScopeOffset" value="-.0012,.098,-.2405"/>
+			<property name="ScopeScale" value=".8,.8,.8"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT1HuntingRifle">
+			<property name="ScopeOffset" value="-.0018,.075,.015"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,-.0238,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT2MarksmanRifle">
+			<property name="ScopeOffset" value="-.0018,.07,-.10"/>
+			<property name="ScopeScale" value="1.6,1.6,1.6"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunBowT1IronCrossbow">
+			<property name="ScopeOffset" value="0,.061,-.0761"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunBowT3CompoundCrossbow">
+			<property name="ScopeOffset" value="0,.092,-.06"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+		</item_property_overrides>
+
+		<!-- visible attachment: scope x4 -->
+		<effect_group tiered="false" name="external attachment prefab (old way)">
+			<requirement name="!HoldingItemHasTags" tags="attachmentsIncluded"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#Other/Items?Mods/Scopes/scope_4xPrefab.prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<effect_group tiered="false" name="internal attachment prefab (A19)">
+			<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="scope"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="mod effects">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.18" tags="perkGunslinger,perkDeadEye,perkMachineGunner,perkArchery,admin"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.18" tags="perkDeadEye,perkArchery,admin">
+				<requirement name="ItemHasTags" tags="perkDeadEye,crossbow"/></passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".05">
+				<requirement name="ProgressionLevel" progression_name="perkSniperDamage" operation="Equals" value="1"/>
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+	<!-- visible -->
+	<item_modifier name="modGunScopeLarge" installable_tags="largeTopAttachments" modifier_tags="scope" blocked_tags="noMods,noScopes,shotguns" type="attachment">
+		<property name="UnlockedBy" value="modGunScopeLargeSchematic"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+		<item_property_overrides name="*">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+			<property name="Zoom_max_out" value="20"/>
+			<property name="Zoom_max_in" value="10"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT1AK47">
+			<property name="ScopeOffset" value="0,-.0523,.1686"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT1HuntingRifle">
+			<property name="ScopeOffset" value="-.0006,0,.14"/>
+			<property name="ScopeScale" value="1.2,1.2,1.2"/>
+			<property name="ScopeCameraOffset" value="0,-.022,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT3SMG5">
+			<property name="ScopeOffset" value="0,-.1029,-.1373"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT2MarksmanRifle">
+			<property name="ScopeOffset" value="0,0,0"/>
+			<property name="ScopeScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunBowT1IronCrossbow">
+			<property name="ScopeOffset" value="0,.061,-.0761"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunBowT3CompoundCrossbow">
+			<property name="ScopeOffset" value="0,.061,-.0761"/>
+			<property name="ScopeScale" value=".9,.9,.9"/>
+			<property name="ScopeCameraOffset" value="0,0,0"/>
+		</item_property_overrides>
+
+		<!--Add scope overlay, increase zoom x amount-->
+		<!-- visible attachment: scope x8 -->
+		<effect_group tiered="false" name="external attachment prefab (old way)">
+			<requirement name="!HoldingItemHasTags" tags="attachmentsIncluded"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#Other/Items?Mods/Scopes/scope_8xPrefab.prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<effect_group tiered="false" name="internal attachment prefab (A19)">
+			<requirement name="HoldingItemHasTags" tags="attachmentsIncluded"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="scope"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="mod effects">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.25" tags="perkGunslinger,perkDeadEye,perkMachineGunner,perkArchery,admin"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.25" tags="perkDeadEye,perkArchery,admin">
+				<requirement name="ItemHasTags" tags="perkDeadEye,crossbow"/></passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".05">
+				<requirement name="ProgressionLevel" progression_name="perkSniperDamage" operation="Equals" value="1"/>
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	
+	</append>
+	
+	
+</JaxTeller718>

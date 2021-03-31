@@ -1,0 +1,14 @@
+<JaxTeller718>
+
+
+	<append xpath="/recipes">
+
+<recipe name="meleeToolPickT0StonePickaxe" count="1" tags="perkMiner69r">
+	<ingredient name="resourceRockSmall" count="2"/>
+	<ingredient name="resourceYuccaFibers" count="2"/>
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+
+	</append>
+
+</JaxTeller718>

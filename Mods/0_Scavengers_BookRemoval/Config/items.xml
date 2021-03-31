@@ -1,0 +1,214 @@
+	<items>
+	
+	
+
+	<remove xpath="/items/item[@name='bookRangersArrowRecovery']"/>
+	<remove xpath="/items/item[@name='bookRangersCripplingShot']"/>
+	<remove xpath="/items/item[@name='bookRangersKnockdown']"/>
+	<remove xpath="/items/item[@name='bookRangersFlamingArrows']"/>
+	<remove xpath="/items/item[@name='bookRangersAPAmmo']"/>
+	<remove xpath="/items/item[@name='bookRangersExplodingBolts']"/>
+	<remove xpath="/items/item[@name='bookRangersForestGuide']"/>
+	<remove xpath="/items/item[@name='bookArtOfMiningLuckyStrike']"/>
+	<remove xpath="/items/item[@name='bookArtOfMiningDiamondTools']"/>
+	<remove xpath="/items/item[@name='bookArtOfMiningCoffee']"/>
+	<remove xpath="/items/item[@name='bookArtOfMiningBlackStrap']"/>
+	<remove xpath="/items/item[@name='bookArtOfMiningPallets']"/>
+	<remove xpath="/items/item[@name='bookArtOfMiningAvalanche']"/>
+	<remove xpath="/items/item[@name='bookArtOfMiningLantern']"/>
+	<remove xpath="/items/item[@name='bookAutoWeaponsDamage']"/>
+	<remove xpath="/items/item[@name='bookAutoWeaponsRagdoll']"/>
+	<remove xpath="/items/item[@name='bookAutoWeaponsMaintenance']"/>
+	<remove xpath="/items/item[@name='bookAutoWeaponsRecoil']"/>
+	<remove xpath="/items/item[@name='bookAutoWeaponsDrumMag']"/>
+	<remove xpath="/items/item[@name='bookAutoWeaponsUncontrolledBurst']"/>
+	<remove xpath="/items/item[@name='bookAutoWeaponsMachineGuns']"/>
+	<remove xpath="/items/item[@name='bookBatterUpBaseballBats']"/>
+	<remove xpath="/items/item[@name='bookBatterUpBigHits']"/>
+	<remove xpath="/items/item[@name='bookBatterUpGear']"/>
+	<remove xpath="/items/item[@name='bookBatterUpKnockdown']"/>
+	<remove xpath="/items/item[@name='bookBatterUpSlowPitch']"/>
+	<remove xpath="/items/item[@name='bookBatterUpMaintenance']"/>
+	<remove xpath="/items/item[@name='bookBatterUpMetalChain']"/>
+	<remove xpath="/items/item[@name='bookEnforcerAPAmmo']"/>
+	<remove xpath="/items/item[@name='bookEnforcerApparel']"/>
+	<remove xpath="/items/item[@name='bookEnforcerCriminalPursuit']"/>
+	<remove xpath="/items/item[@name='bookEnforcerHPAmmo']"/>
+	<remove xpath="/items/item[@name='bookEnforcerDamage']"/>
+	<remove xpath="/items/item[@name='bookEnforcerIntimidation']"/>
+	<remove xpath="/items/item[@name='bookEnforcerPunks']"/>
+	<remove xpath="/items/item[@name='bookFiremansAlmanacSpeed']"/>
+	<remove xpath="/items/item[@name='bookFiremansAlmanacAxes']"/>
+	<remove xpath="/items/item[@name='bookFiremansAlmanacEquipment']"/>
+	<remove xpath="/items/item[@name='bookFiremansAlmanacPrevention']"/>
+	<remove xpath="/items/item[@name='bookFiremansAlmanacHarvest']"/>
+	<remove xpath="/items/item[@name='bookFiremansAlmanacHeat']"/>
+	<remove xpath="/items/item[@name='bookFiremansAlmanacMolotov']"/>
+	<remove xpath="/items/item[@name='bookGreatHeistAdrenalineFall']"/>
+	<remove xpath="/items/item[@name='bookGreatHeistTimedCharge']"/>
+	<remove xpath="/items/item[@name='bookGreatHeistClaimed']"/>
+	<remove xpath="/items/item[@name='bookGreatHeistGems']"/>
+	<remove xpath="/items/item[@name='bookGreatHeistMotionDetection']"/>
+	<remove xpath="/items/item[@name='bookGreatHeistSafes']"/>
+	<remove xpath="/items/item[@name='bookGreatHeistSprintSneak']"/>
+	<remove xpath="/items/item[@name='bookHuntingJournalBears']"/>
+	<remove xpath="/items/item[@name='bookHuntingJournalCoyotes']"/>
+	<remove xpath="/items/item[@name='bookHuntingJournalDeer']"/>
+	<remove xpath="/items/item[@name='bookHuntingJournalMountainLions']"/>
+	<remove xpath="/items/item[@name='bookHuntingJournalVultures']"/>
+	<remove xpath="/items/item[@name='bookHuntingJournalWolves']"/>
+	<remove xpath="/items/item[@name='bookHuntingJournalSelfDefense']"/>
+	<remove xpath="/items/item[@name='bookLuckyLooterAmmunition']"/>
+	<remove xpath="/items/item[@name='bookLuckyLooterBooks']"/>
+	<remove xpath="/items/item[@name='bookLuckyLooterBrass']"/>
+	<remove xpath="/items/item[@name='bookLuckyLooterDukes']"/>
+	<remove xpath="/items/item[@name='bookLuckyLooterFood']"/>
+	<remove xpath="/items/item[@name='bookLuckyLooterLead']"/>
+	<remove xpath="/items/item[@name='bookLuckyLooterMedical']"/>
+	<remove xpath="/items/item[@name='bookNeedleAndThreadDesertWear']"/>
+	<remove xpath="/items/item[@name='bookNeedleAndThreadDusters']"/>
+	<remove xpath="/items/item[@name='bookNeedleAndThreadFootwear']"/>
+	<remove xpath="/items/item[@name='bookNeedleAndThreadLegwear']"/>
+	<remove xpath="/items/item[@name='bookNeedleAndThreadPockets']"/>
+	<remove xpath="/items/item[@name='bookNeedleAndThreadPufferCoats']"/>
+	<remove xpath="/items/item[@name='bookNeedleAndThreadWinterWear']"/>
+	<remove xpath="/items/item[@name='bookNightStalkerArchery']"/>
+	<remove xpath="/items/item[@name='bookNightStalkerBlades']"/>
+	<remove xpath="/items/item[@name='bookNightStalkerSilentNight']"/>
+	<remove xpath="/items/item[@name='bookNightStalkerSlumberParty']"/>
+	<remove xpath="/items/item[@name='bookNightStalkerStealthDamage']"/>
+	<remove xpath="/items/item[@name='bookNightStalkerThiefAdrenaline']"/>
+	<remove xpath="/items/item[@name='bookNightStalkerTwilightThief']"/>
+	<remove xpath="/items/item[@name='bookPistolPeteAPAmmo']"/>
+	<remove xpath="/items/item[@name='bookPistolPeteDamage']"/>
+	<remove xpath="/items/item[@name='bookPistolPeteHPAmmo']"/>
+	<remove xpath="/items/item[@name='bookPistolPeteMaintenance']"/>
+	<remove xpath="/items/item[@name='bookPistolPeteSteadyHand']"/>
+	<remove xpath="/items/item[@name='bookPistolPeteSwissKnees']"/>
+	<remove xpath="/items/item[@name='bookPistolPeteTakeAim']"/>
+	<remove xpath="/items/item[@name='bookShotgunMessiahBreachingSlugs']"/>
+	<remove xpath="/items/item[@name='bookShotgunMessiahDamage']"/>
+	<remove xpath="/items/item[@name='bookShotgunMessiahLimbShot']"/>
+	<remove xpath="/items/item[@name='bookShotgunMessiahMaintenance']"/>
+	<remove xpath="/items/item[@name='bookShotgunMessiahMagazine']"/>
+	<remove xpath="/items/item[@name='bookShotgunMessiahPartyStarter']"/>
+	<remove xpath="/items/item[@name='bookShotgunMessiahSlugs']"/>
+	<remove xpath="/items/item[@name='bookSniperAPAmmo']"/>
+	<remove xpath="/items/item[@name='bookSniperControlledBreathing']"/>
+	<remove xpath="/items/item[@name='bookSniperCripplingShot']"/>
+	<remove xpath="/items/item[@name='bookSniperDamage']"/>
+	<remove xpath="/items/item[@name='bookSniperHeadShot']"/>
+	<remove xpath="/items/item[@name='bookSniperReload']"/>
+	<remove xpath="/items/item[@name='bookSniperHPAmmo']"/>
+	<remove xpath="/items/item[@name='bookUrbanCombatAdrenalineRush']"/>
+	<remove xpath="/items/item[@name='bookUrbanCombatCigar']"/>
+	<remove xpath="/items/item[@name='bookUrbanCombatRoomClearing']"/>
+	<remove xpath="/items/item[@name='bookUrbanCombatJumping']"/>
+	<remove xpath="/items/item[@name='bookUrbanCombatLandMines']"/>
+	<remove xpath="/items/item[@name='bookUrbanCombatLanding']"/>
+	<remove xpath="/items/item[@name='bookUrbanCombatSneaking']"/>
+	<remove xpath="/items/item[@name='bookWasteTreasuresAcid']"/>
+	<remove xpath="/items/item[@name='bookWasteTreasuresCloth']"/>
+	<remove xpath="/items/item[@name='bookWasteTreasuresCoffins']"/>
+	<remove xpath="/items/item[@name='bookWasteTreasuresDoors']"/>
+	<remove xpath="/items/item[@name='bookWasteTreasuresHoney']"/>
+	<remove xpath="/items/item[@name='bookWasteTreasuresSinks']"/>
+	<remove xpath="/items/item[@name='bookWasteTreasuresWater']"/>
+	<remove xpath="/items/item[@name='bookBarBrawling1BasicMoves']"/>
+	<remove xpath="/items/item[@name='bookBarBrawling2DropABomb']"/>
+	<remove xpath="/items/item[@name='bookBarBrawling3KillerInstinct']"/>
+	<remove xpath="/items/item[@name='bookBarBrawling4FinishingMoves']"/>
+	<remove xpath="/items/item[@name='bookBarBrawling5AdrenalineHealing']"/>
+	<remove xpath="/items/item[@name='bookBarBrawling6RageMode']"/>
+	<remove xpath="/items/item[@name='bookBarBrawling7BoozedUp']"/>
+	<remove xpath="/items/item[@name='bookSpearHunter1Damage']"/>
+	<remove xpath="/items/item[@name='bookSpearHunter2Maintenance']"/>
+	<remove xpath="/items/item[@name='bookSpearHunter3SteelSpears']"/>
+	<remove xpath="/items/item[@name='bookSpearHunter4StrongArm']"/>
+	<remove xpath="/items/item[@name='bookSpearHunter5RapidStrike']"/>
+	<remove xpath="/items/item[@name='bookSpearHunter6PuncturedLung']"/>
+	<remove xpath="/items/item[@name='bookSpearHunter7QuickStrike']"/>
+	<remove xpath="/items/item[@name='bookTechJunkie1Damage']"/>
+	<remove xpath="/items/item[@name='bookTechJunkie2Maintenance']"/>
+	<remove xpath="/items/item[@name='bookTechJunkie3APAmmo']"/>
+	<remove xpath="/items/item[@name='bookTechJunkie4Shells']"/>
+	<remove xpath="/items/item[@name='bookTechJunkie5Repulsor']"/>
+	<remove xpath="/items/item[@name='bookTechJunkie6BatonCharge']"/>
+	<remove xpath="/items/item[@name='bookTechJunkie7Hydraulics']"/>	
+	<remove xpath="/items/item[@name='apparelBallCap']"/>	
+	<remove xpath="/items/item[@name='apparelCoatJacketLetterZU']"/>	
+
+
+
+	<append xpath="/items">	
+
+
+
+
+<item name="apparelCoatJacketLetterZU"> <!-- collegeJacket -->
+	<property name="Extends" value="apparelCoatJacketGeneric"/>
+	<property name="DescriptionKey" value="apparelCoatJacketLetterZUDesc"/>
+	<property name="DisplayType" value="clothingJacketLetter"/>
+	<property name="UnlockedBy" value="perkBatterUpGear"/>
+	<property class="UMA">
+		<property name="Mesh" value="letter_jacket"/>
+		<property name="Overlay0" value="letter_jacket"/>
+		<property name="Overlay0Tint" value="100,100,100,255"/>
+		<property name="Overlay1" value="letter_jacket_arms"/>
+		<property name="Overlay1Tint" value="243,241,238,255"/>
+		<property name="Overlay2" value="letterjacket_tshirt_overlay"/>
+		<property name="Overlay2Tint" value="250,245,250,255"/>
+		<property name="Overlay3" value="letterjacket_letter_overlay"/>
+		<property name="Layer" value="3"/>
+		<property name="Mask0" value="chest" param1="base"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="1"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+		<passive_effect name="HypothermalResist" operation="base_add" value="11.7,15.5"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="1.5,2.5"/>
+		<passive_effect name="RunSpeed" operation="perc_add" value=".1"/><display_value name="dRunSpeed" value=".1"/>
+	</effect_group>
+</item>
+
+	</append>
+
+	<insertAfter xpath="/items/item[@name='apparelCowboyHat']">
+<item name="apparelBallCap">
+	<property name="Tags" value="head,clothing,canHaveCosmetic,noMods"/>
+	<property name="DisplayType" value="clothing"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="Waterproof" value=".05"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="FuelValue" value="3"/>
+	<property name="Weight" value="15"/>
+	<property name="EconomicValue" value="40"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="Encumbrance" value=".01"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="UnlockedBy" value="perkBatterUpGear"/>
+	<property name="DescriptionKey" value="apparelClothGroupDesc"/>
+	<property name="Group" value="Clothing"/>
+	<property class="UMA">
+		<property name="Mesh" value="gear_ballcap"/>
+		<property name="Overlay0" value="gear_ballcap"/>
+		<property name="Layer" value="2"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mask0" value="Head" param1="outer"/>
+		<property name="ShowAltHair" value="true"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="7.5,10.5"/>
+	</effect_group>
+</item>
+
+	</insertAfter>		
+		
+</items>
+
+

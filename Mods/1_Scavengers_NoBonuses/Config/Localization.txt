@@ -1,0 +1,7 @@
+apparelShadesDesc,"Protects your delicate eyes from the sun, nothing more"
+apparelSkiGogglesDesc,Now buy alpine air
+apparelToughGuySunglassesDesc,"Protects your delicate eyes from the sun, nothing more. Wearing the glasses won't make you Rambo"
+apparelAviatorGogglesDesc,Luck doesn't exist
+apparelNerdGlassesDesc,Wearing the glasses won't make you smarter
+apparelCigarDesc,Smoking is bad for your health!
+apparelCoatJacketLetterZUDesc,"Don't worry, you won't be Usain Bolt"

@@ -1,0 +1,12 @@
+<config>
+
+
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">qStarterItems</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">qStarterItems</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">qStarterItems</set>
+
+
+
+
+
+</config>

@@ -1,0 +1,8 @@
+﻿Key,Source,Context,English
+tutorialTipQuest01,Journal,,"Dear Friend,\n\nThe dead have inherited the earth. They are relentless and ever present. Find shelter immediately and prepare for the night ahead. Once the sun sets the dead overflow the streets and land around you.\n\nPrepare your defenses. The night will be incredibly difficult to overcome."
+tutorialTipQuest01_title,Journal,,Welcome to Scavengers
+tutorialTipQuest02,Journal,,"Things have changed dramatically. Find suitable shelter before nightfall and get acquainted with what has changed."
+tutorialTipQuest02_title,Journal,,Getting Started
+uiLoadCreatingWorld,UI,Game loading,Destroying the World...
+uiLoadLoadingXml,UI,Game loading,Loading Scavengers v19.4b7-4.4.0.2
+uiLoadStartingGame,UI,Game loading,Starting game...
