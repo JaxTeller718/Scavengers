@@ -10,7 +10,7 @@
 				<sprite name="SMXingameMenuBG" depth="2" pos="60,0" size="408,1300" sprite="smxlib_ui_game_element_menu_background" color="[SMXlibElementsBG]" pivot="center" globalopacitymod="1.2" />
 				<sprite name="SMXingameMenuLogo" depth="3" pos="60,140" size="588,588" sprite="scav_ui_game_element_menu_logo" pivot="center" globalopacitymod="1.5" />
 
-				<grid name="SMXingameMenuGrid" depth="3" pos="50,-100" rows="13" cell_width="230" cell_height="70" repeat_content="false" arrangement="vertical">
+				<grid name="SMXingameMenuGrid" depth="3" pos="50,25" rows="13" cell_width="230" cell_height="70" repeat_content="false" arrangement="vertical">
 					<smx_mainmenubutton_2 name="btnTpPoi" style="smx_menu_button" caption_key="xuiMenuTeleportPoiButton" />
 					<smx_mainmenubutton_1 name="btnExportPrefab" style="smx_menu_button" caption_key="xuiMenuExportPrefab" />
 					<smx_mainmenubutton_2 name="btnInvite" style="smx_menu_button" caption_key="xuiMenuInvite" />
@@ -22,8 +22,8 @@
 				</grid>
 
 				<!--label name="SMXeditionInfo" depth="9" pos="60,-470" size="250,33" text="Current Development Version" font_size="16" color="[SMXlibElementsLBLPri]" crispness="Never" effect="outline" upper_case="true" justify="center" pivot="center" /-->
-				<label name="SMXeditionInfo" depth="9" pos="60,-470" size="250,33" text="Experimental Edition" font_size="20" color="[SMXlibElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" justify="center" pivot="center" />
-				<label name="SMXversionInfo" depth="9" pos="60,-490" size="250,33" text="v19.4b7-4.4.0.2" font_size="20" color="[SMXlibElementsLBLSec]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="center" />
+				<label name="SMXeditionInfo" depth="9" pos="60,-470" size="250,33" text="Release Edition" font_size="24" color="[SMXlibElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" justify="center" pivot="center" />
+				<label name="SMXversionInfo" depth="9" pos="60,-490" size="250,33" text="v19.6b8-4.6.0" font_size="22" color="[SMXlibElementsLBLSec]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="center" />
 
 			</window>
 		</append>

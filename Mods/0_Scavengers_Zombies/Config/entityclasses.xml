@@ -19,7 +19,7 @@
 
 	<!-- Zombies are not able to climb ladders -->
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[@name='CanClimbLadders']/@value">false</set>
-	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='ExperienceGain']/@value">205</set>
+	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='ExperienceGain']/@value">105</set>
 
 	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='SightRange']/@value">60</set>
 

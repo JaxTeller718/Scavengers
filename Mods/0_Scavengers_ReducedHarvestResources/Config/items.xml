@@ -1,0 +1,6 @@
+<config>
+	<set xpath="/items/item[@name='resourceDoorKnob']/property[@name='Weight']/@value">25</set>
+	<set xpath="/items/item[@name='resourceCandleStick']/property[@name='Weight']/@value">75</set>
+	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Weight']/@value">125</set>
+	<set xpath="/items/item[@name='resourceTrophy1']/property[@name='Weight']/@value">15</set>
+</config>

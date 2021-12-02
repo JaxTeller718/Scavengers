@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rh_gameoptions>
+	<config name="CityZombieMultiplier"
+      		value="2" />
+	<config name="HeadShotOnly"
+      		value="false" />
+	<config name="ShowFetchItemOnCompass"
+      		value="true" />
+	<config name="ShowFetchDistanceIndicator"
+      		value="true" />
+	<config name="ZombieRage"
+      		value="false" />
+	<config name="SightRange"
+      		value="0" />
+	<config name="WanderingHordeFrequency"
+      		value="2" />
+	<config name="WanderingHordeMultiplier"
+      		value="2" />
+</rh_gameoptions>

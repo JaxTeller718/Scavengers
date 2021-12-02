@@ -1,0 +1,107 @@
+<JaxTeller718>
+
+
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceWood' and @value='20']/@value">30</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceWood' and @value='15']/@value">25</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceWood' and @value='10']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceWood' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceWood' and @value='6']/@value">10</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceWood' and @value='4']/@value">7</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceWood' and @value='3']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceWood' and @value='2']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceWood' and @value='1']/@value">3</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceElectricParts' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceElectricParts' and @value='6']/@value">10</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceElectricParts' and @value='4']/@value">7</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceElectricParts' and @value='3']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceElectricParts' and @value='2']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceElectricParts' and @value='1']/@value">3</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMechanicalParts' and @value='20']/@value">30</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMechanicalParts' and @value='12']/@value">20</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMechanicalParts' and @value='10']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMechanicalParts' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMechanicalParts' and @value='6']/@value">10</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMechanicalParts' and @value='4']/@value">7</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMechanicalParts' and @value='3']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMechanicalParts' and @value='2']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMechanicalParts' and @value='1']/@value">3</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceSpring' and @value='20']/@value">30</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceSpring' and @value='4']/@value">7</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMetalPipe' and @value='10']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMetalPipe' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMetalPipe' and @value='3']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceMetalPipe' and @value='2']/@value">5</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceCloth' and @value='20']/@value">30</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceCloth' and @value='12']/@value">20</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceCloth' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceCloth' and @value='4']/@value">7</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapIron' and @value='20']/@value">30</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapIron' and @value='16']/@value">25</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapIron' and @value='15']/@value">25</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapIron' and @value='12']/@value">20</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapIron' and @value='10']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapIron' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapIron' and @value='1']/@value">3</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceConcreteMix' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceConcreteMix' and @value='5']/@value">7</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceRockSmall' and @value='10']/@value">15</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedSteel' and @value='12']/@value">20</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedSteel' and @value='10']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedSteel' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedSteel' and @value='4']/@value">7</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceCobblestones' and @value='10']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceCobblestones' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceCobblestones' and @value='6']/@value">10</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceCobblestones' and @value='5']/@value">7</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceCobblestones' and @value='3']/@value">5</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='25']/@value">35</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='16']/@value">25</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='15']/@value">25</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='12']/@value">20</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='10']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='6']/@value">10</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='5']/@value">7</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='4']/@value">7</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='3']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='2']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceForgedIron' and @value='1']/@value">3</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapPolymers' and @value='14']/@value">20</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapPolymers' and @value='12']/@value">20</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapPolymers' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapPolymers' and @value='4']/@value">7</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapPolymers' and @value='3']/@value">5</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceScrapPolymers' and @value='2']/@value">5</set>
+
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceYuccaFibers' and @value='20']/@value">30</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceYuccaFibers' and @value='10']/@value">15</set>
+	<set xpath="//property[@class='RepairItems']/property[@name='resourceYuccaFibers' and @value='1']/@value">3</set>
+
+
+
+
+	<set xpath="//property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='10']/@value">20</set>
+	<set xpath="//property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='2']/@value">7</set>
+	<set xpath="//property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='3']/@value">7</set>
+	<set xpath="//property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='20']/@value">30</set>
+	<set xpath="//property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='5']/@value">15</set>
+	<set xpath="//property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='8']/@value">15</set>
+	<set xpath="//property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='1']/@value">6</set>
+	<set xpath="//property[@class='UpgradeBlock']/property[@name='ItemCount' and @value='4']/@value">7</set>
+
+
+
+</JaxTeller718>

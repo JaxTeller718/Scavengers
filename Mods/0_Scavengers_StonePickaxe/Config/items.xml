@@ -67,12 +67,12 @@
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
 		<display_value name="dBlockRepairAmount" value="100"/>
-		<passive_effect name="HarvestCount" operation="base_set" value=".7" tags="butcherHarvest"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.93" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="metal"/>
-		<passive_effect name="DamageModifier" operation="base_set" value="1" tags="head,perkMiner69r" match_all_tags="true"/>
-		<passive_effect name="DismemberChance" operation="base_set" value=".05"  tags="perkMiner69r"/>
+				<passive_effect name="HarvestCount" operation="base_set" value=".7" tags="butcherHarvest"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.95" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.95" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="base_set" value="1" tags="head,perkMiner69r" match_all_tags="true"/>
+				<passive_effect name="DismemberChance" operation="base_set" value=".05" tags="perkMiner69r"/>
 	</effect_group>
 	<property name="Group" value="Tools/Traps,Basics"/>
 	<property name="RepairExpMultiplier" value="5.5"/>

@@ -1,0 +1,25 @@
+<JaxTeller718>
+	<set xpath="/blocks/block[@name='mushroom01']/drop[@event='Harvest']/@name">plantedMushroom1</set>
+	<set xpath="/blocks/block[@name='plantedMushroom3Harvest']/drop[@event='Harvest']/@name">plantedMushroom1</set>
+	<set xpath="/blocks/block[@name='plantedYucca3Harvest']/drop[@event='Harvest']/@name">plantedYucca1</set>
+	<set xpath="/blocks/block[@name='plantedCotton3Harvest']/drop[@event='Harvest']/@name">plantedCotton1</set>
+	<set xpath="/blocks/block[@name='plantedCoffee3Harvest']/drop[@event='Harvest']/@name">plantedCoffee1</set>
+	<set xpath="/blocks/block[@name='plantedGoldenrod3Harvest']/drop[@event='Harvest']/@name">plantedGoldenrod1</set>
+	<set xpath="/blocks/block[@name='plantedAloe3Harvest']/drop[@event='Harvest']/@name">plantedAloe1</set>
+	<set xpath="/blocks/block[@name='plantedBlueberry3Harvest']/drop[@event='Harvest']/@name">plantedBlueberry1</set>
+	<set xpath="/blocks/block[@name='plantedPotato3Harvest']/drop[@event='Harvest']/@name">plantedPotato1</set>
+	<set xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']/drop[@event='Harvest']/@name">plantedChrysanthemum1</set>
+	<set xpath="/blocks/block[@name='plantedCorn3Harvest']/drop[@event='Harvest']/@name">plantedCorn1</set>
+	<set xpath="/blocks/block[@name='plantedHop3Harvest']/drop[@event='Harvest']/@name">plantedHop1</set>
+	<set xpath="/blocks/block[@name='plantedPumpkin3Harvest']/drop[@event='Harvest']/@name">plantedPumpkin1</set>
+	
+<!-- 	<set xpath="/blocks/block[@name='plantedWheat3HarvestRH']/drop[@event='Harvest']/@name">plantedWheat1RH</set>
+	<set xpath="/blocks/block[@name='plantedCarrot3HarvestRH']/drop[@event='Harvest']/@name">plantedCarrot1RH</set>
+	<set xpath="/blocks/block[@name='plantedCabbage3HarvestRH']/drop[@event='Harvest']/@name">plantedCabbage1RH</set>
+	<set xpath="/blocks/block[@name='plantedCucumber3HarvestRH']/drop[@event='Harvest']/@name">plantedCucumber1RH</set>
+	<set xpath="/blocks/block[@name='plantedLettuce3HarvestRH']/drop[@event='Harvest']/@name">plantedLettuce1RH</set>
+	<set xpath="/blocks/block[@name='plantedTomato3HarvestRH']/drop[@event='Harvest']/@name">plantedTomato1RH</set>
+	<set xpath="/blocks/block[@name='plantedOnion3HarvestRH']/drop[@event='Harvest']/@name">plantedOnion1RH</set>
+	<set xpath="/blocks/block[@name='plantedStrawberry3HarvestRH']/drop[@event='Harvest']/@name">plantedStrawberry1RH</set> -->
+
+</JaxTeller718>

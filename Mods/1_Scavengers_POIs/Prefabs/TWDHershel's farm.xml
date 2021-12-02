@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="4" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="RotationToFaceNorth" value="0" />
+  <property name="Zoning" value="none" />
+  <property name="SleeperVolumeSize" value="46, 7, 53#15, 11, 15#19, 9, 16#67, 3, 76" />
+  <property name="SleeperVolumeStart" value="47, 6, 2#33, 1, 8#32, 9, 39#25, 6, 33" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,26,26,S_Zom_FatCops,1,1,S_-_Group_Abandoned_House,1,1,S_-Group_Generic_Zombie,9,9" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0" />
+  <property name="EditorGroups" value="world/deco/biome, settlements, oldwest, house old" />
+  <property name="YOffset" value="-6" />
+  <property class="Stats">
+    <property name="TotalVertices" value="541754" />
+    <property name="TotalTriangles" value="539088" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="454676" />
+      <property name="Triangles" value="469261" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="51044" />
+      <property name="Triangles" value="26217" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="3136" />
+      <property name="Triangles" value="1568" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="544" />
+      <property name="Triangles" value="272" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="596" />
+      <property name="Triangles" value="298" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="7438" />
+      <property name="Triangles" value="5836" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="3808" />
+      <property name="Triangles" value="1904" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="20512" />
+      <property name="Triangles" value="33732" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="30, 6, 46" />
+    </property>
+    <property class="brBlock">
+      <property name="0" value="48, 15, 46" />
+    </property>
+  </property>
+</prefab>

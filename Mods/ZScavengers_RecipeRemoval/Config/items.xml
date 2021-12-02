@@ -1,0 +1,6 @@
+<JaxTeller718>
+
+	<remove xpath="/items/item[@name='apparelCigar']/property[@name='UnlockedBy']" />
+	<remove xpath="//property[@name='UnlockedBy' and contains(@value, 'perk')]" />
+
+</JaxTeller718>

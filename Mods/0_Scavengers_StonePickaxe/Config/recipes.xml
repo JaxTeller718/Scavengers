@@ -1,14 +1,19 @@
 <JaxTeller718>
 
+	<remove xpath="/recipes/recipe[@name='meleeToolRepairT0StoneAxe']"/>
 
 	<append xpath="/recipes">
 
-<recipe name="meleeToolPickT0StonePickaxe" count="1" tags="perkMiner69r">
-	<ingredient name="resourceRockSmall" count="2"/>
-	<ingredient name="resourceYuccaFibers" count="2"/>
-	<ingredient name="resourceWood" count="2"/>
+<recipe name="meleeToolRepairT0StoneAxe" count="1" tags="perkMiner69r">
+	<ingredient name="resourceSharpenedStoneJT" count="1"/>
+	<ingredient name="resourceFiberCordageJT" count="4"/>
+	<ingredient name="resourceStickJT" count="8"/>
 </recipe>
-
+<recipe name="meleeToolPickT0StonePickaxe" count="1" tags="perkMiner69r">
+	<ingredient name="resourceSharpenedStoneJT" count="1"/>
+	<ingredient name="resourceFiberCordageJT" count="4"/>
+	<ingredient name="resourceStickJT" count="8"/>
+</recipe>
 	</append>
 
 </JaxTeller718>

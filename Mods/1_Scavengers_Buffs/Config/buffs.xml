@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<remove xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/triggered_effect[@trigger='onSelfBuffStart' and @action='RemoveAllNegativeBuffs']"/>
+	<!-- <remove xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/triggered_effect[@trigger='onSelfBuffStart' and @buff='buffLegSprained']"/> -->
+	<setattribute xpath="/buffs/buff[@name='buffLegSprained']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffLegBroken']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffArmSprained']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffArmBroken']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInjuryConcussion']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffDysenteryAddCure']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfectionAddCure']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection01GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection02GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection03GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffDysentery01GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffDysentery01GetBetterDiarrhea']" name="remove_on_death">false</setattribute>
+	<!-- 	<set xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/passive_effect[@name='HealthChangeOT' and @operation='base_add']/@operation">perc_subtract</set><set xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/passive_effect[@name='WaterChangeOT' and @operation='base_add']/@operation">perc_subtract</set> -->
+	<!-- 	<set xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/passive_effect[@name='HealthChangeOT' and @value='1']/@value">.5</set><set xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/passive_effect[@name='WaterChangeOT' and @value='1']/@value">.5</set> -->
+	<!-- 	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@trigger='onSelfEnteredGame' and @action='ModifyCVar' and @cvar='$infectionMaxDuration']/@value">108</set>-->
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@trigger='onSelfEnteredGame' and @action='ModifyCVar' and @cvar='$infectionMaxDuration']/@value">18000</set>
+	<setattribute xpath="/buffs/buff[@name='buffInfectionMain']" name="remove_on_death">false</setattribute>
+	<remove xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@trigger='onSelfBuffStart' and @action='AddBuff' and @buff='buffNewbieCoat']"/>
+	<remove xpath="/buffs/buff[@name='buffInfection04']"/>
+	<insertAfter xpath="/buffs/buff[@name='buffInfection03GetBetter']">
+		<buff name="buffInfection04" tooltip_key="buffInfection04Tooltip" icon="ui_game_symbol_infection" icon_color="255,0,0">
+			<damage_type value="Infection"/>
+			<stack_type value="ignore"/>
+			<duration value=".1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+				<triggered_effect trigger="onSelfDied" action="ModifyCVar" cvar="infectionCounter" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInfection01Main"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInfectionMain"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInfectionCatch"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInfection04"/>
+			</effect_group>
+		</buff>
+	</insertAfter>
+	<set xpath="/buffs/buff[@name='buffStatusHungry01']/effect_group/requirement[@name='StatComparePercCurrentToMax']/@value">.62</set>
+	<set xpath="/buffs/buff[@name='buffStatusHungry02']//triggered_effect/requirement[@name='StatComparePercCurrentToMax']/@value">.32</set>
+	<insertAfter xpath="/buffs/buff[@name='buffStatusHungry02']//passive_effect[@name='BuffBlink']">
+		<passive_effect name="StaminaChangeOT" operation="perc_subtract" value=".1"/>
+		<passive_effect name="Mobility" operation="base_add" value="-.1"/>
+	</insertAfter>
+	<set xpath="/buffs/buff[@name='buffStatusHungry03']//passive_effect[@name='StaminaChangeOT']/@value">.2</set>
+	<insertAfter xpath="/buffs/buff[@name='buffStatusHungry03']//passive_effect[@name='StaminaChangeOT']">
+		<passive_effect name="Mobility" operation="base_add" value="-.2"/>
+		<passive_effect name="AttributeLevel" operation="base_subtract" value="1"/>
+	</insertAfter>
+	<set xpath="/buffs/buff[@name='buffStatusHungry03']//requirement[@name='StatComparePercCurrentToMax']/@value">.12</set>
+	<set xpath="/buffs/buff[@name='buffStatusThirsty01']//requirement[@name='StatComparePercCurrentToMax']/@value">.62</set>
+	<set xpath="/buffs/buff[@name='buffStatusThirsty02']//requirement[@name='StatComparePercCurrentToMax']/@value">.32</set>
+	<set xpath="/buffs/buff[@name='buffStatusThirsty03']//requirement[@name='StatComparePercCurrentToMax']/@value">.12</set>
+	<set xpath="/buffs/buff[@name='buffDrunkGrandpasAwesomeSauce']//passive_effect[@name='BarteringBuying']/@value">.1</set>
+	<set xpath="/buffs/buff[@name='buffDrunkGrandpasAwesomeSauce']//passive_effect[@name='BarteringSelling']/@value">.1</set>
+	<set xpath="/buffs/buff[@name='buffDrugSugarButts']//passive_effect[@name='BarteringBuying']/@value">.05</set>
+	<set xpath="/buffs/buff[@name='buffDrugSugarButts']//passive_effect[@name='BarteringSelling']/@value">.05</set>
+</configs>

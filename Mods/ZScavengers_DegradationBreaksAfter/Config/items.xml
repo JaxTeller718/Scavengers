@@ -1,0 +1,39 @@
+<JaxTeller718>
+	<set xpath="/items/item/property[@name='DegradationBreaksAfter' and @value='false']/@value">true</set>
+	<append xpath="/items/item[@name='meleeWpnClubT0WoodenClub']">
+		<property name="DegradationBreaksAfter" value="true"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']">
+		<property name="DegradationBreaksAfter" value="true"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnClubT1CandyClub']">
+		<property name="DegradationBreaksAfter" value="true"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnClubT3SteelClub']">
+		<property name="DegradationBreaksAfter" value="true"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnClubT1BaseballBat']">
+		<property name="DegradationBreaksAfter" value="true"/>
+	</append>
+	<append xpath="/items/item[@name='apparelHazmatMaster']">
+		<property name="DegradationBreaksAfter" value="false"/>
+	</append>
+	<append xpath="/items/item[@name='armorClothMaster']">
+		<property name="DegradationBreaksAfter" value="false"/>
+	</append>
+	<append xpath="/items/item[@name='armorLeatherMaster']">
+		<property name="DegradationBreaksAfter" value="false"/>
+	</append>
+	<append xpath="/items/item[@name='armorMilitaryMaster']">
+		<property name="DegradationBreaksAfter" value="false"/>
+	</append>
+	<append xpath="/items/item[@name='armorScrapMaster']">
+		<property name="DegradationBreaksAfter" value="false"/>
+	</append>
+	<append xpath="/items/item[@name='armorIronMaster']">
+		<property name="DegradationBreaksAfter" value="false"/>
+	</append>
+	<append xpath="/items/item[@name='armorSteelMaster']">
+		<property name="DegradationBreaksAfter" value="false"/>
+	</append>
+</JaxTeller718>

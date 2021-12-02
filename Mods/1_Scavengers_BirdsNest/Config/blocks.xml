@@ -1,0 +1,27 @@
+<JaxTeller718>
+	<set xpath="/blocks/block[@name='cntBirdnest']/property[@name='Material']/@value">Mplants</set>
+	<append xpath="/blocks/block[@name='cntBirdnest']">
+		<property name="Model" value="#@modfolder:Resources/JaxTeller718_BirdsNest.unity3d?birdsNestRH"/>
+		<property name="CustomIcon" value="birdsNestFullRH"/>
+		<property name="DowngradeBlock" value="birdsNestEmptyRH"/>
+	</append>
+	<append xpath="/blocks">
+		<block name="birdsNestEmptyRH">
+			<property name="Material" value="Mplants"/>
+			<property name="StabilitySupport" value="false"/>
+			<!-- build restriction -->
+			<property name="Shape" value="Ext3dModel"/>
+			<property name="Texture" value="293"/>
+			<property name="Model" value="#@modfolder:Resources/JaxTeller718_BirdsNest.unity3d?birdsNestEmptyRH"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<drop event="Harvest" name="resourceBoneFragmentsRH" count="1,4" prob="0.9" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceFeather" count="3" prob="0.35" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceFeather" count="2" prob="0.6" tag="allHarvest"/>
+			<drop event="Destroy" name="resourceYuccaFibers" count="2,8"/>
+			<property name="FilterTags" value="floot,foutdoor"/>
+		</block>
+	</append>
+</JaxTeller718>

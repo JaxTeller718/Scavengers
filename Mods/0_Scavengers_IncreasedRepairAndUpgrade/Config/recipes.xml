@@ -1,0 +1,146 @@
+<JaxTeller718>
+
+
+	<set xpath="//ingredient[@name='resourceDuctTape' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceDuctTape' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceDuctTape' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceDuctTape' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='resourceDuctTape' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceDuctTape' and @count='1']/@count">2</set>
+
+	<set xpath="//ingredient[@name='resourceCloth' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceCloth' and @count='15']/@count">25</set>
+	<set xpath="//ingredient[@name='resourceCloth' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceCloth' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceCloth' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceCloth' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceCloth' and @count='1']/@count">2</set>
+
+
+
+
+
+
+
+	<set xpath="//ingredient[@name='resourceElectricParts' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceElectricParts' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceElectricParts' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceElectricParts' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceElectricParts' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='resourceElectricParts' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceElectricParts' and @count='1']/@count">2</set>
+
+	<set xpath="//ingredient[@name='resourceForgedIron' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceForgedIron' and @count='15']/@count">25</set>
+	<set xpath="//ingredient[@name='resourceForgedIron' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceForgedIron' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceForgedIron' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceForgedIron' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='resourceForgedIron' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceForgedIron' and @count='1']/@count">2</set>	
+	
+	<set xpath="//ingredient[@name='resourceForgedSteel' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceForgedSteel' and @count='15']/@count">25</set>
+	<set xpath="//ingredient[@name='resourceForgedSteel' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceForgedSteel' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceForgedSteel' and @count='4']/@count">10</set>
+
+
+	<set xpath="//ingredient[@name='resourceMechanicalParts' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceMechanicalParts' and @count='15']/@count">25</set>
+	<set xpath="//ingredient[@name='resourceMechanicalParts' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceMechanicalParts' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceMechanicalParts' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceMechanicalParts' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='resourceMechanicalParts' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceMechanicalParts' and @count='1']/@count">2</set>	
+
+	<set xpath="//ingredient[@name='resourceMetalPipe' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceMetalPipe' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceMetalPipe' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='resourceMetalPipe' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceMetalPipe' and @count='1']/@count">2</set>	
+
+	<set xpath="//ingredient[@name='resourceRockSmall' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceRockSmall' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceRockSmall' and @count='1']/@count">2</set>	
+
+	<set xpath="//ingredient[@name='resourceScrapPolymers' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceScrapPolymers' and @count='15']/@count">25</set>
+	<set xpath="//ingredient[@name='resourceScrapPolymers' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceScrapPolymers' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceScrapPolymers' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceScrapPolymers' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceScrapPolymers' and @count='1']/@count">2</set>		
+	
+	<set xpath="//ingredient[@name='resourceSpring' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceSpring' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceSpring' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceSpring' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceSpring' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='resourceSpring' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceSpring' and @count='1']/@count">2</set>		
+
+	<set xpath="//ingredient[@name='resourceWood' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceWood' and @count='15']/@count">25</set>
+	<set xpath="//ingredient[@name='resourceWood' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceWood' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceWood' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceWood' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='resourceWood' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceWood' and @count='1']/@count">2</set>		
+
+	<set xpath="//ingredient[@name='resourceYuccaFibers' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceYuccaFibers' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceYuccaFibers' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceYuccaFibers' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceYuccaFibers' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='resourceYuccaFibers' and @count='1']/@count">2</set>	
+
+
+	<set xpath="//ingredient[@name='resourceClayLump' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceClayLump' and @count='1']/@count">2</set>	
+
+
+	<set xpath="//ingredient[@name='resourceAcid' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceAcid' and @count='4']/@count">10</set>
+
+	<set xpath="//ingredient[@name='resourceAcid' and @count='1']/@count">2</set>	
+
+	<set xpath="//ingredient[@name='resourceLeather' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='resourceLeather' and @count='15']/@count">25</set>
+	<set xpath="//ingredient[@name='resourceLeather' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='resourceLeather' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceLeather' and @count='4']/@count">10</set>
+	<set xpath="//ingredient[@name='resourceLeather' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='resourceLeather' and @count='2']/@count">5</set>
+	<set xpath="//ingredient[@name='resourceLeather' and @count='1']/@count">2</set>	
+
+
+	<set xpath="//ingredient[@name='resourceBone' and @count='5']/@count">10</set>
+
+	
+	<set xpath="//ingredient[@name='unit_iron' and @count='100']/@count">200</set>
+	<set xpath="//ingredient[@name='unit_iron' and @count='50']/@count">100</set>
+	<set xpath="//ingredient[@name='unit_iron' and @count='40']/@count">60</set>
+	<set xpath="//ingredient[@name='unit_iron' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='unit_iron' and @count='15']/@count">25</set>
+	<set xpath="//ingredient[@name='unit_iron' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='unit_iron' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='unit_iron' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='unit_iron' and @count='2']/@count">5</set>
+	
+	<set xpath="//ingredient[@name='unit_lead' and @count='50']/@count">100</set>
+	<set xpath="//ingredient[@name='unit_lead' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='unit_lead' and @count='3']/@count">7</set>
+	<set xpath="//ingredient[@name='unit_lead' and @count='2']/@count">5</set>
+
+	<set xpath="//ingredient[@name='unit_clay' and @count='100']/@count">200</set>
+	<set xpath="//ingredient[@name='unit_clay' and @count='20']/@count">30</set>
+	<set xpath="//ingredient[@name='unit_clay' and @count='10']/@count">20</set>
+	<set xpath="//ingredient[@name='unit_clay' and @count='5']/@count">10</set>
+	<set xpath="//ingredient[@name='unit_clay' and @count='3']/@count">7</set>
+
+
+
+</JaxTeller718>

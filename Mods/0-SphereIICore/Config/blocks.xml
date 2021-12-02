@@ -1,6 +1,6 @@
 ﻿<configs>
 
-  <!-- <removeattribute xpath="/blocks/block[@name='houseFrontDoor1_v1']/drop[@event='Destroy']/@tag" /> -->
+  <removeattribute xpath="/blocks/block[@name='houseFrontDoor1_v1']/drop[@event='Destroy']/@tag" />
 
   <append xpath="/blocks">
 
@@ -105,7 +105,7 @@
         <!-- Turn on or off Maslow for NPCs -->
         <property name="AnimalMaslow" value="true" />
         <!-- Turn on or off maslow for animals. -->
-        <property name="HumanTags"  value="human,bandit,survivor,npc,trader" />
+        <property name="HumanTags"  value="human,bandit,survivor,npc,trader,deployed" />
         <!-- Tags that translate that the entity is alive and has a brain -->
 
       </property>
@@ -117,7 +117,7 @@
       
       <property class="AdvancedWorkstationFeatures" >
         <property name="Logging" value="false"/>
-        <property name="EnablePoweredWorkstations" value="false" />
+        <property name="EnablePoweredWorkstations" value="true" />
       </property>
 
       <property class="AdvancedDialogDebugging" >
@@ -161,10 +161,10 @@
         <property name="MaxCaveLevels"  value="5" />
 
         <!-- How many cave clusters to create on a map. This value only takes effect when CaveType is Random  -->
-        <property name="CaveCluster" value="20" />
+        <property name="CaveCluster" value="50" />
 
         <!-- How many chunks to include per cluster. This value only takes effect when CaveType is Random -->
-        <property name="CavesClusterSize" value="5" />
+        <property name="CavesClusterSize" value="20" />
 
         <!-- RigidMulti, Billow, or FBM-->
         <!-- Default is RigidMulti-->

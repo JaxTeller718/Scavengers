@@ -2,8 +2,8 @@
 
 
 	<append xpath="/lootcontainers/lootgroup[@name='junk']">
-		<item name="resourceScrews" count="1,10"/>
-		<item name="resourceTwine" count="1,3"/>
+		<item name="resourceScrewsJT" count="1,10"/>
+		<item name="resourceTwineJT" count="1,3"/>
 	</append>
 
 

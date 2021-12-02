@@ -1,0 +1,16 @@
+<config>
+
+	<remove xpath="//item[@name='gunBotT1JunkSledge']" />
+	<remove xpath="//item[@name='gunBotT2JunkTurret']" />
+
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Ranged']/item[@group='groupWeaponsT1_TurretsSyndrome']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Ranged']/item[@group='groupWeaponsT2_TurretsSyndrome']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Ranged']/item[@group='groupWeaponsT3_TurretsSyndrome']" />
+
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT0']/item[@name='gunBotT1JunkSledgeSchematic']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT1']/item[@name='gunBotT2JunkTurretSchematic']" />
+
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWeapons_RangedParts']/item[@name='gunBotRoboticsParts']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='gunBotRoboticsParts']" />
+
+</config>

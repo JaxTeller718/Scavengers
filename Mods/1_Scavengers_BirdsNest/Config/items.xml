@@ -1,0 +1,5 @@
+<JaxTeller718>
+	<append xpath="/items/item[@name='resourceFeather']">
+		<property name="CustomIcon" value="ravenFeatherRH"/>
+	</append>
+</JaxTeller718>

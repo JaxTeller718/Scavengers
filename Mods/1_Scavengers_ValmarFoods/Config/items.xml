@@ -716,29 +716,6 @@
 			</effect_group>
 		</item>
 		
-	<item name="qc_hotrod">
-	    <property name="Extends" value="challengeQuestMaster"/>
-		<property name="CustomIconTint" value="250,150,230"/>
-	    <property class="Action0">
-		<property name="UseAnimation" value="false"/>
-		<property name="QuestGiven" value="challenge_hotrod"/>
-	       </property>
-        </item>
-		
-	<item name="qc_Feedthemole">
-	    <property name="Extends" value="challengeQuestMaster"/>
-	    <property class="Action0">
-		<property name="UseAnimation" value="false"/>
-		<property name="QuestGiven" value="challenge_feedthemole"/>
-	       </property>
-        </item>
-		
-	<item name="qc_Sandwich">
-	    <property name="Extends" value="challengeQuestMaster"/>
-	    <property class="Action0">
-		<property name="UseAnimation" value="false"/>
-		<property name="QuestGiven" value="challenge_Sandwich"/>
-	       </property>
-        </item>
+
 	</append>
 </configs>

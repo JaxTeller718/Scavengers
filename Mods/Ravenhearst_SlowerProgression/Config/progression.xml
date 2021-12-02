@@ -1,0 +1,3 @@
+<JaxTeller718>
+	<set xpath="/progression/level[@max_level='300']/@exp_to_level">11545</set>
+</JaxTeller718>

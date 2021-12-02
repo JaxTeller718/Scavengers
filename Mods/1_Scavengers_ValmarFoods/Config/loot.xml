@@ -30,10 +30,6 @@
 	<item name="Ramen Noodles" prob="0.2"/>
   </append>
   
-   <append xpath="/lootcontainers/lootgroup[@name='groupQuestChallenge']">
-    <item name="qc_hotrod"/>
-	<item name="qc_Feedthemole"/>
-	<item name="qc_Sandwich"/>
-  </append>
+
 
 </configs>

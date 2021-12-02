@@ -1,4 +1,9 @@
 Key,Source,Context,English
 qStarterItems,items,Quest - Note,Starter Kit,,,,,
 qStarterItemsDesc,items,Quest - Note,Note from Jax\n\nThe rest of the club is either scattered or dead. You and I are all that is left. I had to head north. I have left you some stuff to help you get to us. Use your special skill wisely because it is all you have in this fucked up world.,,,,,
+starterkitName,Quest,Quest Info,Society Has Fallen,,,,,
 
+starterkit,Quest,Quest Info,"Read This First",,,,,
+starterkit_offer,Quest,Quest Info,"Gotta put some lore here. \n\nThe lore is important.",,,,,
+starterkit_description,Quest,Quest Info,"The Only Survival Is To Scavenge",,,,,
+starterkit_subtitle,Quest,Quest Info,When Day Turns to Night Scavenging Begins,,,,,

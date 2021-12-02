@@ -4,6 +4,9 @@
   <remove xpath="//item[@name='resourceScrapLead']"/>
   <remove xpath="//item[@name='resourceWood']"/>
   <remove xpath="//item[@name='resourceScrapBrass']"/>
+  <remove xpath="//item[@name='gunExplosivesT3RocketLauncher']"/>
+  <remove xpath="//item[@name='ammoRocketHE']"/>
+  <remove xpath="//item[@name='ammoRocketFrag']"/>
 
 	<remove xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT1']/item[@name='vehicleMinibikeChassisSchematic']"/>
 	<remove xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT1']/item[@name='vehicleMinibikeHandlebarsSchematic']"/>

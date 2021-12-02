@@ -1,0 +1,68 @@
+<JaxTeller718>
+
+
+
+
+	<remove xpath="/recipes/recipe[@name='meleeToolRepairT1ClawHammer']" />
+	<remove xpath="/recipes/recipe[@name='meleeToolAxeT3Chainsaw']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnSpearT1IronSpear']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnSpearT3SteelSpear']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnBladeT1HuntingKnife']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnBladeT3Machete']" />
+	
+	<remove xpath="/recipes/recipe[@name='meleeWpnSledgeT1IronSledgehammer']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnSledgeT3SteelSledgehammer']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnBatonT2StunBaton']" />
+	<remove xpath="/recipes/recipe[@name='meleeToolWireTool']" />
+	<remove xpath="/recipes/recipe[@name='meleeToolSalvageT1Wrench']" />
+	<remove xpath="/recipes/recipe[@name='meleeToolSalvageT2Ratchet']" />
+	
+	<remove xpath="/recipes/recipe[@name='meleeToolSalvageT3ImpactDriver']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnKnucklesT1IronKnuckles']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnKnucklesT3SteelKnuckles']" />
+	<remove xpath="/recipes/recipe[@name='meleeToolPickT3Auger']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnClubT3SteelClub']" />
+	<remove xpath="/recipes/recipe[@name='meleeWpnClubT1BaseballBat']" />
+	
+	<remove xpath="/recipes/recipe[@name='plantedAloe1']" />
+	<remove xpath="/recipes/recipe[@name='plantedBlueberry1']" />
+	<remove xpath="/recipes/recipe[@name='plantedChrysanthemum1']" />
+	<remove xpath="/recipes/recipe[@name='plantedCoffee1']" />
+	<remove xpath="/recipes/recipe[@name='plantedCorn1']" />
+	<remove xpath="/recipes/recipe[@name='plantedCotton1']" />
+	<remove xpath="/recipes/recipe[@name='plantedGoldenrod1']" />
+	<remove xpath="/recipes/recipe[@name='plantedGraceCorn1']" />
+	<remove xpath="/recipes/recipe[@name='plantedHop1']" />
+	<remove xpath="/recipes/recipe[@name='plantedMushroom1']" />
+	<remove xpath="/recipes/recipe[@name='plantedPotato1']" />
+	<remove xpath="/recipes/recipe[@name='plantedYucca1']" />
+	<remove xpath="/recipes/recipe[@name='plantedPumpkin1']" />
+	<remove xpath="/recipes/recipe[@name='ammoJunkTurretShell']" />
+	<remove xpath="/recipes/recipe[@name='ammoJunkTurretRegular']" />
+	<remove xpath="/recipes/recipe[@name='ammoJunkTurretAP']" />
+	<remove xpath="/recipes/recipe[@name='gunBotT1JunkSledge']" />
+	<remove xpath="/recipes/recipe[@name='gunBotT2JunkTurret']" />
+	<remove xpath="/recipes/recipe[@name='bladeTrap']" />
+	<remove xpath="/recipes/recipe[@name='apparelCigar']" />
+	
+	<remove xpath="/recipes/recipe[@name='gunBowT1IronCrossbow']" />
+	<remove xpath="/recipes/recipe[@name='gunBowT1WoodenBow']" />
+	<remove xpath="/recipes/recipe[@name='gunBowT3CompoundBow']" />
+	<remove xpath="/recipes/recipe[@name='gunBowT3CompoundCrossbow']" />
+	<remove xpath="/recipes/recipe[@name='gunHandgunT1Pistol']" />
+	<remove xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']" />
+	<remove xpath="/recipes/recipe[@name='gunHandgunT3SMG5']" />
+	<remove xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']" />
+	<remove xpath="/recipes/recipe[@name='gunShotgunT1DoubleBarrel']" />
+	<remove xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']" />
+	<remove xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']" />
+	<remove xpath="/recipes/recipe[@name='gunRifleT1HuntingRifle']" />
+	<remove xpath="/recipes/recipe[@name='gunRifleT2MarksmanRifle']" />
+	<remove xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']" />
+	<remove xpath="/recipes/recipe[@name='gunMGT1AK47']" />
+	<remove xpath="/recipes/recipe[@name='gunMGT2TacticalAR']" />
+	<remove xpath="/recipes/recipe[@name='gunMGT3M60']" />	
+	<remove xpath="/recipes/recipe[@name='gunExplosivesT3RocketLauncher']" />	
+	
+	
+</JaxTeller718>

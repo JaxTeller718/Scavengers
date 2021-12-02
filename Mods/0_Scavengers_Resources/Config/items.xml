@@ -2,7 +2,7 @@
 
 	<append xpath="/items" >
 	
-		<item name="resourceArrowHeadStone">
+		<item name="resourceArrowHeadStoneJT">
 			<!-- scrap material -->
 			<property name="HoldType" value="40"/>
 			<property name="Meshfile" value="#Other/Items?Crafting/rock_smallPrefab.prefab"/>
@@ -18,7 +18,7 @@
 			<property name="CraftingIngredientTime" value=".5"/>
 		</item>
 
-		<item name="resourceArrowShaft">
+		<item name="resourceArrowShaftJT">
 			<!-- scrap material -->
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -36,10 +36,10 @@
 			<property name="CraftingIngredientTime" value=".25"/>
 		</item>
 
-	<item name="resourceAnimalHide">
+	<item name="resourceAnimalHideJT">
 		<!-- scrap material -->
 		<property name="HoldType" value="45"/>
-		<property name="CustomIcon" value="resourceLeather"/>
+		<property name="CustomIcon" value="resourceLeatherJT"/>
 		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="Material" value="MresourceLeather"/>
@@ -53,7 +53,7 @@
 		<property name="CraftingIngredientTime" value="2"/>
 	</item>
 	
-<item name="resourceOakWood"> <!-- scrap material -->
+<item name="resourceOakWoodJT"> <!-- scrap material -->
 	<property name="CustomIcon" value="resourceWood"/>
 	<property name="CustomIconTint" value="167,62,62"/>
 	<property name="HoldType" value="45"/>
@@ -71,7 +71,7 @@
 	<property name="CraftingIngredientTime" value=".25"/>
 </item>
 
-<item name="resourceSharpenedStone">
+<item name="resourceSharpenedStoneJT">
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -91,12 +91,12 @@
 
 	</append>
 
-	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer' or @name='meleeToolRepairT3Nailgun' or @name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,resourceWoodNail</append>
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer' or @name='meleeToolRepairT3Nailgun' or @name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,resourceWoodNailJT,resourceOakWoodJT</append>
 
 	<append xpath="/items">	
 
 
-		<item name="resourceStick">
+		<item name="resourceStickJT">
 			<!-- scrap material -->
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -114,7 +114,7 @@
 			<property name="CraftingIngredientTime" value=".25"/>
 		</item>
 
-		<item name="resourceTwine">
+		<item name="resourceTwineJT">
 			<!-- scrap material -->
 			<property name="HoldType" value="45"/>
 			<property name="Tags" value="junk"/>
@@ -128,7 +128,7 @@
 			<property name="Group" value="Resources"/>
 		</item>
 
-		<item name="resourceFiberCordage">
+		<item name="resourceFiberCordageJT">
 			<!-- scrap material -->
 			<property name="HoldType" value="16"/>
 			<property name="Meshfile" value="#Other/Items?Crafting/plant_fibers.fbx"/>
@@ -147,7 +147,7 @@
 		</item>
 
 
-		<item name="resourceWoodNail">
+		<item name="resourceWoodNailJT">
 			<property name="Meshfile" value="#Other/Items?Tools/nailProjectilePrefab.prefab"/>
 			<property name="HoldType" value="45"/>
 			<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -161,12 +161,31 @@
 
 		</item>
 
-		<item name="resourceScrews">
+		<item name="resourceScrewsJT">
 			<property name="Extends" value="resourceNail"/>
-			<property name="CustomIcon" value="resourceScrews"/>
-			<property name="DescriptionKey" value="resourceScrewsDesc"/>
+			<property name="CustomIcon" value="resourceScrewsJT"/>
+			<property name="DescriptionKey" value="resourceScrewsJTDesc"/>
 		</item>
 
+		<item name="resourceWoodLogJT">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Weight" value="2"/>
+			<property name="Stacknumber" value="250"/>
+			<!-- STK resource -->
+			<property name="FuelValue" value="50"/>
+			<property name="EconomicValue" value="25"/>
+			<property name="EconomicBundleSize" value="50"/>
+			<property name="Group" value="Basics,Resources"/>
+			<property name="RepairAmount" value="100"/>
+			<property name="LootExpValue" value="1"/>
+			<property name="CraftingIngredientTime" value=".25"/>
+		</item>
 	</append>
+	
+	<set xpath="/items/item[@name='resourceWood']/property[@name='Group']/@value">Basics,Resources</set>
 
 </JaxTeller718>

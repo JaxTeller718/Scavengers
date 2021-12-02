@@ -19,3 +19,5 @@ UndeadNegativeFactionSchematicDesc,"Read this to spread lies and fake news about
 advancedlockpicking_desc,"Use the arrow keys to change the position of the picklocks. Then space to try to unlock.",""
 SpawnCube,"Spawn Cube",""
 SpawnCubeDesc,"Allows Prefab builders to set up specific spawn entities via in-game programable code:  Sign Text:  ec=npcBaker;task=wander;pc=99. Entity Class zombie Bow, with Task Wander, and PathingCode 99.",""
+boardedWindowsSheet_weak,"Window Barricade",""
+boardedWindowsSheet_weakDesc,"Use these barricades to board up windows and doorways.",""

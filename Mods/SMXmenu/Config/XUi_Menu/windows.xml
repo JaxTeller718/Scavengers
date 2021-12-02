@@ -58,8 +58,8 @@
 				</widget>
 
 				<!--label name="SMXeditionInfo" depth="9" pos="60,-470" size="250,33" text="Current Development Version" font_size="16" color="[SMXlibElementsLBLPri]" crispness="Never" effect="outline" upper_case="false" justify="center" pivot="center" /-->
-				<label name="SMXmenuEditionInfo" depth="9" pos="60,-470" size="250,33" text="Experimental Edition" font_size="20" color="[SMXlibElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="center" overflow="ShrinkContent" />
-				<label name="SMXmenuVersionInfo" depth="9" pos="60,-490" size="250,33" text="v19.4b7-4.4.0.2" font_size="20" color="[SMXlibElementsLBLSec]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="center" overflow="ShrinkContent" />
+				<label name="SMXmenuEditionInfo" depth="9" pos="60,-470" size="250,33" text="Release Edition" font_size="24" color="[SMXlibElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="center" overflow="ShrinkContent" />
+				<label name="SMXmenuVersionInfo" depth="9" pos="60,-490" size="250,33" text="v19.6b8-4.6.0" font_size="22" color="[SMXlibElementsLBLSec]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="center" overflow="ShrinkContent" />
 
 			</window>
 		</append>
@@ -189,33 +189,33 @@
 								<smx_gameoption_1 name="GameDifficulty" title="goDifficulty" value_wrap="false" value_type="int" values="" display_names="goDifficulty1,goDifficulty2,goDifficulty3,goDifficulty4,goDifficulty5,goDifficulty6" value_localization_prefix="" />
 								<smx_gameoption_1 name="DayNightLength" title="goDayLength" value_wrap="false" value_type="int" values="10, 20, 30, 40, 50, 60, 90, 120" display_names="" value_localization_prefix="goMinute" />
 								<smx_gameoption_1 name="DayLightLength" title="goDayLightLength" value_wrap="false" value_type="int" values="12, 14, 16, 18" display_names="" value_localization_prefix="goDayLightLengthValue" />
-								<smx_gameoption_1 name="BloodMoonFrequency" title="goBloodMoonFrequency" value_wrap="false" value_type="int" values="0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 20, 30" display_names="goDisabled" value_localization_prefix="goDay" />
-								<smx_gameoption_1 name="BloodMoonRange" title="goBloodMoonRange" value_wrap="false" value_type="int" values="0, 1, 2, 3, 4, 7, 10, 14, 20" display_names="" value_localization_prefix="goDay" />
+								<smx_gameoption_1 name="BloodMoonFrequency" title="goBloodMoonFrequency" value_wrap="false" value_type="int" values="0, 1, 2, 3, 4, 5" display_names="goDisabled" value_localization_prefix="goDay" />
+								<smx_gameoption_1 name="BloodMoonRange" title="goBloodMoonRange" value_wrap="false" value_type="int" values="0, 1, 2, 3, 4, 7" display_names="" value_localization_prefix="goDay" />
 								<smx_gameoption_1 name="BloodMoonWarning" title="goBloodMoonWarning" value_wrap="false" value_type="int" values="-1, 8, 18" display_names="goDisabled,goMorning,goEvening" value_localization_prefix="" />
-								<smx_gameoption_1 name="ZombieMove" title="goZombieMove" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMJog,goZMRun,goZMSprint,goZMNightmare" value_localization_prefix="" />
-								<smx_gameoption_1 name="ZombieMoveNight" title="goZombieMoveNight" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMJog,goZMRun,goZMSprint,goZMNightmare" value_localization_prefix="" />
-								<smx_gameoption_1 name="ZombieFeralMove" title="goZombieFeralMove" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMJog,goZMRun,goZMSprint,goZMNightmare" value_localization_prefix="" />
-								<smx_gameoption_1 name="ZombieBMMove" title="goZombieBMMove" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMJog,goZMRun,goZMSprint,goZMNightmare" value_localization_prefix="" />
+								<smx_gameoption_1 name="ZombieMove" title="goZombieMove" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMNightmare" value_localization_prefix="" />
+								<smx_gameoption_1 name="ZombieMoveNight" title="goZombieMoveNight" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMNightmare" value_localization_prefix="" />
+								<smx_gameoption_1 name="ZombieFeralMove" title="goZombieFeralMove" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMNightmare" value_localization_prefix="" />
+								<smx_gameoption_1 name="ZombieBMMove" title="goZombieBMMove" value_wrap="false" value_type="int" values="" display_names="goZMWalk,goZMNightmare" value_localization_prefix="" />
 								<!--smx_gameoption_1 name="MaxSpawnedZombies" title="goMaxSpawnedZombies" value_wrap="false" value_type="int" values="0, 10, 30, 60" display_names="" value_localization_prefix="" /-->
 								<!--smx_gameoption_1 name="MaxSpawnedAnimals" title="goMaxSpawnedAnimals" value_wrap="false" value_type="int" values="0, 10, 30, 50" display_names="" value_localization_prefix="" /-->
 								<smx_gameoption_1 name="PersistentPlayerProfiles" title="goPersistentCharacters" value_wrap="false" value_type="bool" values="" display_names="" value_localization_prefix="" />
-								<smx_gameoption_1 name="XPMultiplier" title="goXPMultiplier" value_wrap="false" value_type="int" values="25, 50, 75, 100, 125, 150, 175, 200, 300" display_names="" value_localization_prefix="goXPMultiplierValue" />
+								<smx_gameoption_1 name="XPMultiplier" title="goXPMultiplier" value_wrap="false" value_type="int" values="25, 50, 75, 100" display_names="" value_localization_prefix="goXPMultiplierValue" />
 							</grid>
 						</rect>
 
 						<rect tab_key="xuiGameSettingsAdvanced">
 							<grid pos="6,-40" rows="15" cell_width="525" cell_height="40" repeat_content="false" arrangement="vertical">
 								<!--<gameoption name="BlockDurabilityModifier" title="goBlockDurability" value_wrap="false" value_type="int" values="25, 50, 100, 200" display_names="" value_localization_prefix="goBlockDurabilityValue" />-->
-								<smx_gameoption_1 name="BlockDamagePlayer" title="goBlockDamagePlayer" value_wrap="false" value_type="int" values="25, 50, 75, 100, 125, 150, 175, 200, 300" display_names="" value_localization_prefix="goBlockDamageValue" />
+								<smx_gameoption_1 name="BlockDamagePlayer" title="goBlockDamagePlayer" value_wrap="false" value_type="int" values="25, 50, 75, 100" display_names="" value_localization_prefix="goBlockDamageValue" />
 								<smx_gameoption_1 name="BlockDamageAI" title="goBlockDamageAI" value_wrap="false" value_type="int" values="25, 33, 50, 67, 75, 100, 125, 150, 175, 200, 300" display_names="" value_localization_prefix="goBlockDamageValue" />
 								<smx_gameoption_1 name="BlockDamageAIBM" title="goBlockDamageAIBM" value_wrap="false" value_type="int" values="25, 33, 50, 67, 75, 100, 125, 150, 175, 200, 300" display_names="" value_localization_prefix="goBlockDamageValue" />
-								<smx_gameoption_1 name="LootAbundance" title="goLootAbundance" value_wrap="false" value_type="int" values="25, 33, 50, 67, 75, 100, 150, 200" display_names="" value_localization_prefix="goLootAbundanceValue" />
-								<smx_gameoption_1 name="LootRespawnDays" title="goLootRespawnDays" value_wrap="false" value_type="int" values="-1, 5, 10, 15, 20, 30, 40, 50" display_names="goDisabled" value_localization_prefix="goLootRespawnDaysValue" />
+								<smx_gameoption_1 name="LootAbundance" title="goLootAbundance" value_wrap="false" value_type="int" values="25, 33, 50, 67, 75, 100" display_names="" value_localization_prefix="goLootAbundanceValue" />
+								<smx_gameoption_1 name="LootRespawnDays" title="goLootRespawnDays" value_wrap="false" value_type="int" values="-1, 30, 40, 50" display_names="goDisabled" value_localization_prefix="goLootRespawnDaysValue" />
 								<smx_gameoption_1 name="DropOnDeath" title="goDropOnDeath" value_wrap="false" value_type="int" values="" display_names="goNone,goAll,goToolbelt,goBackpack,goDeleteAll" value_localization_prefix="" />
 								<smx_gameoption_1 name="DropOnQuit" title="goDropOnQuit" value_wrap="false" value_type="int" values="" display_names="goNone,goAll,goToolbelt,goBackpack" value_localization_prefix="" />
 								<smx_gameoption_1 name="BloodMoonEnemyCount" title="goBloodMoonEnemyCount" value_wrap="false" value_type="int" values="4, 6, 8, 10, 12, 16, 24, 32, 64" display_names="" value_localization_prefix="goEnemie" />
 								<smx_gameoption_1 name="EnemySpawnMode" title="goEnemySpawn" value_wrap="false" value_type="bool" values="" display_names="" value_localization_prefix="" />
-								<smx_gameoption_1 name="AirDropFrequency" title="goAirDropFrequency" value_wrap="false" value_type="int" values="0, 24, 72, 168" display_names="goDisabled" value_localization_prefix="goAirDropValue" />
+								<smx_gameoption_1 name="AirDropFrequency" title="goAirDropFrequency" value_wrap="false" value_type="int" values="0" display_names="goDisabled" value_localization_prefix="goAirDropValue" />
 								<smx_gameoption_1 name="BuildCreate" title="goBuildCreate" value_wrap="false" value_type="bool" values="" display_names="" value_localization_prefix="" />
 								<smx_gameoption_1 name="AirDropMarker" title="goMarkAirDrops" value_wrap="false" value_type="bool" values="" display_names="" value_localization_prefix="" />
 							</grid>
@@ -247,11 +247,12 @@
 						
 					<rect tab_key="xuiRavenhearst">
 						<grid pos="6,-40" rows="13" cell_width="525" cell_height="45" repeat_content="false" arrangement="vertical">
-			<smx_gameoption_2 name="RH_CityZombieMultiplier" title="goCityZombieMultiplier" value_wrap="false" value_type="int" values="1, 2, 3" display_names="" value_localization_prefix="goLandClaimOnlineDurabilityModifierValue" />
-			<smx_gameoption_2 name="RH_ZombieRage" title="goZombieRage" value_wrap="false" value_type="bool" values="" display_names="" value_localization_prefix="" />
-			<smx_gameoption_2 name="RH_SightRange" title="goSightRange" value_wrap="false" value_type="int" values="0, 10, 20, 30, 40, 50, 75, 100, 150, 200" display_names="goSightRange0,goSightRange10,goSightRange20,goSightRange30,goSightRange40,goSightRange50,goSightRange75,goSightRange100,goSightRange150,goSightRange200" value_localization_prefix="" />
-			<smx_gameoption_2 name="RH_WanderingHordeFrequency" title="goWanderingHordeFrequency" value_wrap="false" value_type="int" values="0, 1, 2, 3, 4, 5" display_names="goWanderingHordeFrequency1,goWanderingHordeFrequency2,goWanderingHordeFrequency3,goWanderingHordeFrequency4,goWanderingHordeFrequency5,goWanderingHordeFrequency6" value_localization_prefix="" />
-			<smx_gameoption_2 name="RH_WanderingHordeMultiplier" title="goWanderingHordeMultiplier" value_wrap="false" value_type="int" values="1, 2, 3" display_names="goWanderingHordeMultiplier1,goWanderingHordeMultiplier2,goWanderingHordeMultiplier3" value_localization_prefix="" />						
+							<smx_gameoption_1 name="MaxSpawnedZombies" title="goMaxSpawnedZombies" value_wrap="false" value_type="int" values="60, 64, 100" display_names="" value_localization_prefix="goDayLightLengthValue"/>
+							<smx_gameoption_2 name="RH_CityZombieMultiplier" title="goCityZombieMultiplier" value_wrap="false" value_type="int" values="1, 2, 3" display_names="" value_localization_prefix="goLandClaimOnlineDurabilityModifierValue" />
+							<smx_gameoption_2 name="RH_ZombieRage" title="goZombieRage" value_wrap="false" value_type="bool" values="" display_names="" value_localization_prefix="" />
+							<smx_gameoption_2 name="RH_SightRange" title="goSightRange" value_wrap="false" value_type="int" values="0, 10, 20, 30, 40, 50, 75, 100, 150, 200" display_names="goSightRange0,goSightRange10,goSightRange20,goSightRange30,goSightRange40,goSightRange50,goSightRange75,goSightRange100,goSightRange150,goSightRange200" value_localization_prefix="" />
+							<smx_gameoption_2 name="RH_WanderingHordeFrequency" title="goWanderingHordeFrequency" value_wrap="false" value_type="int" values="1, 2, 3, 4, 5" display_names="goWanderingHordeFrequency2,goWanderingHordeFrequency3,goWanderingHordeFrequency4,goWanderingHordeFrequency5,goWanderingHordeFrequency6" value_localization_prefix="" />
+							<smx_gameoption_2 name="RH_WanderingHordeMultiplier" title="goWanderingHordeMultiplier" value_wrap="false" value_type="int" values="2, 3" display_names="goWanderingHordeMultiplier2,goWanderingHordeMultiplier3" value_localization_prefix="" />						
 		</grid>
 					</rect>	
 				</rect>
@@ -273,8 +274,7 @@
 						<sprite name="SMXmenuPanelHeader" pos="-25,70" size="600,80" style="smx_menupanel_header_background" />
 						<sprite name="SMXseparationLineHeader" pos="-2,4" size="5,560" style="smx_menupanel_header_separation" />
 
-						<panel pos="-20,20" width="640" height="340" clipping="softclip" clippingsoftness="20,20" disableautobackground="true">
-						</panel>
+						<panel pos="-20,20" width="640" height="340" clipping="softclip" clippingsoftness="20,20" disableautobackground="true"/>
 
 						<panel name="header" pos="0,0" height="43" depth="1" backgroundspritename="ui_game_panel_header" bordercolor="[black]" borderthickness="3" disableautobackground="true">
 							<label name="windowheader" pos="0,50" size="550,80" style="smx_menupanel_title" text_key="xuiDeleteSaveGame" />
@@ -306,12 +306,14 @@
 				<sprite name="SMXmainMenuBG" depth="2" pos="60,0" size="408,1300" sprite="smxlib_ui_game_element_menu_background" color="[SMXlibElementsBG]" pivot="center" globalopacitymod="1.2" />
 				<sprite name="SMXingameMenuLogo" depth="3" pos="60,140" size="588,588" sprite="scav_ui_game_element_menu_logo" pivot="center" globalopacitymod="1.5" />
 
-				<grid name="SMXoptionsMenuGrid" depth="3" pos="50,-120" rows="13" cell_width="230" cell_height="70" repeat_content="false" arrangement="vertical">
+				<grid name="SMXoptionsMenuGrid" depth="3" pos="50,25" rows="13" cell_width="230" cell_height="70" repeat_content="false" arrangement="vertical">
 					<smx_mainmenubutton_1 name="btnVideo" style="smx_menu_button" caption_key="xuiBtnOptionsVideo" overflow="ShrinkContent" />
 					<smx_mainmenubutton_2 name="btnAudio" style="smx_menu_button" caption_key="xuiBtnOptionsAudio" overflow="ShrinkContent" />
 					<smx_mainmenubutton_3 name="btnControls" style="smx_menu_button" caption_key="xuiBtnOptionsControls" overflow="ShrinkContent" />
 					<smx_mainmenubutton_1 name="btnAccount" style="smx_menu_button" caption_key="xuiBtnOptionsAccount" visible="{notreleaseingame}" overflow="ShrinkContent" />
-					<rect><sprite name="SMXmenuSeparationLine" depth="3" pos="-140,-24" size="301,5" sprite="smxlib_ui_game_element_horizontal_separation_line" color="[SMXlibElementsLineMenu]" /></rect>
+				<smx_mainmenubutton_2 name="btnTwitch" style="smx_menu_button" caption_key="xuiBtnOptionsTwitch" visible="{ingamenoteditor}" />
+				<rect>
+<sprite name="SMXmenuSeparationLine" depth="3" pos="-140,-24" size="301,5" sprite="smxlib_ui_game_element_horizontal_separation_line" color="[SMXlibElementsLineMenu]" /></rect>
 					<smx_mainmenubutton_2 name="btnProfiles" style="smx_menu_button" caption_key="xuiBtnOptionsProfiles" visible="{notingame}" overflow="ShrinkContent" />
 					<smx_mainmenubutton_3 name="btnBack" style="smx_menu_button" caption_key="xuiBack" visible="{ingame}" overflow="ShrinkContent" />
 				</grid>

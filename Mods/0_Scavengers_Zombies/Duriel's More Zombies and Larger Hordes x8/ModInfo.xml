@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Duriel's More Zombies and Larger Random Hordes" />
+		<Description value="Increase zombies and random hordes spawns for more dangerous walks in the wilds." />
+		<Author value="Duriel" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

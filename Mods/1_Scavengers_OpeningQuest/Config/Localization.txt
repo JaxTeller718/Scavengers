@@ -1,9 +1,10 @@
 ﻿Key,English
-quest_BasicSurvival2a,Basic Survival 2/6
-quest_BasicSurvival2b,Basic Survival 3/6
-quest_BasicSurvival3a,Basic Survival 4/6
-quest_BasicSurvival4a,Basic Survival 5/6
-quest_BasicSurvival5a,Basic Survival 6/6
+quest_BasicSurvival2a,Basic Survival 2/7
+quest_BasicSurvival2b,Basic Survival 3/7
+quest_BasicSurvival3a,Basic Survival 4/7
+quest_BasicSurvival4a,Basic Survival 5/7
+quest_BasicSurvival5a,Basic Survival 6/7
+quest_BasicSurvival6a,Basic Survival 7/7
 quest_BasicSurvival2a_subtitle,Craft A Stone Axe
 quest_BasicSurvival2a_description,You will need a stone axe to gather wood and break down some doors. Make a stone axe.
 quest_BasicSurvival2b_subtitle,Craft A Stone Pickaxe
@@ -14,3 +15,5 @@ quest_BasicSurvival4a_subtitle,Craft A Backpack
 quest_BasicSurvival4a_description,Backpack space is very realistic. Fortunately you can craft different tiers of backpacks and wear them to open up space. Each tier is harder to craft but unlocks more space. Craft a Hobo Backpack and wear it.
 quest_BasicSurvival5a_subtitle,Pry Off Loose Boards
 quest_BasicSurvival5a_description,Building is kept realistic. As such you will not be able to just craft frames. You will need to find a house and board it up and reinforce it. There are boards in the world that you can pry from fences and boxes and windows. Pry some of these boards off and take them back to your hideout. While there place them to plug any holes in your base.
+quest_BasicSurvival6a_subtitle,Fill Your Canteen
+quest_BasicSurvival6a_description,Your canteen is a guaranteed source of hydration. Take your empty canteen and fill it. You will then need to boil the water on a campfire to drink it.

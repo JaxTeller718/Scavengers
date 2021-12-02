@@ -4,29 +4,29 @@
   
   
 	<append xpath="/recipes">
-		<recipe name="resourceArrowHeadStone" count="2" craft_time="1">
+		<recipe name="resourceArrowHeadStoneJT" count="2" craft_time="1">
 			<ingredient name="resourceRockSmall" count="1"/>
 		</recipe>
 
-		<recipe name="resourceArrowShaft" count="2" craft_time="0.5">
-			<ingredient name="resourceStick" count="2"/>
+		<recipe name="resourceArrowShaftJT" count="2" craft_time="0.5">
+			<ingredient name="resourceStickJT" count="2"/>
 			<ingredient name="resourceFeather" count="2"/>
 		</recipe>
 		
-<recipe name="resourceSharpenedStone" count="1" craft_time="1">
+<recipe name="resourceSharpenedStoneJT" count="1" craft_time="1">
 	<ingredient name="resourceRockSmall" count="1"/>
 </recipe>
 		
 	</append>
 
-	<set xpath="/recipes/recipe[@name='ammoArrowIron']/ingredient[@name='resourceWood']/@name">resourceArrowShaft</set>
-	<set xpath="/recipes/recipe[@name='ammoArrowStone']/ingredient[@name='resourceWood']/@name">resourceArrowShaft</set>
-	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltIron']/ingredient[@name='resourceWood']/@name">resourceArrowShaft</set>
-	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']/ingredient[@name='resourceWood']/@name">resourceArrowShaft</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowIron']/ingredient[@name='resourceWood']/@name">resourceArrowShaftJT</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowStone']/ingredient[@name='resourceWood']/@name">resourceArrowShaftJT</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltIron']/ingredient[@name='resourceWood']/@name">resourceArrowShaftJT</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']/ingredient[@name='resourceWood']/@name">resourceArrowShaftJT</set>
 
 
-	<set xpath="/recipes/recipe[@name='ammoArrowStone']/ingredient[@name='resourceRockSmall']/@name">resourceArrowHeadStone</set>
-	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']/ingredient[@name='resourceRockSmall']/@name">resourceArrowHeadStone</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowStone']/ingredient[@name='resourceRockSmall']/@name">resourceArrowHeadStoneJT</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltStone']/ingredient[@name='resourceRockSmall']/@name">resourceArrowHeadStoneJT</set>
 
 	<remove xpath="/recipes/recipe[@name='ammoArrowIron']/ingredient[@name='resourceFeather']"/>
 	<remove xpath="/recipes/recipe[@name='ammoArrowStone']/ingredient[@name='resourceFeather']"/>
@@ -35,37 +35,51 @@
 
 
 	<append xpath="/recipes">
-		<recipe name="resourceStick" count="2" craft_time="1">
+		<recipe name="resourceWood" count="10" craft_time="3" craft_area="tableSawJT">
+			<ingredient name="woodLogPillar100JT" count="1"/>
+		</recipe>
+
+	</append>
+	
+	<append xpath="/recipes">
+		<recipe name="resourceStickJT" count="2" craft_time="1">
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+
+	</append>
+	
+	<append xpath="/recipes">
+		<recipe name="resourceStickJT" count="10" craft_time="3" craft_area="tableSawJT">
 			<ingredient name="resourceWood" count="1"/>
 		</recipe>
 
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="resourceFiberCordage" count="1" craft_time="1">
+		<recipe name="resourceFiberCordageJT" count="1" craft_time="1">
 			<ingredient name="resourceYuccaFibers" count="3"/>
 		</recipe>
 
 	</append>
 
 
-	<set xpath="/recipes/recipe[@name='gunBowT0PrimitiveBow']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
-	<set xpath="/recipes/recipe[@name='meleeWpnSpearT0StoneSpear']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
-	<set xpath="/recipes/recipe[@name='meleeToolShovelT0StoneShovel']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
-	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT0StoneSledgehammer']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
-	<set xpath="/recipes/recipe[@name='meleeToolRepairT0StoneAxe']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordage</set>
+	<set xpath="/recipes/recipe[@name='gunBowT0PrimitiveBow']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordageJT</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnSpearT0StoneSpear']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordageJT</set>
+	<set xpath="/recipes/recipe[@name='meleeToolShovelT0StoneShovel']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordageJT</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT0StoneSledgehammer']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordageJT</set>
+	<set xpath="/recipes/recipe[@name='meleeToolRepairT0StoneAxe']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordageJT</set>
 	<set xpath="/recipes/recipe[@name='bedroll']/ingredient[@name='resourceYuccaFibers']/@count">24</set>
 
 
 
 	<append xpath="/recipes">
 		<recipe name="resourceSewingKit" count="1" craft_time="3">
-			<ingredient name="resourceTwine" count="2"/>
+			<ingredient name="resourceTwineJT" count="2"/>
 			<ingredient name="resourceDuctTape" count="1"/>
 			<ingredient name="resourceCloth" count="5"/>
 		</recipe>
 		
-		<recipe name="resourceWoodNail" count="2" craft_time="1">
+		<recipe name="resourceWoodNailJT" count="2" craft_time="1">
 			<ingredient name="resourceWood" count="1"/>
 		</recipe>
 
@@ -74,38 +88,38 @@
 
 
 	<insertAfter xpath="/recipes/recipe[@name='bedroll']/ingredient[@name='resourceYuccaFibers']">
-		<ingredient name="resourceFiberCordage" count="3"/>
-		<ingredient name="resourceStick" count="10"/>
+		<ingredient name="resourceFiberCordageJT" count="3"/>
+		<ingredient name="resourceStickJT" count="10"/>
 
 	</insertAfter>
 
 	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberGloves']/ingredient[@name='resourceYuccaFibers']">
-		<ingredient name="resourceFiberCordage" count="2"/>
+		<ingredient name="resourceFiberCordageJT" count="2"/>
 
 	</insertAfter>
 
 	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberHat']/ingredient[@name='resourceYuccaFibers']">
-		<ingredient name="resourceFiberCordage" count="2"/>
+		<ingredient name="resourceFiberCordageJT" count="2"/>
 
 	</insertAfter>
 
 	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberHood']/ingredient[@name='resourceYuccaFibers']">
-		<ingredient name="resourceFiberCordage" count="2"/>
+		<ingredient name="resourceFiberCordageJT" count="2"/>
 
 	</insertAfter>
 
 	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberPants']/ingredient[@name='resourceYuccaFibers']">
-		<ingredient name="resourceFiberCordage" count="2"/>
+		<ingredient name="resourceFiberCordageJT" count="2"/>
 
 	</insertAfter>
 
 	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberShirt']/ingredient[@name='resourceYuccaFibers']">
-		<ingredient name="resourceFiberCordage" count="2"/>
+		<ingredient name="resourceFiberCordageJT" count="2"/>
 
 	</insertAfter>
 
 	<insertAfter xpath="/recipes/recipe[@name='apparelPlantFiberShoes']/ingredient[@name='resourceYuccaFibers']">
-		<ingredient name="resourceFiberCordage" count="2"/>
+		<ingredient name="resourceFiberCordageJT" count="2"/>
 
 	</insertAfter>
 
@@ -123,7 +137,7 @@ starts-with(@name, 'woodFrame')
 or (contains(@name, 'secureDoorWooden'))
 		
 ]">
-		<ingredient name="resourceWoodNail" count="4"/>
+		<ingredient name="resourceWoodNailJT" count="4"/>
 	</append>
 
 
@@ -160,7 +174,7 @@ or (contains(@name, 'meleeToolWireTool'))
 or (contains(@name, 'switch'))
 or (contains(@name, 'electrictimerrelay'))
 ]">
-		<ingredient name="resourceScrews" count="1"/>
+		<ingredient name="resourceScrewsJT" count="1"/>
 	</append>
 
 
@@ -195,7 +209,7 @@ or (contains(@name, 'dartTrap'))
 or (contains(@name, 'ironDoor1_v1'))
 or (contains(@name, 'scrapHatch_v1'))
 ]">
-		<ingredient name="resourceScrews" count="4"/>
+		<ingredient name="resourceScrewsJT" count="4"/>
 	</append>
 
 	<!-- 
@@ -203,17 +217,31 @@ or (contains(@name, 'scrapHatch_v1'))
 
 	<append xpath="/recipes">
 
-		<recipe name="resourceScrews" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
+		<recipe name="resourceScrewsJT" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
 			<ingredient name="unit_iron" count="1"/>
 			<ingredient name="unit_clay" count="1"/>
 		</recipe>
 		
 
-<recipe name="resourceLeather" count="3" craft_time="30" craft_area="tanningRack">
-	<ingredient name="resourceAnimalHide" count="1"/>
-</recipe>
+		<recipe name="resourceLeather" count="3" craft_time="30" craft_area="tanningRack">
+			<ingredient name="resourceAnimalHideJT" count="1"/>
+		</recipe>
+
 
 	</append>	
 
+	<setattribute xpath="/recipes/recipe[@name='woodFrameBlockVariantHelper']" name="craft_time">2</setattribute>
+
+	<remove xpath="/recipes/recipe[@name='campfire']"/>
+
+	<append xpath="/recipes">
+
+		<recipe name="campfire" count="1" craft_time="10">
+			<ingredient name="resourceRockSmall" count="8"/>
+			<ingredient name="resourceStickJT" count="12"/>
+			<ingredient name="resourceYuccaFibers" count="5"/>
+		</recipe>
+
+	</append>	
 
 </JaxTeller718>

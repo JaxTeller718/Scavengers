@@ -1,0 +1,49 @@
+<JaxTeller718>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='112,300']/@value">80,200</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='155,475']/@value">105,350</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='280,955']/@value">210,725</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='1000']/@value">800</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='188,641']/@value">125,450</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='260,886']/@value">190,750</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='350,1287']/@value">245,1050</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='75,200']/@value">60,150</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='220,750']/@value">105,525</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='300,1100']/@value">180,945</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='1400,4200']/@value">1200,3700</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='120,220']/@value">75,155</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='462,1154']/@value">305,990</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='462,1200']/@value">305,1000</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='288,673']/@value">125,545</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='60,110']/@value">40,80</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='200,500']/@value">115,450</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='300,700']/@value">175,575</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='269,673']/@value">145,490</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='60,88']/@value">30,65</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='212,423']/@value">105,315</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='317,592']/@value">180,375</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='55,112']/@value">35,75</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='133,363']/@value">90,275</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='207,581']/@value">115,390</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='109,200']/@value">75,145</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='385,961']/@value">225,790</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='577,1346']/@value">325,1115</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='150,300']/@value">95,225</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='350,700']/@value">215,475</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='50,100']/@value">25,75</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='160,350']/@value">85,275</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='170,320']/@value">100,225</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='200,400']/@value">115,320</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='250,550']/@value">135,415</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='300,650']/@value">195,515</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='80,150']/@value">50,105</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='60,150']/@value">35,100</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='180,350']/@value">95,225</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='100,200']/@value">65,155</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='120,250']/@value">85,195</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='250,600']/@value">165,495</set>
+	<!-- <set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='1500']/@value">1600</set> -->
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='250,500']/@value">175,425</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='5000,10000']/@value">2000,8000</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax' and @value='1000,6000']/@value">850,3000</set>
+	<set xpath="/items/item[@name='meleeWpnSledgeT0StoneSledgehammer']/effect_group/passive_effect[@name='DegradationMax']/@value">95,215</set>
+</JaxTeller718>

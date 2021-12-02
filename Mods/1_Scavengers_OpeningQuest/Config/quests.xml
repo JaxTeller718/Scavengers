@@ -6,12 +6,12 @@
 
 
 	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='FetchKeep' and @id='resourceYuccaFibers']">
-		<objective type="Craft" id="resourceFiberCordage" value="3" phase="1"/>
+		<objective type="Craft" id="resourceFiberCordageJT" value="3" phase="1"/>
 
 	</insertAfter>
 	
-	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='Craft' and @id='resourceFiberCordage']">
-		<objective type="FetchKeep" id="resourceStick" value="10" phase="1"/>
+	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='Craft' and @id='resourceFiberCordageJT']">
+		<objective type="FetchKeep" id="resourceStickJT" value="10" phase="1"/>
 
 	</insertAfter>
 	
@@ -32,9 +32,9 @@
 		<property name="offer_key" value="quest_BasicSurvival_offer"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="resourceRockSmall" value="2" phase="1"/>
-		<objective type="FetchKeep" id="resourceWood" value="2" phase="1"/>
-		<objective type="Craft" id="resourceFiberCordage" value="2" phase="1"/>
+		<objective type="Craft" id="resourceSharpenedStoneJT" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceStickJT" value="8" phase="1"/>
+		<objective type="Craft" id="resourceFiberCordageJT" value="4" phase="1"/>
 
 		
 		<objective type="Craft" id="meleeToolRepairT0StoneAxe" value="1" phase="2"/>
@@ -54,15 +54,15 @@
 		<property name="offer_key" value="quest_BasicSurvival_offer"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="resourceRockSmall" value="2" phase="1"/>
-		<objective type="FetchKeep" id="resourceWood" value="2" phase="1"/>
-		<objective type="Craft" id="resourceFiberCordage" value="2" phase="1"/>	
+		<objective type="Craft" id="resourceSharpenedStoneJT" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceStickJT" value="8" phase="1"/>
+		<objective type="Craft" id="resourceFiberCordageJT" value="4" phase="1"/>	
 
 		<objective type="Craft" id="meleeToolPickT0StonePickaxe" value="1" phase="2"/>
 
 
 		<reward type="Exp" value="50"/>
-		<reward type="Quest" id="quest_BasicSurvival3a"/>
+		<reward type="Quest" id="quest_BasicSurvival4a"/>
 	</quest>
 	
 	<quest id="quest_BasicSurvival3a">
@@ -94,9 +94,9 @@
 		<property name="offer_key" value="quest_BasicSurvival_offer"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="resourceYuccaFibers" value="32" phase="1"/>
-		<objective type="FetchKeep" id="resourceStick" value="12" phase="1"/>
-		<objective type="Craft" id="resourceFiberCordage" value="8" phase="1"/>
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="56" phase="1"/>
+		<objective type="FetchKeep" id="resourceStickJT" value="12" phase="1"/>
+		<objective type="Craft" id="resourceFiberCordageJT" value="8" phase="1"/>
 
 		<objective type="Craft" id="backpackT0" value="1" phase="2"/>
 
@@ -123,8 +123,30 @@
 
 
 		<reward type="Exp" value="50"/>
-<!-- 		<reward type="Quest" id="quest_BasicSurvival4a"/>
- -->	</quest>
+		<reward type="Quest" id="quest_BasicSurvival6a"/>
+	</quest>
+ 
+ 	<quest id="quest_BasicSurvival6a">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="quest_BasicSurvival6a"/>
+		<property name="subtitle_key" value="quest_BasicSurvival6a_subtitle"/>
+		<property name="description_key" value="quest_BasicSurvival6a_description"/>
+		<property name="icon" value="ui_game_symbol_hammer"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="quest_BasicSurvival_offer"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceRockSmall" value="8" phase="1"/>
+		<objective type="FetchKeep" id="resourceStickJT" value="12" phase="1"/>
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="5" phase="1"/>
+		<objective type="Craft" id="campfire" value="1" phase="1"/>
+		<objective type="BlockPlace" id="campfire" value="1" phase="1"/>
+		
+		<objective type="FetchKeep" id="drinkCanteenFull" value="1" phase="2"/>
+		<objective type="Craft" id="drinkCanteenCleaned" value="1" phase="2"/>
+
+		<reward type="Exp" value="50"/>
+	</quest>
 	
 </insertAfter>
 

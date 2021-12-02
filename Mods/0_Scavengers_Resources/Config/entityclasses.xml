@@ -49,7 +49,7 @@
 	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@event='Harvest' and @name='resourceAnimalFat']/@count">3</set>
 	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@event='Harvest' and @name='resourceBone']/@count">9</set>
 	
-	<set xpath="//drop[@event='Harvest' and @name='resourceLeather']/@name">resourceAnimalHide</set>
+	<set xpath="//drop[@event='Harvest' and @name='resourceLeather']/@name">resourceAnimalHideJT</set>
 
 
 </JaxTeller718>

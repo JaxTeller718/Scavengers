@@ -1,0 +1,20 @@
+<configs>
+
+
+<set xpath="/entity_classes/entity_class[@name='playerMale']//passive_effect[@name='HarvestCount' and contains( @tags, 'cropHarvest')]/@tags">allHarvest,oreWoodHarvest</set>
+
+	<insertAfter xpath="entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='HarvestCount' and contains( @tags, 'artOfMiningLuckyStrikeHarvest')]" >
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="cropHarvest,wildCropsHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="ironHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="leadHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="coalHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="nitrateHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="copperHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="treeHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="rockHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="oakWoodHarvest"/>
+
+
+	</insertAfter>
+
+</configs>
