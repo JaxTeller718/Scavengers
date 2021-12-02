@@ -5,13 +5,13 @@
 
 
 
-		<item name="meleeWpnBladeT3Katana">
+		<item name="meleeWpnBladeT4Katana">
 			<!-- T3 Blades -->
 			<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 			<property name="DisplayType" value="meleeKnife"/>
 			<property name="HoldType" value="47"/>
 			<property name="Meshfile" value="#@modfolder:Resources/JaxTeller718_Katana.unity3d?meleeKatana.prefab"/>
-			<property name="Material" value="MmeleeToolKnifeKatana"/>
+			<property name="Material" value="MmeleeWpnBladeT4Katana"/>
 			<property name="Weight" value="6"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
@@ -20,7 +20,7 @@
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
-			<property name="UnlockedBy" value="meleeWpnBladeT3KatanaSchematic"/>
+			<property name="UnlockedBy" value="meleeWpnBladeT4KatanaSchematic"/>
 			<property name="ShowQuality" value="true"/>
 
 			<property class="Action0">
@@ -69,7 +69,7 @@
 					<property name="Override0" value="organic" param1="metalgrazeorganic"/>
 				</property>
 			</property>
-			<effect_group name="meleeWpnBladeT3Katana">
+			<effect_group name="meleeWpnBladeT4Katana">
 				<passive_effect name="EntityDamage" operation="base_set" value="21.8"/>
 				<!-- meleeWpnBladeT3Katana -->
 				<passive_effect name="BlockDamage" operation="base_set" value="23"/>
@@ -107,21 +107,21 @@
 			</effect_group>
 		</item>
 
-		<item name="meleeToolKnifeKatanaParts">
+		<item name="meleeWpnBladeT4KatanaParts">
 			<property name="Extends" value="gunMGT1AK47Parts"/>
 			<property name="CustomIcon" value="meleeToolKnifeMacheteParts"/>
 			<property name="CustomIconTint" value="#ff0000"/>
-			<property name="Material" value="MmeleeToolKnifeKatana"/>
+			<property name="Material" value="MmeleeWpnBladeT4Katana"/>
 			<property name="EconomicValue" value="200"/>
 		</item>
 
-		<item name="meleeWpnBladeT3KatanaSchematic">
+		<item name="meleeWpnBladeT4KatanaSchematic">
 			<property name="Extends" value="schematicMaster"/>
 			<property name="CreativeMode" value="Player"/>
-			<property name="CustomIcon" value="meleeWpnBladeT3Katana"/>
-			<property name="Unlocks" value="meleeWpnBladeT3Katana"/>
+			<property name="CustomIcon" value="meleeWpnBladeT4Katana"/>
+			<property name="Unlocks" value="meleeWpnBladeT4Katana"/>
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT3Katana" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT4Katana" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>

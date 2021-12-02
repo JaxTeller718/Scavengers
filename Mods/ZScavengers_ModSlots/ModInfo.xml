@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xml>
 	<ModInfo>
-		<Name value="0_Scavengers_ModSlots" />
+		<Name value="ZScavengers_ModSlots" />
 		<Description value="Controls the number of mod slots per quality level" />
 		<Author value="JaxTeller718"/>
 		<Version value="A19" />

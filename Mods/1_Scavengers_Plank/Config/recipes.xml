@@ -12,7 +12,7 @@
 			<ingredient name="resourceRockSmall" count="2" />
 		</recipe> -->
 
-		<recipe name="meleePlank" count="1" craft_time="4">
+		<recipe name="meleeWpnClubT0Plank" count="1" craft_time="4">
 			<ingredient name="resourceWood" count="1" />
 		</recipe>
 

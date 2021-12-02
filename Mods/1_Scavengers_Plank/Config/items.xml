@@ -7,7 +7,7 @@
 
 
 
-		<item name="meleePlank">
+		<item name="meleeWpnClubT0Plank">
 			<!-- T1 clubs -->
 			<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete"/>
 			<property name="DisplayType" value="melee"/>
@@ -64,7 +64,7 @@
 				</property>
 			</property>
 
-			<effect_group name="meleePlank">
+			<effect_group name="meleeWpnClubT0Plank">
 				<passive_effect name="EntityDamage" operation="base_set" value="9.8"/>
 				<!-- meleeClubWood -->
 				<passive_effect name="BlockDamage" operation="base_set" value="10.6"/>

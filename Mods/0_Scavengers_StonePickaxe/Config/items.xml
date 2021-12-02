@@ -3,8 +3,10 @@
 	<remove xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']" />
 
 
-	<append xpath="/items">	
 
+
+
+	<insertBefore xpath="/items/item[@name='meleeToolRepairT1ClawHammer']">
 
 
 
@@ -116,7 +118,9 @@
 	</effect_group>
 </item>
 
+	</insertBefore>
 
+	<insertBefore xpath="/items/item[@name='meleeToolPickT1IronPickaxe']">
 
 <item name="meleeToolPickT0StonePickaxe">
 	<property name="Tags" value="melee,grunting,medium,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
@@ -196,7 +200,7 @@
 </item>
 
 
-	</append>
+	</insertBefore>
 
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">resourceWood,resourceClayLump,resourceScrapIron,resourceYuccaFibers</set>
 

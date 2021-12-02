@@ -2,27 +2,27 @@
 
 
 	<append xpath="lootcontainers/lootgroup[@name='schematicsToolsT2']">
-		<item name="meleeToolSalvageT1CrowbarSchematic"/>
+		<item name="meleeToolSalvageT4CrowbarSchematic"/>
 
 	</append>
 
 	<append xpath="lootcontainers/lootgroup[@name='automotive']">
-		<item name="meleeToolSalvageT1Crowbar" prob="0.0015" />
+		<item name="meleeToolSalvageT4Crowbar" prob="0.0015" />
 
 	</append>
 
 
 	<append xpath="lootcontainers/lootgroup[@name='groupQuestTools']">
-		<item name="meleeToolSalvageT1Crowbar" loot_prob_template="GradeCLootLow"/>
+		<item name="meleeToolSalvageT4Crowbar" loot_prob_template="GradeCLootLow"/>
 
 	</append>
 
 	<append xpath="/lootcontainers/lootgroup[@name='junk']">
-		<item name="meleeToolSalvageT1Crowbar" prob="0.4"/>
+		<item name="meleeToolSalvageT4Crowbar" prob="0.4"/>
 	</append>
 
 	<append xpath="/lootcontainers/lootcontainer[@id='124']">
-		<item name="meleeToolSalvageT1Crowbar" prob="0.4"/>
+		<item name="meleeToolSalvageT4Crowbar" prob="0.4"/>
 	</append>
 
 

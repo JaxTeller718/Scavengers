@@ -6,18 +6,18 @@
 
 
 
-		<recipe name="meleeToolKnifeKatanaParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap">
+		<recipe name="meleeWpnBladeT4KatanaParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap">
 			<wildcard_forge_category />
 		</recipe>
 
-		<recipe name="meleeWpnBladeT3Katana" count="1" craft_area="workbench" craft_time="60" tags="learnable,perkDeepCuts">
-			<ingredient name="meleeToolKnifeKatanaParts" count="5"/>
+		<recipe name="meleeWpnBladeT4Katana" count="1" craft_area="workbench" craft_time="60" tags="learnable,perkDeepCuts">
+			<ingredient name="meleeWpnBladeT4KatanaParts" count="5"/>
 			<ingredient name="resourceForgedSteel" count="10"/>
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceLeather" count="3"/>
 			<ingredient name="resourceDuctTape" count="3"/>
 			<effect_group>
-				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="meleeToolKnifeKatanaParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape"/>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="meleeWpnBladeT4KatanaParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape"/>
 			</effect_group>
 		</recipe>
 

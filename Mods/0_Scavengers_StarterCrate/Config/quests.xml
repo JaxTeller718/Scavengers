@@ -23,7 +23,7 @@
 		<reward type="Item" id="keystoneBlock" value="1" isfixed="true"/>
 <!-- 		<reward type="Item" id="cntStartingStorage" value="1" isfixed="true"/>
 		<reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="6" isfixed="true"/> -->
-		<reward type="Item" id="meleePlank" value="6" isfixed="true"/>
+		<reward type="Item" id="meleeWpnClubT0Plank" value="6" isfixed="true"/>
 
 	</quest>
 

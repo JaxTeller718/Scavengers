@@ -4,7 +4,7 @@
 
 
 
-		<recipe name="meleeToolSalvageT1Crowbar" count="1" tags="learnable,perkSalvageOperations">
+		<recipe name="meleeToolSalvageT4Crowbar" count="1" tags="learnable,perkSalvageOperations">
 			<ingredient name="resourceForgedSteel" count="12"/>
 			<ingredient name="resourceMechanicalParts" count="4"/>
 			<ingredient name="resourceDuctTape" count="2"/>

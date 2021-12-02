@@ -6,7 +6,7 @@
 
 
 
-		<item name="meleeToolSalvageT1Crowbar">
+		<item name="meleeToolSalvageT4Crowbar">
 			<!-- T2 Salvage -->
 			<property name="Tags" value="blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
 			<property name="DisplayType" value="melee"/>
@@ -18,7 +18,7 @@
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="metaldestroy"/>
 			<property name="EconomicValue" value="350"/>
-			<property name="UnlockedBy" value="meleeToolSalvageT1CrowbarSchematic"/>
+			<property name="UnlockedBy" value="meleeToolSalvageT4CrowbarSchematic"/>
 			<property name="ShowQuality" value="true"/>
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
@@ -42,7 +42,7 @@
 				<!-- <property name="UsePowerAttackAnimation" value="true"/> -->
 			</property>
 
-			<effect_group name="meleeToolSalvageT1Crowbar">
+			<effect_group name="meleeToolSalvageT4Crowbar">
 				<passive_effect name="EntityDamage" operation="base_set" value="21"/>
 				<!-- meleeToolSalvageT1Crowbar -->
 				<passive_effect name="BlockDamage" operation="base_set" value="32.5"/>
@@ -83,13 +83,13 @@
 		</item>
 
 
-		<item name="meleeToolSalvageT1CrowbarSchematic">
+		<item name="meleeToolSalvageT4CrowbarSchematic">
 			<property name="Extends" value="schematicMaster"/>
 			<property name="CreativeMode" value="Player"/>
-			<property name="CustomIcon" value="meleeToolSalvageT1Crowbar"/>
-			<property name="Unlocks" value="meleeToolSalvageT1Crowbar"/>
+			<property name="CustomIcon" value="meleeToolSalvageT4Crowbar"/>
+			<property name="Unlocks" value="meleeToolSalvageT4Crowbar"/>
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT1Crowbar" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT4Crowbar" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
