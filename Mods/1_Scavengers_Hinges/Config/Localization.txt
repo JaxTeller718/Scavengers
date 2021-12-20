@@ -1,0 +1,3 @@
+﻿Key,Source,Context,English
+resourceBrassHingeJT,items,Item,Brass Hinge
+resourceBrassHingeJTDesc,items,Item,Door hinges can be used to make doors and storage or can be scrapped into scrap brass in your backpack or smelted in a forge as a core resource.

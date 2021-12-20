@@ -4,5 +4,5 @@ tutorialTipQuest01_title,Journal,,Welcome to Scavengers
 tutorialTipQuest02,Journal,,"Things have changed dramatically. Find suitable shelter before nightfall and get acquainted with what has changed."
 tutorialTipQuest02_title,Journal,,Getting Started
 uiLoadCreatingWorld,UI,Game loading,Destroying the World...
-uiLoadLoadingXml,UI,Game loading,Loading Scavengers v19.6b8-4.6.0
+uiLoadLoadingXml,UI,Game loading,Loading Scavengers v20.0b233-5.0.3
 uiLoadStartingGame,UI,Game loading,Starting game...

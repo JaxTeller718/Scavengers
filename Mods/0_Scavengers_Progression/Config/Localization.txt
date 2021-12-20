@@ -1,0 +1,49 @@
+﻿Key,Source,Context,English
+
+bookDeadEyeJT,items,Item,Book: Dead Eye
+bookDemolitionsExpertJT,items,Item,Book: Demolitions Expert
+bookJavelinMasterJT,items,Item,Book: Javelin Master
+bookLockPickingJT,items,Item,Book: Dead
+bookInfiltratorJT,items,Item,Book: Lock Picking
+bookAnimalTrackerJT,items,Item,Book: Animal Tracker
+bookPenetratorJT,items,Item,Book: Penetrator
+bookLuckyLooterJT,items,Item,Book: Lucky Looter
+bookTreasureHunterJT,items,Item,Book: Treasure Hunter
+bookSalvageOperationsJT,items,Item,Book: Salvage Operations
+bookBoomstickJT,items,Item,Book: Boomstick
+bookPummelPeteJT,items,Item,Book: Pummel Pete
+bookSkullCrusherJT,items,Item,Book: Skull Crusher
+bookSexualTrexJT,items,Item,Book: Sexual Trex
+bookHeavyArmorJT,items,Item,Book: Heavy Armor
+bookPackMuleJT,items,Item,Book: Pack Mule
+bookMasterChefJT,items,Item,Book: Master Chef
+bookMiner69rJT,items,Item,Book: Miner 69r
+bookMotherLodeJT,items,Item,Book: Mother Lode
+bookBrawlerJT,items,Item,Book: Brawler
+bookMachineGunnerJT,items,Item,Book: Machine Gunner
+bookTheHuntsmanJT,items,Item,Book: The Huntsman
+bookWellInsulatedJT,items,Item,Book: Well Insulated
+bookLivingOffTheLandJT,items,Item,Book: Living Off The Land
+bookPainToleranceJT,items,Item,Book: Pain Tolerance
+bookHealingFactorJT,items,Item,Book: Healing Factor
+bookSlowMetabolismJT,items,Item,Book: Slow Metabolism
+bookRuleOneCardioJT,items,Item,Book: Rule One Cardio
+bookArcheryJT,items,Item,Book: Archery
+bookGunslingerJT,items,Item,Book: Gunslinger
+bookDeepCutsJT,items,Item,Book: Deep Cuts
+bookRunAndGunJT,items,Item,Book: Run And Gun
+bookFlurryOfBlowsJT,items,Item,Book: Flurry Of Blows
+bookLightArmorJT,items,Item,Book: Light Armor
+bookParkourJT,items,Item,Book: Parkour
+bookHiddenStrikeJT,items,Item,Book: Hidden Strike
+bookFromTheShadowsJT,items,Item,Book: From The Shadows
+bookElectrocutionerJT,items,Item,Book: Electrocutioner
+bookTurretsJT,items,Item,Book: Turrets
+bookBetterBarterJT,items,Item,Book: Better Barter
+bookDaringAdventurerJT,items,Item,Book: Daring Adventurer
+bookCharismaticNatureJT,items,Item,Book: Charismatic Nature
+bookPhysicianJT,items,Item,Book: Physician
+bookAdvancedEngineeringJT,items,Item,Book: Advanced Engineering
+bookGreaseMonkeyJT,items,Item,Book: Grease Monkey
+
+scavengerPerkBookDesc,items,Item,Book: Reading this book will grant you one level in the named perk.

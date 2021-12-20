@@ -30,4 +30,6 @@
 <append xpath="lootcontainers/lootgroup[@name='schematicsToolsT0']"><item name="bookFakeGucci1" prob=".1"/></append>
 <append xpath="lootcontainers/lootgroup[@name='schematicsToolsT1']"><item name="bookFakeGucci" prob=".1"/></append>
 <append xpath="lootcontainers/lootgroup[@name='schematicsToolsT2']"><item name="bookFakeGucci2" prob=".1"/></append>
+<append xpath="lootcontainers/lootgroup[@name='schematicsToolsT2']"><item name="bookFakeGucci2" prob=".05"/></append>
+
 </config>

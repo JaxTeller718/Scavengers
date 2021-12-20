@@ -66,7 +66,6 @@
 	<property name="CustomIcon" value="apparelCigar"/>
 	<property name="DescriptionKey" value="equipAccessoiresDesc"/>
 	<property name="DisplayType" value="clothingCigar"/>
-	<property name="UnlockedBy" value="perkUrbanCombatControlledBreathing"/>
 	<property name="Group" value="Clothing"/>
 	<property name="Tags" value="head"/>
 
@@ -189,6 +188,48 @@
 		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.05"/>
 	</effect_group>
 </item>
+<item name="backpackT0V1">
+	<property name="CustomIcon" value="backpackT1Icon"/>
+	<property name="DescriptionKey" value="backpackT0V1Desc"/>
+	<property name="PickupJournalEntry" value="TrueInventoryTip"/>
+	<property name="Tags" value="backpack"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Group" value="Clothing,common,tailorRole"/>
+	
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Weight" value="24"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="EconomicValue" value="2500"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EquipSlot" value="Face"/>
+	<property class="UMA">
+		<property name="Mesh" value=""/>
+		<property name="Overlay0" value=""/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Face"/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="backpackT0V1block"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<display_value name="dCarryCapacity" value="10"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!HoldingItemHasTags" tags="backpack"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT0V1"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT0V1"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.01"/>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.01"/>
+		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.03"/>
+	</effect_group>
+</item>
 <item name="backpackT1">
 	<property name="CustomIcon" value="backpackT1Icon"/>
 	<property name="DescriptionKey" value="backpackT1Desc"/>
@@ -220,12 +261,54 @@
 	</property>
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<display_value name="dCarryCapacity" value="10"/>
+		<display_value name="dCarryCapacity" value="15"/>
 	</effect_group>
 	<effect_group tiered="false">
 		<requirement name="!HoldingItemHasTags" tags="backpack"/>
 		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT1"/>
 		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT1"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.02"/>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.02"/>
+		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.04"/>
+	</effect_group>
+</item>
+<item name="backpackT1V1">
+	<property name="CustomIcon" value="backpackT1Icon"/>
+	<property name="DescriptionKey" value="backpackT1V1Desc"/>
+	<property name="PickupJournalEntry" value="TrueInventoryTip"/>
+	<property name="Tags" value="backpack"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Group" value="Clothing,common,tailorRole"/>
+	
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Weight" value="24"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="6"/>
+	<property name="EconomicValue" value="2500"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EquipSlot" value="Face"/>
+	<property class="UMA">
+		<property name="Mesh" value=""/>
+		<property name="Overlay0" value=""/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Face"/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="backpackT1block"/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<display_value name="dCarryCapacity" value="20"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!HoldingItemHasTags" tags="backpack"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT1V1"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT1V1"/>
 		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.03"/>
 		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.03"/>
 		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.05"/>
@@ -263,7 +346,7 @@
 	</property>
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<display_value name="dCarryCapacity" value="30"/>
+		<display_value name="dCarryCapacity" value="25"/>
 	</effect_group>
 	<effect_group tiered="false">
 		<requirement name="!HoldingItemHasTags" tags="backpack"/>
@@ -317,38 +400,6 @@
 		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.08"/>
 	</effect_group>
 </item>
-<item name="bookFakeGucci">
-	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
-	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
-	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
-	<property name="Unlocks" value="backpackT2V2"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT2V2" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-	</effect_group>
-</item>
-
-<item name="bookFakeGucci1">
-	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
-	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
-	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
-	<property name="Unlocks" value="backpackT2V2"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT2V2" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-	</effect_group>
-</item>
-
-<item name="bookFakeGucci2">
-	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
-	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
-	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
-	<property name="Unlocks" value="backpackT2V2"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT2V2" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-	</effect_group>
-</item>
 <item name="backpackT3" tiered="false">
 	<property name="CustomIcon" value="backpackT3Icon"/>
 	<property name="DescriptionKey" value="backpackT3Desc"/>
@@ -387,6 +438,49 @@
 		<requirement name="!HoldingItemHasTags" tags="backpack"/>
 		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT3"/>
 		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT3"/>
+		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.08"/>
+		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.08"/>
+		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.1"/>
+	</effect_group>
+</item>
+<item name="backpackT3V1" tiered="false">
+	<property name="CustomIcon" value="backpackT3Icon"/>
+	<property name="DescriptionKey" value="backpackT3V1Desc"/>
+	<property name="PickupJournalEntry" value="TrueInventoryTip"/>
+	<property name="UnlockedBy" value="bookFakeGucci3"/>
+	<property name="Tags" value="backpack"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Group" value="Clothing,tailorRole"/>
+	
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_4"/>
+	<property name="Material" value="MmilitaryFiber"/>
+	<property name="Weight" value="24"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="FuelValue" value="12"/>
+	<property name="EconomicValue" value="15000"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EquipSlot" value="Face"/>
+	<property class="UMA">
+		<property name="Mesh" value=""/>
+		<property name="Overlay0" value=""/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Face"/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="backpackT3block"/>
+	</property>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<display_value name="dCarryCapacity" value="40"/>
+	</effect_group>
+	<effect_group>
+		<requirement name="!HoldingItemHasTags" tags="backpack"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="backpackT3V1"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="backpackT3V1"/>
 		<passive_effect name="RunSpeed" operation="perc_subtract" value="0.08"/>
 		<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.08"/>
 		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.1"/>
@@ -433,5 +527,49 @@
 		<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.05"/>
 	</effect_group>
 </item>
+<item name="bookFakeGucci">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
+	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
+	<property name="Unlocks" value="backpackT2"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT2" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="bookFakeGucci1">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
+	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
+	<property name="Unlocks" value="backpackT2V2"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT2V2" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="bookFakeGucci2">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
+	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
+	<property name="Unlocks" value="backpackT3"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT3" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+<item name="bookFakeGucci3">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CustomIcon" value="bookNeedleAndThreadWinterWear"/>
+	<property name="DescriptionKey" value="bookFakeGucciDesc"/>
+	<property name="Unlocks" value="backpackT3V1"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="backpackT3V1" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
 </append>
 </config>

@@ -1,3 +1,3 @@
-Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
-CrowBar,items,Tool,KgNone,"Crow Bar",,,,,
-CrowBarDesc,items,Tool,KgNone,"Open up crates and boarded doors and windows quicker with the crow bar. Uses Breaking and Entering perk for quicker times.",,,,,
+Key,Source,Context,English
+boardedWindowsSheet_weak,blocks,Block,Zombie Barricades,,,,,
+boardedWindowsSheet_weakDesc,blocks,Block,These pried loose boards can be used to board up windows and doorways while hunting for supplies. They are easily picked up and transported.,,,,,

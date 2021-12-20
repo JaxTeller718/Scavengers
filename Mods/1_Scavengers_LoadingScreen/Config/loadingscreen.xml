@@ -4,4 +4,9 @@
 	<set xpath="/doc/backgrounds/tex[@file='GUI/loading_screen_3']/@file">@modfolder:UIAtlases/ItemIconAtlas/rh3.png</set>
 	<set xpath="/doc/backgrounds/tex[@file='GUI/loading_screen_4']/@file">@modfolder:UIAtlases/ItemIconAtlas/rh4.png</set>
 
+	<insertAfter xpath="/doc/backgrounds/tex[@file='@modfolder(1_Scavengers_LoadingScreen):UIAtlases/ItemIconAtlas/rh4.png']">
+
+		<tex file="@modfolder(1_Scavengers_LoadingScreen):UIAtlases/ItemIconAtlas/rh5.png" />
+	</insertAfter>
+		
 </JaxTeller718>

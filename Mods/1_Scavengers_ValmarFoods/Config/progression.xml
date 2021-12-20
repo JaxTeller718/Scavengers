@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<configs>
-	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='1,5']/@tags">,Biscuit_Name,Biscuit With Jam,Tuna_Sandwich</append>
-	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='2,5']/@tags">,Ramen Soup,Soup_Mushroom</append>
-	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='3,5']/@tags">,Bacon Egg Sandwich,Fish Pie,Grill Steak</append>
-	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='4,5']/@tags">,Hamburger_Name,Honey Ham,Grill_Steak_Sandwich,Soup_ChunkyBeef</append>
-    <append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='5,5']/@tags">,Health_Drink</append>
-</configs>

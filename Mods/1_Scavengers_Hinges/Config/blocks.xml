@@ -1,0 +1,74 @@
+<JaxTeller718>
+	<insertAfter xpath="/blocks/block[@name='commercialDoor1_v1']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="1,2" prob=".5" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoor1_v2']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoor1_v3']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoor2_v1']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="1,2" prob=".5" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoor2_v2']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoor2_v3']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoor4_v1']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="1,2" prob=".5" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoor4_v2']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='commercialDoor4_v3']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='houseFrontDoor1_v1']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="1,2" prob=".5" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='houseFrontDoor1_v2']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='houseFrontDoor1_v3']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='houseFrontDoor2_v1']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="1,2" prob=".5" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='houseFrontDoor2_v2']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='houseFrontDoor2_v3']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='woodHatch1_v1']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="1,2" prob=".5" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='woodHatch1_v2']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='woodHatch1_v3']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='scrapHatch_v1']/drop[@event='Destroy']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="1,2" prob=".5" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='scrapHatch_v2']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='scrapHatch_v3']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='vaultHatch_v1']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="1,2" prob=".5" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='vaultHatch_v2']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='vaultHatch_v3']/property[@name='SortOrder2']">
+		<drop event="Destroy" name="resourceBrassHingeJT" count="0" prob="1" tag="allHarvest"/>
+	</insertAfter>
+</JaxTeller718>

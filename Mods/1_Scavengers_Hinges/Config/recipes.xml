@@ -1,0 +1,84 @@
+<JaxTeller718>
+	<remove xpath="/recipes/recipe[@name='woodSignBlockVariantHelper']"/>
+	<append xpath="/recipes/recipe[@name='cntSecureStorageChest']">
+		<ingredient name="resourceBrassHingeJT" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ironDoor1_v1']">
+		<ingredient name="resourceBrassHingeJT" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='vaultDoor01']">
+		<ingredient name="resourceBrassHingeJT" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='vaultHatch_v1']">
+		<ingredient name="resourceBrassHingeJT" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='woodHatch1_v1']">
+		<ingredient name="resourceBrassHingeJT" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='scrapHatch_v1']">
+		<ingredient name="resourceBrassHingeJT" count="2"/>
+	</append>
+	<append xpath="/recipes">
+		<recipe name="commercialDoor1_v1" count="1" craft_area="workbench" tags="workbenchCrafting" craft_time="120">
+			<ingredient name="resourceForgedIron" count="12"/>
+			<ingredient name="resourceSpring" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceScrewsJT" count="4"/>
+			<ingredient name="resourceBrassHingeJT" count="2"/>
+		</recipe>
+		<recipe name="commercialDoor2_v1" count="1" craft_area="workbench" tags="workbenchCrafting" craft_time="120">
+			<ingredient name="resourceForgedIron" count="12"/>
+			<ingredient name="resourceSpring" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceScrewsJT" count="4"/>
+			<ingredient name="resourceBrassHingeJT" count="2"/>
+		</recipe>
+		<recipe name="commercialDoor4_v1" count="1" craft_area="workbench" tags="workbenchCrafting" craft_time="120">
+			<ingredient name="resourceForgedIron" count="12"/>
+			<ingredient name="resourceSpring" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceScrewsJT" count="4"/>
+			<ingredient name="resourceBrassHingeJT" count="2"/>
+		</recipe>
+		<recipe name="houseFrontDoor1_v1" count="1" craft_area="workbench" tags="workbenchCrafting" craft_time="1">
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourceSpring" count="2"/>
+			<ingredient name="resourceNail" count="2"/>
+			<ingredient name="resourceDoorKnob" count="1"/>
+			<ingredient name="resourceBrassHingeJT" count="2"/>
+		</recipe>
+		<recipe name="houseFrontDoor2_v1" count="1" craft_area="workbench" tags="workbenchCrafting" craft_time="1">
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourceSpring" count="2"/>
+			<ingredient name="resourceNail" count="2"/>
+			<ingredient name="resourceDoorKnob" count="1"/>
+			<ingredient name="resourceBrassHingeJT" count="2"/>
+		</recipe>
+		<recipe name="playerSignWood1x1" count="1">
+			<ingredient name="resourceNail" count="5"/>
+			<ingredient name="resourceWood" count="5"/>
+		</recipe>
+		<recipe name="playerSignWood1x3" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="playerSignWood2x5" count="1">
+			<ingredient name="resourceNail" count="15"/>
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+		<recipe name="signShopColdBeer" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+		<recipe name="cntStorageGeneric" count="1" craft_area="tableSawRH">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>
+			<ingredient name="resourceBrassHingeJT" count="2"/>
+		</recipe>
+		<recipe name="cntStorageGenericSigned" count="1" craft_area="tableSawRH">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>
+			<ingredient name="resourceBrassHingeJT" count="2"/>
+		</recipe>
+	</append>
+</JaxTeller718>

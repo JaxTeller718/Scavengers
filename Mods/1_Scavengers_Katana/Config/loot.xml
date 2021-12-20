@@ -1,29 +1,31 @@
 <JaxTeller718>
 
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT2']" >
-		<item name="meleeWpnBladeT4KatanaSchematic"/>
+		<item name="meleeWpnBladeT4KatanaJTSchematic"/>
 	</append>
-
-
-
 
 	<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
-		<item name="meleeWpnBladeT4Katana"/>
-
+		<item name="meleeWpnBladeT4KatanaJT"/>
 	</append>
+	
 	<append xpath="lootcontainers/lootgroup[@name='groupWeapons_MeleeParts']">
-		<item name="meleeWpnBladeT4KatanaParts" count="2,5"/>
-
+		<item name="meleeWpnBladeT4KatanaPartsJT" count="2,5"/>
 	</append>
-
-
 
 	<append xpath="lootcontainers/lootgroup[@name='weaponParts']">
-		<item name="meleeWpnBladeT4KatanaParts" count="1,4"/>
-
+		<item name="meleeWpnBladeT4KatanaPartsJT" count="1,4"/>
 	</append>
 
+	<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
+		<item name="meleeWpnBladeT4KatanaJT"/>
+	</append>
 
-
-
+	<append xpath="lootcontainers/lootgroup[@name='groupRollingToolbox02']">
+		<item name="meleeWpnBladeT4KatanaPartsJT" loot_prob_template="low"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='twitch_tier2melee']">
+		<item name="meleeWpnBladeT4KatanaJT"/>
+	</append>
+	
 </JaxTeller718>

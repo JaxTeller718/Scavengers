@@ -10,14 +10,11 @@
 	<set xpath="/lootcontainers/lootcontainer[@id='58']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='5']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='13']/@count">0,2</set>
-	<set xpath="/lootcontainers/lootcontainer[@id='6']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='43']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='75']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='57']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='44']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='45']/@count">0,2</set>
-	<set xpath="/lootcontainers/lootcontainer[@id='106']/@count">0,2</set>
-	<set xpath="/lootcontainers/lootcontainer[@id='7']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='16']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='36']/@count">0,2</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='10']/@count">0,2</set>
@@ -80,7 +77,13 @@
 	<set xpath="/lootcontainers/lootcontainer[@id='83']/@open_time">8</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='100']/@open_time">5</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='101']/@open_time">7</set>
-	<set xpath="/lootcontainers/lootcontainer[@id='121']/@open_time">8</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='144']/@open_time">7</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='145']/@open_time">7</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='146']/@open_time">7</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='147']/@open_time">7</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='157']/@open_time">7</set>
+
+
 
 <setattribute xpath="/lootcontainers/lootcontainer[@id='5']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='6']" name="open_time">3</setattribute>
@@ -96,13 +99,11 @@
 <setattribute xpath="/lootcontainers/lootcontainer[@id='16']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='17']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='18']" name="open_time">3</setattribute>
-<setattribute xpath="/lootcontainers/lootcontainer[@id='20']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='21']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='22']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='24']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='25']" name="open_time">1</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='34']" name="open_time">3</setattribute>
-<setattribute xpath="/lootcontainers/lootcontainer[@id='35']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='36']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='37']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='39']" name="open_time">3</setattribute>
@@ -146,7 +147,6 @@
 <setattribute xpath="/lootcontainers/lootcontainer[@id='93']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='94']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='95']" name="open_time">3</setattribute>
-<setattribute xpath="/lootcontainers/lootcontainer[@id='96']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='97']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='98']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='99']" name="open_time">3</setattribute>
@@ -184,5 +184,19 @@
 <setattribute xpath="/lootcontainers/lootcontainer[@id='140']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='141']" name="open_time">3</setattribute>
 <setattribute xpath="/lootcontainers/lootcontainer[@id='142']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='143']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='144']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='145']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='146']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='147']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='148']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='149']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='150']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='151']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='152']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='153']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='154']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='155']" name="open_time">3</setattribute>
+<setattribute xpath="/lootcontainers/lootcontainer[@id='156']" name="open_time">3</setattribute>
 	
 </JaxTeller718>

@@ -1,0 +1,5 @@
+﻿Key,Source,Context,English
+cntCardboardStorageJT,items,Item,Cardboard Box (Storage),,,,,
+cntCardboardStorageJTDesc,items,Item,"Have to store your stuff somewhere.",,,,,
+
+

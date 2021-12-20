@@ -1,4 +1,12 @@
 <configs>
-<set xpath="/blocks/block[@name='pouredConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">15</set>
-<set xpath="/blocks/block[@name='pouredRConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">25</set>
+
+
+	<append xpath="/blocks/block[@name='cobblestoneShapes']">
+
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="concreteShapes"/>
+	<property name="UpgradeRated.Rate" value="4"/>
+	</append>
+	
+	
 </configs>

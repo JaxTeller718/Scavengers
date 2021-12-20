@@ -1,0 +1,8 @@
+﻿Key,Source,Context,English
+partsWorkbenchJT,blocks,Workstation,Workbench Parts,,,,,
+partsForgeJT,blocks,Workstation,Forge Parts,,,,,
+partsChemistryStationJT,blocks,Workstation,Chemistry Station Parts,,,,,
+partsTableSawJT,blocks,Workstation,Table Saw Parts,,,,,
+partsBatteryBankJT,blocks,Workstation,Battery Bank Parts,,,,,
+partsGeneratorJT,blocks,Workstation,Generator Bank Parts,,,,,
+partsCementMixerJT,blocks,Workstation,Cement Mixer Parts,,,,,

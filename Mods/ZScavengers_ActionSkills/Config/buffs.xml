@@ -23,7 +23,7 @@
         <stack_type value="ignore"/>
         <duration value="1"/>
         <effect_group name="Action Skills">
-			<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASAthletics" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASAthletics" operation="add" value="1"/>
         </effect_group>    
     </buff> 	
 
@@ -31,14 +31,14 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASLockpicking" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASLockpicking" operation="add" value="1"/>
 			</effect_group>
 		</buff>
     <buff name="buffScavengingSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
         <stack_type value="ignore"/>
         <duration value="1"/>
         <effect_group name="Action Skills">
-			<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASScavenging" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASScavenging" operation="add" value="1"/>
         </effect_group>    
     </buff> 	
 	
@@ -46,105 +46,105 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASBrawler" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASBrawler" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffDemolitionsSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASDemolitions" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASDemolitions" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffJavelinSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASJavelin" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASJavelin" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffTurretSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASTurret" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASTurret" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffElectricSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASElectric" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASElectric" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffCToolsSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASConstructionTools" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASConstructionTools" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffMToolsSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASMiningTools" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASMiningTools" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffArcherySkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASArchery" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASArchery" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffAutomaticSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASAutomatics" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASAutomatics" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffBluntSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASBlunt" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASBlunt" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffSledgehammersSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASSledgehammers" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASSledgehammers" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffBladesSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASBladed" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASBladed" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffPistolSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASPistols" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASPistols" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffShotgunSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASShotguns" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASShotguns" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffRiflesSkillLvl" hidden="true" icon="ui_game_symbol_rifle">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group name="Action Skills">
-				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, Mods" tag="perkASRifles" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifySkillSDX, SCore" tag="perkASRifles" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 		<buff name="buffBrawlerSkillXPInjure" hidden="true" remove_on_death="false">

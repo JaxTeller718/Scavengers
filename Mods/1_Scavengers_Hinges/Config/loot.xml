@@ -1,0 +1,7 @@
+<JaxTeller718>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupCraftingUncommon']">
+	<item name="resourceBrassHingeJT" count ="1,2"/>
+	</append>
+
+</JaxTeller718>

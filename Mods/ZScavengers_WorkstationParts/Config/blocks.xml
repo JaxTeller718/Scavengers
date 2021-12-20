@@ -1,0 +1,45 @@
+<JaxTeller718>
+
+
+
+
+	<append xpath="/blocks/block[@name='cntCollapsedWorkbench']">
+		<drop event="Harvest" name="partsWorkbenchJT" count="2,3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="partsWorkbenchJT" count="1,2" prob="0.6" tag="salvageHarvest"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='tableSaw']">
+		<drop event="Harvest" name="partsTableSawJT" count="2,3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="partsTableSawJT" count="1,2" prob="0.6" tag="salvageHarvest"/>
+		<drop event="Harvest" name="partsCementMixerJT" count="0" tag="salvageHarvest"/>
+		<drop event="Harvest" name="partsCementMixerJT" count="0" prob="0.6" tag="salvageHarvest"/>
+
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCollapsedGeneratorbank']">
+		<drop event="Harvest" name="partsGeneratorJT" count="2,3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="partsGeneratorJT" count="1,2" prob="0.6" tag="salvageHarvest"/>
+	</append>
+
+
+	<append xpath="/blocks/block[@name='cntCollapsedBatterybank']">
+		<drop event="Harvest" name="partsBatteryBankJT" count="2,3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="partsBatteryBankJT" count="1,2" prob="0.6" tag="salvageHarvest"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCollapsedCementMixer']">
+		<drop event="Harvest" name="partsCementMixerJT" count="2,3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="partsCementMixerJT" count="1,2" prob="0.6" tag="salvageHarvest"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCollapsedChemistryStation']">
+		<drop event="Harvest" name="partsChemistryStationJT" count="2,3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="partsChemistryStationJT" count="1,2" prob="0.6" tag="salvageHarvest"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCollapsedForge']">
+		<drop event="Harvest" name="partsForgeJT" count="2,3" tag="salvageHarvest"/>
+		<drop event="Harvest" name="partsForgeJT" count="1,2" prob="0.6" tag="salvageHarvest"/>
+	</append>
+
+</JaxTeller718>

@@ -4,7 +4,7 @@
 		<Name value="ZScavengers_TrueInventory" />
 		<Description value="Brings you true progression based inventory." />
 		<Author value="Eihwaz" />
-		<Version value="2.0" compat="A18"/>
-		<Website value="www.eihwaz.de" />
+		<Version value="A20" />
+		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
 	</ModInfo>
 </xml>

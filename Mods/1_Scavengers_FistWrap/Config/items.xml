@@ -1,0 +1,97 @@
+<config>
+
+
+	<append xpath="/items">
+
+<item name="meleeWpnKnucklesT0FiberKnucklesJT">
+	<property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,attFortitude,perkBrawler,noBlades,canHaveCosmetic"/>
+	<property name="CustomIcon" value="meleeWpnKnucklesT0LeatherKnuckles"/>
+	<property name="Material" value="MresourceYuccaFibers"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Melee/KnuckleWraps/knuckleWrapsRight_Prefab.prefab"/>
+	<property name="HoldType" value="70"/>
+	<property name="RepairTools" value="resourceYuccaFibers"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="Canhold" value="true"/>
+	<property name="EconomicValue" value="45"/>
+	<property name="Group" value="Basics,Ammo/Weapons,Melee Weapons"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Damage_type" value="Bashing"/>
+
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".3"/>
+		<property name="GrazeEnd" value=".5"/>
+		<property name="SwingDegrees" value="90"/>
+		<property name="SwingAngle" value="-90"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="organichitorganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="organichitcloth"/>
+		</property>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sphere" value=".15"/>   <!-- limit to 0.15, else the sphere cast can overlap the target already -->
+		<property name="UsePowerAttackAnimation" value="true"/>
+
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".35"/>
+		<property name="GrazeEnd" value=".4"/>
+		<property name="SwingDegrees" value="30"/>
+		<property name="SwingAngle" value="90"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="organichitorganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="organichitcloth"/>
+		</property>
+	</property>
+	<effect_group name="meleeWpnKnucklesT0LeatherKnuckles">
+		<passive_effect name="EntityDamage" operation="base_set" value="1" tags="perkBrawler"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="2.2" tags="perkBrawler"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="100" tags="perkBrawler"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="11.1" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="127,352" tier="1,6" tags="perkBrawler"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBrawler"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkBrawler"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkBrawler"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,1,1,1,1" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBrawler"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBrawler"/> <!-- tier bonus -->
+
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#Other/Items?Weapons/Melee/KnuckleWraps/knuckleWrapsLeft_Prefab.prefab" parentTransform="Propjoint" localPos="0,0,0" localRot="0,0,0">
+			<requirement name="IsFPV"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#Other/Items?Weapons/Melee/KnuckleWraps/knuckleWrapsLeft_Prefab.prefab" parentTransform="LeftHand" localPos="-0.091,-0.0075,-0.00077" localRot="3.841982,9.94,94.3">
+			<requirement name="!IsFPV"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="LeftKnuckles"/>
+	</effect_group>
+
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="15.5" tags="secondary"/>
+	</effect_group>
+</item>
+
+
+	</append>
+
+
+</config>

@@ -1,0 +1,10 @@
+<config>
+
+	<append xpath="/lootcontainers">
+		<!-- cardboard storage-->
+		<lootcontainer id="401" name="cardboardStorageJT" count="0" size="6,5" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="1,2"/>
+		</lootcontainer>
+
+	</append>
+</config>

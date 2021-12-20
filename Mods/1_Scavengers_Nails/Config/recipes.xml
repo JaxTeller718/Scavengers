@@ -19,6 +19,5 @@ and not(contains(@name, 'woodFrame'))
 		<ingredient name="resourceNail" count="4"/>
 	</append>
 
-	<remove xpath="/recipes/recipe[@name='woodFrameBlockVariantHelper']/ingredient[@name='resourceNail']"/>
 	<remove xpath="/recipes/recipe[@name='secureDoorWooden']/ingredient[@name='resourceNail']"/>
 </JaxTeller718>

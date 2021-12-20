@@ -2,11 +2,11 @@
 	<set xpath="/blocks/block[@name='cntBirdnest']/property[@name='Material']/@value">Mplants</set>
 	<append xpath="/blocks/block[@name='cntBirdnest']">
 		<property name="Model" value="#@modfolder:Resources/JaxTeller718_BirdsNest.unity3d?birdsNestRH"/>
-		<property name="CustomIcon" value="birdsNestFullRH"/>
-		<property name="DowngradeBlock" value="birdsNestEmptyRH"/>
+		<property name="CustomIcon" value="birdsNestFullJT"/>
+		<property name="DowngradeBlock" value="birdsNestEmptyJT"/>
 	</append>
 	<append xpath="/blocks">
-		<block name="birdsNestEmptyRH">
+		<block name="birdsNestEmptyJT">
 			<property name="Material" value="Mplants"/>
 			<property name="StabilitySupport" value="false"/>
 			<!-- build restriction -->

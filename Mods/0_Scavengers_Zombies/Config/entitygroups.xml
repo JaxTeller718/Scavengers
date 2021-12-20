@@ -5,7 +5,9 @@
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[@name='animalZombieBear']/@name">zombieMoe</set>
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[@name='zombieDemolition']/@name">zombieMoe</set>
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[@name='animalDireWolf']/@name">zombieMoe</set>
-	<!-- No Ferals -->
+	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[@name='zombieMutated']/@name">zombieMoe</set>
+	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'MutatedFeral')]/@name">zombieTomClark</set>
+	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'MutatedRadiated')]/@name">zombiePartyGirl</set>
 
 	<!-- Boe -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'BoeFeral')]/@name">zombieBoe</set>
@@ -25,26 +27,15 @@
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'BusinessManFeral')]/@name">zombieBusinessMan</set>
 	<!-- Steve -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'SteveFeral')]/@name">zombieSteve</set>
-	<!-- SteveCrawler -->
 	<!-- Skateboarder -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'boarderFeral')]/@name">zombieSkateboarder</set>
-	<!-- Cheerleader -->
-	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'leaderFeral')]/@name">zombieCheerleader</set>
-	<!-- OldTimer -->
-	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'TimerFeral')]/@name">zombieOldTimer</set>
-	<!-- Farmer -->
-	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'FarmerFeral')]/@name">zombieFarmer</set>
-	<!-- Stripper -->
-	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'StripperFeral')]/@name">zombieStripper</set>
-	<!-- Nurse -->
+	<!-- OldTimer -->	<!-- Farmer -->	<!-- Stripper -->	<!-- Nurse -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'NurseFeral')]/@name">zombieNurse</set>
 	<!-- Biker -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'BikerFeral')]/@name">zombieBiker</set>
 	<!-- Lab -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'LabFeral')]/@name">zombieLab</set>
-	<!-- Snow -->
-	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'SnowFeral')]/@name">zombieSnow</set>
-	<!-- UtilityWorker -->
+	<!-- Snow -->	<!-- UtilityWorker -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'UtilityWorkerFeral')]/@name">zombieUtilityWorker</set>
 	<!-- FatCop -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'CopFeral')]/@name">zombieFatCop</set>
@@ -76,11 +67,7 @@
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'SteveRad')]/@name">zombieSteve</set>
 	<!-- Skateboarder -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'boarderRad')]/@name">zombieSkateboarder</set>
-	<!-- Cheerleader -->
-	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'leaderRad')]/@name">zombieCheerleader</set>
-	<!-- OldTimer -->
-	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'TimerRad')]/@name">zombieOldTimer</set>
-	<!-- Biker -->
+	<!-- OldTimer -->	<!-- Biker -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'BikerRad')]/@name">zombieBiker</set>
 	<!-- Lab -->
 	<set xpath="/entitygroups/entitygroup[contains(@name, '')]/entity[contains(@name, 'LabRad')]/@name">zombieLab</set>

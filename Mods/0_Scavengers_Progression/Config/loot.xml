@@ -1,0 +1,80 @@
+<JaxTeller718>
+
+
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupGrills']">
+		<lootgroup name="scavengerPerkBooks">
+			<item name="bookDeadEyeJT"/>
+			<item name="bookDemolitionsExpertJT"/>
+			<item name="bookJavelinMasterJT"/>
+			<item name="bookLockPickingJT"/>
+			<item name="bookInfiltratorJT"/>
+			<item name="bookAnimalTrackerJT"/>
+			<item name="bookPenetratorJT"/>
+			<item name="bookLuckyLooterJT"/>
+			<item name="bookTreasureHunterJT"/>
+			<item name="bookSalvageOperationsJT"/>
+			<item name="bookBoomstickJT"/>
+			<item name="bookPummelPeteJT"/>
+			<item name="bookSkullCrusherJT"/>
+			<item name="bookSexualTrexJT"/>
+			<item name="bookHeavyArmorJT"/>
+			<item name="bookPackMuleJT"/>
+			<item name="bookMasterChefJT"/>
+			<item name="bookMiner69rJT"/>
+			<item name="bookMotherLodeJT"/>
+			<item name="bookBrawlerJT"/>
+			<item name="bookMachineGunnerJT"/>
+			<item name="bookTheHuntsmanJT"/>
+			<item name="bookWellInsulatedJT"/>
+			<item name="bookLivingOffTheLandJT"/>
+			<item name="bookPainToleranceJT"/>
+			<item name="bookHealingFactorJT"/>
+			<item name="bookSlowMetabolismJT"/>
+			<item name="bookRuleOneCardioJT"/>
+			<item name="bookArcheryJT"/>
+			<item name="bookGunslingerJT"/>
+			<item name="bookDeepCutsJT"/>
+			<item name="bookRunAndGunJT"/>
+			<item name="bookFlurryOfBlowsJT"/>
+			<item name="bookLightArmorJT"/>
+			<item name="bookParkourJT"/>
+			<item name="bookHiddenStrikeJT"/>
+			<item name="bookFromTheShadowsJT"/>
+			<item name="bookElectrocutionerJT"/>
+			<item name="bookTurretsJT"/>
+			<item name="bookBetterBarterJT"/>
+			<item name="bookDaringAdventurerJT"/>
+			<item name="bookCharismaticNatureJT"/>
+			<item name="bookPhysicianJT"/>
+			<item name="bookAdvancedEngineeringJT"/>
+			<item name="bookGreaseMonkeyJT"/>
+		</lootgroup>
+	</insertAfter>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='booksAllScaled']" >
+		<item group="scavengerPerkBooks" loot_prob_template="high"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestSchematics']" >
+		<item group="scavengerPerkBooks" prob="4"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupReading1']" >
+		<item group="scavengerPerkBooks" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_books1']" >
+		<item group="scavengerPerkBooks"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_books2']" >
+		<item group="scavengerPerkBooks"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_books3']" >
+		<item group="scavengerPerkBooks"/>
+	</append>
+	
+	
+	
+</JaxTeller718>

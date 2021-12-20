@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="1_Scavengers_CropSeeds" />
-		<Description value="Reduces the harvests of polymers, cloth and other items from blocks" />
+		<Description value="Makes plants in the world give back seeds instead of crop." />
 		<Author value="JaxTeller718" />
-		<Version value="A19" />
+		<Version value="A20" />
 		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
 	</ModInfo>
 </xml>

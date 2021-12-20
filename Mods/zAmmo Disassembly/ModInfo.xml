@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Ammo Disassembly" />
+        <Description value="Allows you to disassemble ammo to get back the resources it takes to craft them." />
+        <Author value="Elucidus" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

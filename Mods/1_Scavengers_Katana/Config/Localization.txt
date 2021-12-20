@@ -1,6 +1,6 @@
 Key,Source,Context,English
 
-meleeWpnBladeT4Katana,items,Melee,Katana,,,,,
-meleeWpnBladeT4KatanaDesc,items,Melee,"Long respected by ancient warriors, now wielded but modern day assasins in this war against the undead. The katana offers quicker and more lethal slicing power with half the physical extertion.",,,,,
-meleeWpnBladeT4KatanaParts,items,Melee,Katana Parts,,,,,
-meleeWpnBladeT4KatanaSchematic,items,Melee,Katana Schematic,,,,,
+meleeWpnBladeT4JTKatana,items,Melee,Katana,,,,,
+meleeWpnBladeT4KatanaJTDesc,items,Melee,"Long respected by ancient warriors, now wielded but modern day assasins in this war against the undead. The katana offers quicker and more lethal slicing power with half the physical extertion.",,,,,
+meleeWpnBladeT4KatanaPartsJT,items,Melee,Katana Parts,,,,,
+meleeWpnBladeT4KatanaJTSchematic,items,Melee,Katana Schematic,,,,,

@@ -234,10 +234,10 @@
 	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/effect_group/passive_effect[@name='RoundsPerMinute']/@value">300</set>
 	
 	
-	<set xpath="/items/item[@name='meleeToolPickT0StonePickaxe']/effect_group/passive_effect[@name='EntityDamage']/@value">6</set>
-	<set xpath="/items/item[@name='meleeToolPickT0StonePickaxe']/effect_group/passive_effect[@name='BlockDamage']/@value">19.5</set>
-	<set xpath="/items/item[@name='meleeToolPickT0StonePickaxe']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">100</set>
-	<set xpath="/items/item[@name='meleeToolPickT0StonePickaxe']/effect_group/passive_effect[@name='StaminaLoss']/@value">14</set>	
+	<set xpath="/items/item[@name='meleeToolPickT0StonePickaxeJT']/effect_group/passive_effect[@name='EntityDamage']/@value">6</set>
+	<set xpath="/items/item[@name='meleeToolPickT0StonePickaxeJT']/effect_group/passive_effect[@name='BlockDamage']/@value">19.5</set>
+	<set xpath="/items/item[@name='meleeToolPickT0StonePickaxeJT']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">100</set>
+	<set xpath="/items/item[@name='meleeToolPickT0StonePickaxeJT']/effect_group/passive_effect[@name='StaminaLoss']/@value">14</set>	
 	
 	<set xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/effect_group/passive_effect[@name='EntityDamage']/@value">9.2</set>
 	<set xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/effect_group/passive_effect[@name='BlockDamage']/@value">27.5</set>
@@ -285,10 +285,10 @@
 	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">55</set>
 	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group/passive_effect[@name='StaminaLoss']/@value">27.7</set>		
 	
-	<set xpath="/items/item[@name='meleeToolSalvageT4Crowbar']/effect_group/passive_effect[@name='EntityDamage']/@value">21</set>
-	<set xpath="/items/item[@name='meleeToolSalvageT4Crowbar']/effect_group/passive_effect[@name='BlockDamage']/@value">58.5</set>
-	<set xpath="/items/item[@name='meleeToolSalvageT4Crowbar']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">65</set>
-	<set xpath="/items/item[@name='meleeToolSalvageT4Crowbar']/effect_group/passive_effect[@name='StaminaLoss']/@value">32.8</set>	
+	<set xpath="/items/item[@name='meleeToolSalvageT4CrowbarJT']/effect_group/passive_effect[@name='EntityDamage']/@value">21</set>
+	<set xpath="/items/item[@name='meleeToolSalvageT4CrowbarJT']/effect_group/passive_effect[@name='BlockDamage']/@value">58.5</set>
+	<set xpath="/items/item[@name='meleeToolSalvageT4CrowbarJT']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">65</set>
+	<set xpath="/items/item[@name='meleeToolSalvageT4CrowbarJT']/effect_group/passive_effect[@name='StaminaLoss']/@value">32.8</set>	
 
 	
 	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group/passive_effect[@name='EntityDamage']/@value">4.1</set>
@@ -311,16 +311,16 @@
 	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">55</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group/passive_effect[@name='StaminaLoss']/@value">17.2</set>
 
-	<set xpath="/items/item[@name='meleeWpnBladeT4Katana']/effect_group/passive_effect[@name='EntityDamage']/@value">24.8</set>
-	<set xpath="/items/item[@name='meleeWpnBladeT4Katana']/effect_group/passive_effect[@name='BlockDamage']/@value">23</set>
-	<set xpath="/items/item[@name='meleeWpnBladeT4Katana']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">65</set>
-	<set xpath="/items/item[@name='meleeWpnBladeT4Katana']/effect_group/passive_effect[@name='StaminaLoss']/@value">21.6</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT4KatanaJT']/effect_group/passive_effect[@name='EntityDamage']/@value">24.8</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT4KatanaJT']/effect_group/passive_effect[@name='BlockDamage']/@value">23</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT4KatanaJT']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">65</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT4KatanaJT']/effect_group/passive_effect[@name='StaminaLoss']/@value">21.6</set>
 	
 
-	<set xpath="/items/item[@name='meleeWpnClubT0Plank']/effect_group/passive_effect[@name='EntityDamage']/@value">9.8</set>
-	<set xpath="/items/item[@name='meleeWpnClubT0Plank']/effect_group/passive_effect[@name='BlockDamage']/@value">7.6</set>
-	<set xpath="/items/item[@name='meleeWpnClubT0Plank']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">55</set>
-	<set xpath="/items/item[@name='meleeWpnClubT0Plank']/effect_group/passive_effect[@name='StaminaLoss']/@value">14.5</set>
+	<set xpath="/items/item[@name='meleeWpnClubT0PlankJT']/effect_group/passive_effect[@name='EntityDamage']/@value">9.8</set>
+	<set xpath="/items/item[@name='meleeWpnClubT0PlankJT']/effect_group/passive_effect[@name='BlockDamage']/@value">7.6</set>
+	<set xpath="/items/item[@name='meleeWpnClubT0PlankJT']/effect_group/passive_effect[@name='AttacksPerMinute']/@value">55</set>
+	<set xpath="/items/item[@name='meleeWpnClubT0PlankJT']/effect_group/passive_effect[@name='StaminaLoss']/@value">14.5</set>
 	
 	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='EntityDamage']/@value">12.8</set>
 	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='BlockDamage']/@value">11.6</set>

@@ -9,37 +9,54 @@ lblFace,UI,Tooltip,rework,Backpack,Rucksack
 lblAccessoireDesc,description,lblEyewear,rework,This item get now equipped in the new [e0c977]accessoire[-] slot.,Dieser Gegenstand wird nun im neuen [e0c977]Accessoire[-] Platz angelegt.
 
 backpackT0,items,backpack,new,Hobo Backpack,Schäbiger Rucksack
-backpackT0Desc,items,description,new,This hobo backpack doesn't look like much - but it does the job. \n\n[C24942]Use Drag and Drop to equip this item![-],Dieser schäbige Rucksack macht nicht besonders viel her aber erfüllt seinen Zweck. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT0Desc,items,description,new,This hobo backpack doesn't look like much - but it does the job. \n\n[C24942]Click on this item and choose Wear to Equip it![-] \n\nUnlocks 5 slots,Dieser schäbige Rucksack macht nicht besonders viel her aber erfüllt seinen Zweck. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
 backpackT0block,blocks,backpack,new,Hobo Backpack,Schäbiger Rucksack
 
+backpackT0V1,items,backpack,new,Children Backpack,Schäbiger Rucksack
+backpackT0V1Desc,items,description,new,This children backpack doesn't look like much - but it does the job. \n\n[C24942]Click on this item and choose Wear to Equip it![-] \n\nUnlocks 10 slots,Dieser schäbige Rucksack macht nicht besonders viel her aber erfüllt seinen Zweck. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT0V1block,blocks,backpack,new,Children Backpack,Schäbiger Rucksack
 
 backpackT1,items,backpack,new,Shabby Backpack,Schäbiger Rucksack
-backpackT1Desc,items,description,new,This shabby backpack doesn't look like much - but it does the job. \n\n[C24942]Use Drag and Drop to equip this item![-],Dieser schäbige Rucksack macht nicht besonders viel her aber erfüllt seinen Zweck. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT1Desc,items,description,new,This shabby backpack doesn't look like much - but it does the job. \n\n[C24942]Click on this item and choose Wear to Equip it![-] \n\nUnlocks 15 slots,Dieser schäbige Rucksack macht nicht besonders viel her aber erfüllt seinen Zweck. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
 backpackT1block,blocks,backpack,new,Shabby Backpack,Schäbiger Rucksack
 
+backpackT1V1,items,backpack,new,Leather Backpack,Schäbiger Rucksack
+backpackT1V1Desc,items,description,new,This leather backpack doesn't look like much - but it does the job. \n\n[C24942]Click on this item and choose Wear to Equip it![-] \n\nUnlocks 20 slots,Dieser schäbige Rucksack macht nicht besonders viel her aber erfüllt seinen Zweck. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT1V1block,blocks,backpack,new,Leather Backpack,Schäbiger Rucksack
+
+
 backpackT2,items,backpack,new,Backpack,Rucksack
-backpackT2Desc,items,backpack,new,An ordinary backpack with a decent size - but worth gold in the Apocalypse. \n\n[C24942]Use Drag and Drop to equip this item![-],Ein gewöhnlicher Rucksack mit einer anständigen größe - aber in der Apokalypse Gold wert. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT2Desc,items,backpack,new,An ordinary backpack with a decent size - but worth gold in the Apocalypse. \n\n[C24942]Click on this item and choose Wear to Equip it![-] \n\nUnlocks 25 slots,Ein gewöhnlicher Rucksack mit einer anständigen größe - aber in der Apokalypse Gold wert. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
 backpackT2block,blocks,backpack,new,Backpack,Rucksack
 
 backpackT2V2,items,backpack,new,Kucci Backpack,Kucci Rucksack
-backpackT2V2Desc,items,backpack,new,It looks like a Gucci backpack but something is wrong ... at least it has a decent size. \n\n[C24942]Use Drag and Drop to equip this item![-],Er sieht aus wie ein Gucci Rucksack aber irgendwas stimmt damit nicht ... immerhin hat er anständig viel Platz. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT2V2Desc,items,backpack,new,It looks like a Gucci backpack but something is wrong ... at least it has a decent size. \n\n[C24942]Click on this item and choose Wear to Equip it![-] \n\nUnlocks 30 slots,Er sieht aus wie ein Gucci Rucksack aber irgendwas stimmt damit nicht ... immerhin hat er anständig viel Platz. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
 backpackT2V2block,blocks,backpack,new,Kucci Backpack,Kucci Rucksack
-bookFakeGucci,schematic,backpack,new,Pattern: Gucci Backpack,Muster: Gucci Rucksack
-bookFakeGucciDesc,schematic,backpack,new,In the book you can see an illustration of how to make a Gucci backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
 
-bookFakeGucci1,schematic,backpack,new,Pattern: Backpack,Muster: Gucci Rucksack
-bookFakeGucciDesc,schematic,backpack,new,In the book you can see an illustration of how to make a backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
+backpackT3,items,backpack,new,Survivor Backpack,Kampftasche
+backpackT3Desc,items,backpack,new,The survivor backpack is the survivor's best friend and offers enough space for all your prey. \n\n[C24942]Click on this item and choose Wear to Equip it![-] \n\nUnlocks 40 slots,Die Kampftasche ist der beste Freund des Überlebenskünstlers und bietet ausreichend Platz für eure Beute. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT3block,blocks,backpack,new,Survivor Backpack,Kampftasche
 
-bookFakeGucci2,schematic,backpack,new,Pattern: Military Backpack,Muster: Gucci Rucksack
-bookFakeGucciDesc,schematic,backpack,new,In the book you can see an illustration of how to make a Military backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
-
-backpackT3,items,backpack,new,Military Backpack,Kampftasche
-backpackT3Desc,items,backpack,new,The military backpack is the survivor's best friend and offers enough space for all your prey. \n\n[C24942]Use Drag and Drop to equip this item![-],Die Kampftasche ist der beste Freund des Überlebenskünstlers und bietet ausreichend Platz für eure Beute. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
-backpackT3block,blocks,backpack,new,Military Backpack,Kampftasche
+backpackT3V1,items,backpack,new,Military Backpack,Kampftasche
+backpackT3V1Desc,items,backpack,new,The military backpack is the survivor's best friend and offers enough space for all your prey. \n\n[C24942]Click on this item and choose Wear to Equip it![-] \n\nUnlocks 50 slots,Die Kampftasche ist der beste Freund des Überlebenskünstlers und bietet ausreichend Platz für eure Beute. \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT3V1block,blocks,backpack,new,Military Backpack,Kampftasche
 
 backpackT4,items,backpack,new,Gucci Backpack,Gucci Rucksack
-backpackT4Desc,items,backpack,new,This designer backpack is as outrageously large as it was expensive - you have to have influential friends to own it! \n\n[C24942]Use Drag and Drop to equip this item![-],Dieser Designer Rucksack ist so unverschämt groß wie er teuer war - du musst einflussreiche Freunde haben um ihn zu besitzen! \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
+backpackT4Desc,items,backpack,new,This designer backpack is as outrageously large as it was expensive - you have to have influential friends to own it! \n\n[C24942]Click on this item and choose Wear to Equip it![-] \n\nUnlocks 60 slots,Dieser Designer Rucksack ist so unverschämt groß wie er teuer war - du musst einflussreiche Freunde haben um ihn zu besitzen! \n\n[C24942]Rüste diesen Gegenstand mit Drag & Drop aus![-]
 backpackT4block,blocks,backpack,new,Gucci Backpack,Gucci Rucksack
+
+bookFakeGucci,schematic,backpack,new,Pattern: Backpack,Muster: Rucksack
+bookFakeGucciDesc,schematic,backpack,new,In the book you can see an illustration of how to make a Backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
+
+bookFakeGucci1,schematic,backpack,new,Pattern: Kucci Backpack,Muster: Kucci Backpack
+bookFakeGucci1Desc,schematic,backpack,new,In the book you can see an illustration of how to make a Kucci backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
+
+bookFakeGucci2,schematic,backpack,new,Pattern: Survivor Backpack,Muster: Survivor Rucksack
+bookFakeGucci2Desc,schematic,backpack,new,In the book you can see an illustration of how to make a Survivor backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
+
+bookFakeGucci3,schematic,backpack,new,Pattern: Military Backpack,Muster: Military Rucksack
+bookFakeGucci3Desc,schematic,backpack,new,In the book you can see an illustration of how to make a Military backpack - however the instructions are only in Chinese.,In dem Buch ist eine Abbildung zu sehen wie man einen Gucci Rucksack herstellen kann - allerdings ist die Anleitung nur auf chinesisch.
+
 
 modClothingStoragePocket,itemMods,pocket,rework,Small Pocket,Kleine Tasche
 modClothingCargoStoragePocket,itemMods,pocket,rework,Large Pocket,Große Tasche

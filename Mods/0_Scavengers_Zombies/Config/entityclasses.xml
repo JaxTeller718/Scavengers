@@ -2,12 +2,12 @@
 	<remove xpath="//property[@name='PainResistPerHit']" />
 	<remove xpath="//effect_group[@name='Base Effects']/passive_effect[@name='PhysicalDamageResist']" />
 
-	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie') and not(contains(@name, 'animal'))]/property[@name='MoveSpeedAggro']/@value">0.05, 0.1</set>
+<!-- 	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie') and not(contains(@name, 'animal'))]/property[@name='MoveSpeedAggro']/@value">0.05, 0.1</set>
 	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie') and not(contains(@name, 'animal'))]/property[@name='MoveSpeed']/@value">0.05</set>
 	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie') and not(contains(@name, 'animal'))]/property[@name='MoveSpeedPanic']/@value">0.2</set>
-	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie') and not(contains(@name, 'animal'))]/property[@name='MoveSpeedRand']/@value">-.05, .05</set>
+	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie') and not(contains(@name, 'animal'))]/property[@name='MoveSpeedRand']/@value">-.05, .05</set> -->
 
-	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='DismemberMultiplierHead']/@value">2</set>
+	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='DismemberMultiplierHead']/@value">1</set>
 
 
 	<!-- Detection by zombies all changes here -->
@@ -33,10 +33,10 @@
 	<set xpath="//property[@name='JumpMaxDistance']/@value">1.8, 2.9</set>
 
 
-	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">220</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">240</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieMoe']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">180</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieSnow']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">240</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMoe']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieLumberjack']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
 
 <!-- <append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']">
 	<effect_group name="RNDWalkStart">
@@ -46,7 +46,7 @@
 
 	<set xpath="/entity_classes/entity_class[@name='zombieFatCop']">
 		<property name="Tags" value="entity,zombie,walker"/>
-		<property name="Mesh" value="Zombies/zombieStandardCopRagdoll"/>
+		<property name="Mesh" value="#Entities/Zombies?Prefabs/ZCop.prefab"/>
 		<property name="Class" value="EntityZombieCop"/>
 		<property name="WalkType" value="1"/>
 		<property name="RightHandJointName" value="Jaw"/>
@@ -132,36 +132,32 @@
 		</effect_group>
 	</set>
 	
-	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieBoe']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFootballPlayer']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFat']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieJoe']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieMoe']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieArlene']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieLab']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieScreamer']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieDarlene']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieMarlene']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieYo']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieSteve']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBusinessMan']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieSnow']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieSpider']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBurnt']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieNurse']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieMaleHazmat']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieSoldier']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarder']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieCheerleader']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieOldTimer']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieFarmer']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieStripper']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
-	<set xpath="/entity_classes/entity_class[@name='zombieJanitor']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">225</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFat']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieJoe']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMoe']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieArlene']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieLab']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamer']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieDarlene']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMarlene']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieYo']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSteve']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBusinessMan']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieLumberjack']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSpider']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBurnt']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieNurse']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldier']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarder']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTomClark']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombiePartyGirl']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieJanitor']/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value">325</set>
 
 </JaxTeller718>

@@ -3,17 +3,12 @@
 	<append xpath="/recipes">
 
 
-
-		<recipe name="meleeToolSalvageT4Crowbar" count="1" tags="learnable,perkSalvageOperations">
-			<ingredient name="resourceForgedSteel" count="12"/>
-			<ingredient name="resourceMechanicalParts" count="4"/>
-			<ingredient name="resourceDuctTape" count="2"/>
+		<recipe name="meleeToolSalvageT4CrowbarJT" count="1" tags="learnable,perkSalvageOperations">
+			<ingredient name="resourceForgedSteel" count="75"/>
 			<effect_group>
-				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape"/>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5" tags="resourceForgedSteel"/>
 			</effect_group>
 		</recipe>
-
-
 
 	</append>
 </JaxTeller718>

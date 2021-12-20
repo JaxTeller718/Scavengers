@@ -43,7 +43,6 @@
 	<remove xpath="/recipes/recipe[@name='gunBotT1JunkSledge']" />
 	<remove xpath="/recipes/recipe[@name='gunBotT2JunkTurret']" />
 	<remove xpath="/recipes/recipe[@name='bladeTrap']" />
-	<remove xpath="/recipes/recipe[@name='apparelCigar']" />
 	
 	<remove xpath="/recipes/recipe[@name='gunBowT1IronCrossbow']" />
 	<remove xpath="/recipes/recipe[@name='gunBowT1WoodenBow']" />
@@ -57,12 +56,191 @@
 	<remove xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']" />
 	<remove xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']" />
 	<remove xpath="/recipes/recipe[@name='gunRifleT1HuntingRifle']" />
-	<remove xpath="/recipes/recipe[@name='gunRifleT2MarksmanRifle']" />
+	<remove xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']" />
 	<remove xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']" />
 	<remove xpath="/recipes/recipe[@name='gunMGT1AK47']" />
 	<remove xpath="/recipes/recipe[@name='gunMGT2TacticalAR']" />
 	<remove xpath="/recipes/recipe[@name='gunMGT3M60']" />	
 	<remove xpath="/recipes/recipe[@name='gunExplosivesT3RocketLauncher']" />	
 	
+	<remove xpath="/recipes/recipe[@name='armorSteelBoots']" />
+	<remove xpath="/recipes/recipe[@name='armorSteelChest']" />
+	<remove xpath="/recipes/recipe[@name='armorSteelGloves']" />
+	<remove xpath="/recipes/recipe[@name='armorSteelHelmet']" />
+	<remove xpath="/recipes/recipe[@name='armorSteelLegs']" />
+	<remove xpath="/recipes/recipe[@name='armorMilitaryBoots']" />
+	<remove xpath="/recipes/recipe[@name='armorMilitaryStealthBoots']" />
+	<remove xpath="/recipes/recipe[@name='armorMilitaryGloves']" />
+	<remove xpath="/recipes/recipe[@name='armorMilitaryHelmet']" />
+	<remove xpath="/recipes/recipe[@name='armorMilitaryLegs']" />
+	<remove xpath="/recipes/recipe[@name='armorMilitaryVest']" />
+	<remove xpath="/recipes/recipe[@name='armorMiningHelmet']" />
+	<remove xpath="/recipes/recipe[@name='armorFirefightersHelmet']" />
+
+	<remove xpath="/recipes/recipe[@name='apparelFlannelShirt']" />
+	<remove xpath="/recipes/recipe[@name='apparelSweatshirt']" />
+	<remove xpath="/recipes/recipe[@name='apparelSkullCap']" />
+	<remove xpath="/recipes/recipe[@name='apparelDenimPants']" />
+	<remove xpath="/recipes/recipe[@name='apparelDenimShortsPants']" />
+	<remove xpath="/recipes/recipe[@name='apparelOveralls']" />
+	<remove xpath="/recipes/recipe[@name='apparelSkirt']" />
+	<remove xpath="/recipes/recipe[@name='apparelWornBoots']" />
+	<remove xpath="/recipes/recipe[@name='apparelRunningShoesRegular']" />
+	<remove xpath="/recipes/recipe[@name='apparelCowboyBoots']" />
+	<remove xpath="/recipes/recipe[@name='apparelSuitDressShoes']" />
+	<remove xpath="/recipes/recipe[@name='apparelTankTop']" />
+	<remove xpath="/recipes/recipe[@name='apparelTShirtPlain']" />
+	<remove xpath="/recipes/recipe[@name='apparelCowboyHat']" />
+	<remove xpath="/recipes/recipe[@name='apparelCoatLeatherDuster']" />
+	<remove xpath="/recipes/recipe[@name='apparelCoatPufferCoat']" />
+	<remove xpath="/recipes/recipe[@name='apparelArmyPants']" />
+	<remove xpath="/recipes/recipe[@name='apparelArmyShirt']" />
+	<remove xpath="/recipes/recipe[@name='apparelGhillieSuitHood']" />
+	<remove xpath="/recipes/recipe[@name='apparelGhillieSuitJacket']" />
+	<remove xpath="/recipes/recipe[@name='apparelGhillieSuitPants']" />
+	<remove xpath="/recipes/recipe[@name='modClothingStoragePocket']" />
+	<remove xpath="/recipes/recipe[@name='modClothingCargoStoragePocket']" />
+	<remove xpath="/recipes/recipe[@name='apparelCigar']" />
+
 	
+	<append xpath="/recipes">
+	
+<recipe name="apparelFlannelShirt" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="20"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelSweatshirt" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelSkullCap" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="10"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelDenimPants" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelDenimShortsPants" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="20"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelOveralls" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelSkirt" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="20"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelWornBoots" count="1" craft_area="workbench">
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceLeather" count="5"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelRunningShoesRegular" count="1" craft_area="workbench">
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceLeather" count="5"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelCowboyBoots" count="1" craft_area="workbench">
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceLeather" count="5"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelSuitDressShoes" count="1" craft_area="workbench">
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceLeather" count="5"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelTankTop" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelTShirtPlain" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelCowboyHat" count="1" craft_area="workbench">
+	<ingredient name="resourceLeather" count="5"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelCoatLeatherDuster" count="1" craft_area="workbench">
+	<ingredient name="resourceLeather" count="25"/>
+	<ingredient name="resourceSewingKit" count="3"/>
+</recipe>
+
+<recipe name="apparelCoatPufferCoat" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="35"/>
+	<ingredient name="resourceFeather" count="50"/>
+	<ingredient name="resourceCropCottonPlant" count="35"/>
+	<ingredient name="resourceSewingKit" count="3"/>
+</recipe>
+
+<recipe name="apparelArmyPants" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceMilitaryFiber" count="1"/>
+	<ingredient name="resourceSewingKit" count="3"/>
+</recipe>
+
+<recipe name="apparelArmyShirt" count="1" craft_area="workbench">
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceMilitaryFiber" count="1"/>
+	<ingredient name="resourceSewingKit" count="3"/>
+</recipe>
+
+<recipe name="apparelGhillieSuitHood" count="1" craft_area="workbench">
+	<ingredient name="resourceYuccaFibers" count="50"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelGhillieSuitJacket" count="1" craft_area="workbench">
+	<ingredient name="resourceYuccaFibers" count="50"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="apparelGhillieSuitPants" count="1" craft_area="workbench">
+	<ingredient name="resourceYuccaFibers" count="50"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="modClothingStoragePocket" count="1">
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceCloth" count="15"/>
+	<ingredient name="resourceSewingKit" count="1"/>
+</recipe>
+
+<recipe name="modClothingCargoStoragePocket" count="1" craft_area="workbench">
+	<ingredient name="resourceLeather" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceCloth" count="30"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+
+<recipe name="apparelCigar" count="1" craft_area="workbench">
+	<ingredient name="resourceYuccaFibers" count="250"/>
+	<ingredient name="resourcePaper" count="1"/>
+	<ingredient name="resourceTestosteroneExtract" count="1"/>
+</recipe>
+
+
+	</append>
+
+
+
 </JaxTeller718>

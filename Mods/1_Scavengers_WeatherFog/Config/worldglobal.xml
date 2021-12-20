@@ -1,6 +1,0 @@
-
-<Doughs>
-
-  <set xpath="/worldglobal/environment/property[@name='fogPower']/@value">0.7, 0.4</set>
-
-</Doughs>

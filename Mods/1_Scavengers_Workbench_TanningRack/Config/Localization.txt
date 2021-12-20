@@ -1,0 +1,5 @@
+﻿Key,Source,Context,English
+tanningRackJT,blocks,Block,Tanning Rack,,,,,
+tanningRackJTDesc,blocks,Block,The tanning rack is needed to dry animal hide for leather. The process is not perfect. You will need tannin and an armor bench to efficiently produce leather.,,,,,
+
+

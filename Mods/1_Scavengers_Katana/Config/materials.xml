@@ -2,10 +2,10 @@
 
 	<append xpath="/materials">
 
-		<material id="MmeleeWpnBladeT4Katana">
+		<material id="MmeleeWpnBladeT4KatanaJT">
 			<property name="damage_category" value="metal"/>
 			<property name="surface_category" value="metal"/>
-			<property name="forge_category" value="meleeWpnBladeT4KatanaParts"/>
+			<property name="forge_category" value="meleeWpnBladeT4KatanaPartsJT"/>
 			<property name="Experience" value="6"/>
 		</material>
 

@@ -1,0 +1,26 @@
+﻿<JaxTeller718>
+
+	<append xpath="/blocks">
+
+
+<block name="cntCardboardStorageJT">
+	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="DescriptionKey" value="cntCardboardStorageJTDesc"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_no_cull"/> <!-- will not hide adjacent faces (if rotated) -->
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Texture" value="276,276,270,270,270,270"/>
+	<property name="LootList" value="cardboardStorageJT"/>
+	<property class="RepairItems">
+		<property name="resourcePaper" value="10"/>
+		<property name="resourceWood" value="4"/>
+	</property>
+			<drop event="Destroy" name="cntCardboardStorageJT" count="1"/>
+			<property name="Group" value="Building,Basics"/>
+	<property name="FilterTags" value="MC_building,SC_loot"/>
+</block>
+	</append>
+</JaxTeller718>

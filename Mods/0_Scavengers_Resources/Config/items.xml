@@ -53,6 +53,37 @@
 		<property name="CraftingIngredientTime" value="2"/>
 	</item>
 	
+		<item name="resourceLeatherStripsJT">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="resourceLeatherStripsJT"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceLeather"/>
+			<property name="Weight" value="10"/>
+			<property name="RepairAmount" value="150"/>
+			<property name="Stacknumber" value="250"/>
+			<!-- STK resource -->
+			<property name="FuelValue" value="5"/>
+			<property name="EconomicValue" value="22"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientTime" value="2"/>
+		</item>
+		<item name="resourceBoneFragmentsJT">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<!--<property name="HoldType" value="2"/><property name="Meshfile" value="#Other/Items?Crafting/femur.fbx"/>-->
+			<property name="Material" value="MfoodRawMeat"/>
+			<property name="Stacknumber" value="1200"/>
+			<!-- STK resource -->
+			<property name="RepairAmount" value="270"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="5"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Resources"/>
+		</item>
+	
 <item name="resourceOakWoodJT"> <!-- scrap material -->
 	<property name="CustomIcon" value="resourceWood"/>
 	<property name="CustomIconTint" value="167,62,62"/>

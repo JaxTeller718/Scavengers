@@ -1,0 +1,46 @@
+<JaxTeller718>
+
+	<!-- <remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']/item[@name='tableSawSchematic']"/> -->
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsT0']/item[@name='forgeSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']/item[@name='workbenchSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']/item[@name='chemistryStationSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']/item[@name='cementMixerSchematic']"/>
+
+
+
+	<append xpath="/lootcontainers/lootgroup[@name='toolParts']">
+		<item name="partsForgeJT" count="1,3" loot_prob_template="medLow"/>
+		<item name="partsWorkbenchJT" count="1,3" loot_prob_template="medLow"/>
+		<!-- <item name="partsTableSaw" count="1,3" loot_prob_template="medLow"/> -->
+		<item name="partsCementMixerJT" count="1,3" loot_prob_template="medLow"/>
+		<item name="partsChemistryStationJT" count="1,3" loot_prob_template="medLow"/>
+		<item name="partsBatteryBankJT" count="1,3" loot_prob_template="medLow"/>
+		<item name="partsGeneratorJT" count="1,3" loot_prob_template="medLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupForge01']">
+		<item name="partsForgeJT" count="3,7" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot01']">
+		<item name="partsWorkbenchJT" count="3,7" />
+		<!-- <item name="partsTableSaw" count="1,3" /> -->
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupCementMixerLoot01']">
+		<item name="partsCementMixerJT" count="3,7" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot01']">
+		<item name="partsChemistryStationJT" count="3,7" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupBattBank']">
+		<item name="partsBatteryBankJT" count="3,7" loot_prob_template="low" force_prob="true"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupGenBank']">
+		<item name="partsGeneratorJT" count="3,7" loot_prob_template="low" force_prob="true"/>
+	</append>	
+
+</JaxTeller718>

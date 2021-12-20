@@ -1,0 +1,18 @@
+<JaxTeller718>
+	<append xpath="/items">
+
+<item name="resourceBrassHingeJT">
+	<property name="DescriptionKey" value="resourceBrassHingeJTDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceScrapBrassMedium"/>
+	<property name="MeltTimePerUnit" value=".4"/>
+	<property name="Stacknumber" value="250"/> <!-- STK loot -->
+	<property name="Weight" value="50"/>
+	<property name="EconomicValue" value="40"/>
+	<property name="Group" value="Resources"/>
+</item>
+	</append>
+</JaxTeller718>

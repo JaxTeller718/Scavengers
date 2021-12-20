@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<ModInfo>
+		<Name value="1_Scavengers_Workbench_TanningRack"/>
+		<Description value="Adds a tanning rack to make cloth, leather and jerky."/>
+		<Author value="JaxTeller718"/>
+		<Version value="A20"/>
+		<Website value="https://ravenhearst.enjin.com/"/>
+	</ModInfo>
+</xml>

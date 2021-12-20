@@ -7,8 +7,20 @@
 	<ingredient name="resourceFiberCordageJT" count="8"/>
 	<ingredient name="resourceStickJT" count="12"/>
 </recipe>
+<recipe name="backpackT0V1" count="1" craft_time="15">
+	<ingredient name="resourceStickJT" count="12"/>
+	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="resourceTwineJT" count="6"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
 <recipe name="backpackT1" count="1" craft_time="20">
 	<ingredient name="resourceCloth" count="8"/>
+	<ingredient name="resourceTwineJT" count="6"/>
+	<ingredient name="resourceScrapIron" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="backpackT1V1" count="1" craft_time="20">
+	<ingredient name="resourceLeather" count="8"/>
 	<ingredient name="resourceTwineJT" count="6"/>
 	<ingredient name="resourceScrapIron" count="2"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -20,10 +32,10 @@
 	<ingredient name="resourceSewingKit" count="1"/>
 </recipe>
 <recipe name="backpackT2V2" count="1" craft_time="60" tags="learnable">
-	<ingredient name="resourceCloth" count="10"/>
-	<ingredient name="resourceLeather" count="4"/>
-	<ingredient name="resourceForgedIron" count="1"/>
-	<ingredient name="resourceSewingKit" count="3"/>
+	<ingredient name="resourceCloth" count="20"/>
+	<ingredient name="resourceLeather" count="8"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceSewingKit" count="5"/>
 </recipe>
 <recipe name="backpackT3" count="1" craft_time="90" tags="learnable">
 	<ingredient name="resourceCloth" count="8"/>
@@ -32,5 +44,14 @@
 	<ingredient name="resourceForgedIron" count="2"/>
 	<ingredient name="resourceSewingKit" count="5"/>
 </recipe>
+<recipe name="backpackT3V1" count="1" craft_time="90" tags="learnable">
+	<ingredient name="resourceMilitaryFiber" count="20"/>
+	<ingredient name="resourceLeather" count="8"/>
+	<ingredient name="resourceForgedIron" count="8"/>
+	<ingredient name="resourceSewingKit" count="8"/>
+</recipe>
 </append>
+
+	<remove xpath="/recipes/recipe[starts-with(@name, 'mod')]"/>
+
 </config>

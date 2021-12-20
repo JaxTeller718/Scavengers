@@ -8,14 +8,12 @@
 	<set xpath="/gamestages/group[@name='S_-Group_Generic_Zombie']/spawner[@name='SleeperGSList']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_-_Group_Abandoned_House']/spawner[@name='AbandonedHouseHorde']/@count">4,7</set>
 	<set xpath="/gamestages/group[@name='S_-_Group_Biker_Bar']/spawner[@name='ZombieBikerBarHorde']/@count">7,11</set>
-	<set xpath="/gamestages/group[@name='S_-_Group_Football_Stadium']/spawner[@name='ZombieFootballStadiumHorde']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_-_Group_Ghost_Town']/spawner[@name='ZombieGhostTownHorde']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_-_Group_Hospital']/spawner[@name='HospitalHorde']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_-_Group_Lab_Worker']/spawner[@name='LabWorkerHorde']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_-_Group_Zom_Soldier']/spawner[@name='ZombieSoldierHorde']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_-_Group_Zom_Badass']/spawner[@name='ZombieBadassGSHorde']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_-_Group_Zom_Badass_Only']/spawner[@name='ZombieBadassOnlyHorde']/@count">7,11</set>
-	<set xpath="/gamestages/group[@name='S_Zom_Snow']/spawner[@name='SnowZombieHorde']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_Zom_HazMat_Only']/spawner[@name='ZombieHazMatOnlyHorde']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_Zom_Utility_Worker']/spawner[@name='ZombieUtilityWorkerHorde']/@count">7,11</set>
 	<set xpath="/gamestages/group[@name='S_Zom_Businessman']/spawner[@name='ZombieBusinessManHorde']/@count">7,11</set>

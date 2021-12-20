@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="1_Scavengers_NoPickups" />
-		<Description value="Reduces the amount if biome clutter like trash in the streets and also reduces crops found in biomes" />
+		<Description value="Removes the ability to pick up poi items like chairs" />
 		<Author value="JaxTeller718" />
-		<Version value="A19" />
+		<Version value="A20" />
 		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
 	</ModInfo>
 </xml>

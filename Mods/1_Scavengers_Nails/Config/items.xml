@@ -4,7 +4,7 @@
 	<append xpath="/items">	
 
 
-<item name="resourceWoodFrameParts"> <!-- scrap material -->
+<item name="resourceWoodFramePartsJT"> <!-- scrap material -->
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>

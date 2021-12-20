@@ -1,26 +1,80 @@
 <JaxTeller718>
-	<remove xpath="/quests/quest[@id='quest_BasicSurvival2']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival1']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival3']" />
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival4']" />
 
-	<set xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='FetchKeep' and @id='resourceYuccaFibers']/@value">33</set>
+	
+<insertBefore xpath="/quests/quest[@id='quest_BasicSurvival2']">
+
+
+	
+	<quest id="quest_BasicSurvival1">
+			<property name="group_name_key" value="quest_BasicSurvival"/>
+			<property name="name_key" value="quest_BasicSurvival1c"/>
+			<property name="subtitle_key" value="quest_BasicSurvival1c_subtitle"/>
+			<property name="description_key" value="quest_BasicSurvival1c_description"/>
+			<property name="icon" value="ui_game_symbol_hammer"/>
+			<property name="category_key" value="quest"/>
+			<property name="offer_key" value="quest_BasicSurvival_offer"/>
+			<property name="shareable" value="false"/>
+			
+		<action type="ShowTip" value="tutorialTipQuest02"/>
+		<action type="TrackQuest"/>
+		
+			<objective type="FetchKeep" id="meleeWpnKnucklesT0FiberKnucklesJT" value="1" phase="1"/>
+			<reward type="Exp" value="50"/>
+			<reward type="Quest" id="quest_BasicSurvival1a"/>
+	</quest>
 	
 
+	<quest id="quest_BasicSurvival1a">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="quest_BasicSurvival1a"/>
+		<property name="subtitle_key" value="quest_BasicSurvival1a_subtitle"/>
+		<property name="description_key" value="quest_BasicSurvival1a_description"/>
+		<property name="icon" value="ui_game_symbol_map_bed"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="offer_key" value="quest_BasicSurvival_offer"/>
+		<property name="shareable" value="false"/>
 
-	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='FetchKeep' and @id='resourceYuccaFibers']">
+		<action type="ShowTip" value="tutorialTipQuest02"/>
+		<action type="TrackQuest"/>
+
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="10" phase="1"/>
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="bedrollBlockVariantHelper"/>
+			<property name="count" value="1"/>
+		</objective>
+
+		<objective type="BlockPlace" id="bedrollBlockVariantHelper" value="1" phase="2"/>
+
+		<reward type="Exp" value="50"/>
+		<reward type="Quest" id="quest_BasicSurvival2a"/>
+	</quest>
+
+</insertBefore>
+
+
+<set xpath="/quests/quest[@id='quest_BasicSurvival1a']/objective[@type='FetchKeep' and @id='resourceYuccaFibers']/@value">33</set>
+
+
+	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1a']/objective[@type='FetchKeep' and @id='resourceYuccaFibers']">
 		<objective type="Craft" id="resourceFiberCordageJT" value="3" phase="1"/>
 
 	</insertAfter>
 	
-	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='Craft' and @id='resourceFiberCordageJT']">
+	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1a']/objective[@type='Craft' and @id='resourceFiberCordageJT']">
 		<objective type="FetchKeep" id="resourceStickJT" value="10" phase="1"/>
 
 	</insertAfter>
 	
-
 	
-	<set xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@type='Quest']/@id">quest_BasicSurvival2a</set>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival2']" />
 
 
-<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1']">
+<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1a']">
 
 	<quest id="quest_BasicSurvival2a">
 		<property name="group_name_key" value="quest_BasicSurvival"/>
@@ -32,13 +86,42 @@
 		<property name="offer_key" value="quest_BasicSurvival_offer"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="Craft" id="resourceSharpenedStoneJT" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="6" phase="1"/>
 		<objective type="FetchKeep" id="resourceStickJT" value="8" phase="1"/>
-		<objective type="Craft" id="resourceFiberCordageJT" value="4" phase="1"/>
+		<objective type="FetchKeep" id="resourceRockSmall" value="1" phase="1">
+			<modifier type="TrackBlocks">
+				<property name="block_index_name" value="quest_stone"/>
+				<property name="nav_object" value="quest_resource"/>
+				<property name="track_distance" value="20"/>
+			</modifier>
+		</objective>
+		<objective type="Craft" id="resourceSharpenedStoneJT" value="1" phase="2"/>
+		<objective type="Craft" id="resourceFiberCordageJT" value="3" phase="2"/>
+		<objective type="Craft">
+			<property name="phase" value="3"/>
+			<property name="item" value="meleeToolRepairT0StoneAxe"/>
+			<property name="count" value="1"/>
+		</objective>
+		
 
+		<reward type="Exp" value="50"/>
+		<reward type="Quest" id="quest_BasicSurvival2aa"/>
+	</quest>
+	
+	<quest id="quest_BasicSurvival2aa">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="quest_BasicSurvival2aa"/>
+		<property name="subtitle_key" value="quest_BasicSurvival2aa_subtitle"/>
+		<property name="description_key" value="quest_BasicSurvival2aa_description"/>
+		<property name="icon" value="ui_game_symbol_hammer"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="quest_BasicSurvival_offer"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="woodLogPillar100JT" value="5" phase="1"/>
 		
-		<objective type="Craft" id="meleeToolRepairT0StoneAxe" value="1" phase="2"/>
-		
+		<objective type="BlockPlace" id="woodLogPillar100JT" value="5" phase="2"/>
+		<objective type="FetchKeep" id="resourceWood" value="24" phase="2"/>		
 
 		<reward type="Exp" value="50"/>
 		<reward type="Quest" id="quest_BasicSurvival2b"/>
@@ -54,35 +137,29 @@
 		<property name="offer_key" value="quest_BasicSurvival_offer"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="Craft" id="resourceSharpenedStoneJT" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="6" phase="1"/>
 		<objective type="FetchKeep" id="resourceStickJT" value="8" phase="1"/>
-		<objective type="Craft" id="resourceFiberCordageJT" value="4" phase="1"/>	
-
-		<objective type="Craft" id="meleeToolPickT0StonePickaxe" value="1" phase="2"/>
+		<objective type="FetchKeep" id="resourceRockSmall" value="1" phase="1">
+			<modifier type="TrackBlocks">
+				<property name="block_index_name" value="quest_stone"/>
+				<property name="nav_object" value="quest_resource"/>
+				<property name="track_distance" value="20"/>
+			</modifier>
+		</objective>
+		<objective type="Craft" id="resourceSharpenedStoneJT" value="1" phase="2"/>
+		<objective type="Craft" id="resourceFiberCordageJT" value="3" phase="2"/>
+		<objective type="Craft">
+			<property name="phase" value="3"/>
+			<property name="item" value="meleeToolPickT0StonePickaxeJT"/>
+			<property name="count" value="1"/>
+		</objective>
 
 
 		<reward type="Exp" value="50"/>
 		<reward type="Quest" id="quest_BasicSurvival4a"/>
 	</quest>
 	
-	<quest id="quest_BasicSurvival3a">
-		<property name="group_name_key" value="quest_BasicSurvival"/>
-		<property name="name_key" value="quest_BasicSurvival3a"/>
-		<property name="subtitle_key" value="quest_BasicSurvival3a_subtitle"/>
-		<property name="description_key" value="quest_BasicSurvival3a_description"/>
-		<property name="icon" value="ui_game_symbol_hammer"/>
-		<property name="category_key" value="quest"/>
-		<property name="offer_key" value="quest_BasicSurvival_offer"/>
-		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="cntTrashPile01RH" value="3" phase="1"/>
-
-		<objective type="BlockPlace" id="cntTrashPile01RH" value="3" phase="1"/>
-
-
-		<reward type="Exp" value="50"/>
-		<reward type="Quest" id="quest_BasicSurvival4a"/>
-	</quest>
 	
 	<quest id="quest_BasicSurvival4a">
 		<property name="group_name_key" value="quest_BasicSurvival"/>
@@ -102,6 +179,44 @@
 
 		<objective type="Wear" id="backpackT0" value="1" phase="3"/>
 
+
+		<reward type="Exp" value="50"/>
+		<reward type="Quest" id="quest_BasicSurvival3b"/>
+	</quest>
+
+	<!-- Basic Survival 3 - Craft Plant Fiber Clothing/> -->
+	<quest id="quest_BasicSurvival3b">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="quest_BasicSurvival3b"/>
+		<property name="subtitle_key" value="quest_BasicSurvival3b_subtitle"/>
+		<property name="description_key" value="quest_BasicSurvival3b_description"/>
+		<property name="icon" value="ui_game_symbol_tailoring"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="14" phase="1"/>
+		<objective type="Craft" id="resourceFiberCordageJT" value="4" phase="1"/>
+		
+		<objective type="Craft" id="apparelPlantFiberPants" value="1" phase="2"/>
+		<objective type="Craft" id="apparelPlantFiberShirt" value="1" phase="2"/>
+		<reward type="Exp" value="50"/>
+		<reward type="Quest" id="quest_BasicSurvival4b"/>
+	</quest>
+
+	<!-- Basic Survival 4 - Wear Plant Fiber Clothing/> -->
+	<quest id="quest_BasicSurvival4b">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="quest_BasicSurvival4b"/>
+		<property name="subtitle_key" value="quest_BasicSurvival4b_subtitle"/>
+		<property name="description_key" value="quest_BasicSurvival4b_description"/>
+		<property name="icon" value="ui_game_symbol_shirt"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="Wear" id="apparelPlantFiberPants"/>
+		<objective type="Wear" id="apparelPlantFiberShirt"/>
 
 		<reward type="Exp" value="50"/>
 		<reward type="Quest" id="quest_BasicSurvival5a"/>
@@ -125,25 +240,65 @@
 		<reward type="Exp" value="50"/>
 		<reward type="Quest" id="quest_BasicSurvival6a"/>
 	</quest>
- 
- 	<quest id="quest_BasicSurvival6a">
+	
+	<quest id="quest_BasicSurvival6a">
 		<property name="group_name_key" value="quest_BasicSurvival"/>
 		<property name="name_key" value="quest_BasicSurvival6a"/>
 		<property name="subtitle_key" value="quest_BasicSurvival6a_subtitle"/>
 		<property name="description_key" value="quest_BasicSurvival6a_description"/>
+		<property name="icon" value="ui_game_symbol_map_house"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="resourceWood" value="12" phase="1">
+			<modifier type="TrackBlocks">
+				<property name="block_index_name" value="quest_wood"/>
+				<property name="nav_object" value="quest_resource"/>
+				<property name="track_distance" value="20"/>
+			</modifier>
+		</objective>
+		<objective type="Craft" id="resourceWoodNailJT" value="2" phase="1"/>
+		<objective type="Craft" id="frameShapes:VariantHelper" value="1" phase="2"/>
+		<objective type="BlockPlace" id="frameShapes:VariantHelper" value="1" phase="2"/>
+		<objective type="BlockUpgrade" id="frameShapes" value="1" phase="2"/>
+
+		<reward type="Exp" value="50"/>
+		<reward type="Quest" id="quest_BasicSurvival7a"/>
+	</quest>
+ 
+ 	<quest id="quest_BasicSurvival7a">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="quest_BasicSurvival7a"/>
+		<property name="subtitle_key" value="quest_BasicSurvival7a_subtitle"/>
+		<property name="description_key" value="quest_BasicSurvival7a_description"/>
 		<property name="icon" value="ui_game_symbol_hammer"/>
 		<property name="category_key" value="quest"/>
 		<property name="offer_key" value="quest_BasicSurvival_offer"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="FetchKeep" id="resourceRockSmall" value="8" phase="1"/>
-		<objective type="FetchKeep" id="resourceStickJT" value="12" phase="1"/>
 		<objective type="FetchKeep" id="resourceYuccaFibers" value="5" phase="1"/>
-		<objective type="Craft" id="campfire" value="1" phase="1"/>
-		<objective type="BlockPlace" id="campfire" value="1" phase="1"/>
+		<objective type="Craft" id="resourceStickJT" value="12" phase="1"/>
+
+		<objective type="FetchKeep" id="resourceWood" value="6" phase="1">
+			<modifier type="TrackBlocks">
+				<property name="block_index_name" value="quest_wood"/>
+				<property name="nav_object" value="quest_resource"/>
+				<property name="track_distance" value="20"/>
+			</modifier>
+		</objective>
+		<objective type="FetchKeep" id="resourceRockSmall" value="8" phase="1">
+			<modifier type="TrackBlocks">
+				<property name="block_index_name" value="quest_stone"/>
+				<property name="nav_object" value="quest_resource"/>
+				<property name="track_distance" value="20"/>
+			</modifier>
+		</objective>
+		<objective type="Craft" id="campfire" value="1" phase="2"/>
+		<objective type="BlockPlace" id="campfire" value="1" phase="2"/>
 		
-		<objective type="FetchKeep" id="drinkCanteenFull" value="1" phase="2"/>
-		<objective type="Craft" id="drinkCanteenCleaned" value="1" phase="2"/>
+		<objective type="FetchKeep" id="drinkCanteenFullJT" value="1" phase="3"/>
+		<objective type="Craft" id="drinkCanteenCleanedJT" value="1" phase="3"/>
 
 		<reward type="Exp" value="50"/>
 	</quest>

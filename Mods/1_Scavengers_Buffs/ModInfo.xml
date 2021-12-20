@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="1_Scavengers_Buffs"/>
-		<Description value="Changes the XP deficit and revives you with only 70 hunger and thirst."/>
+		<Description value="Adds buffs to keep infection on death and halve food and water on death."/>
 		<Author value="JaxTeller718" />
-		<Version value="A19" />
+		<Version value="A20" />
 		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
 	</ModInfo>
 </xml>

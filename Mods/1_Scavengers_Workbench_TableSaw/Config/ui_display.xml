@@ -1,0 +1,15 @@
+<JaxTeller718>
+	<append xpath="/ui_display_info/crafting_category_display">
+		<crafting_category_list display_type="tableSawJT">
+			<!-- <crafting_category name="" icon="ui_game_symbol_table_saw" display_name="lblAll" /> -->
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources"/>
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding"/>
+			<crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc"/>
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps"/>
+		</crafting_category_list>
+	</append>
+	<append xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='tableSaw']">
+		<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources"/>
+		<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps"/>
+	</append>
+</JaxTeller718>

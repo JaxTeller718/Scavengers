@@ -16,6 +16,10 @@
 <recipe name="resourceSharpenedStoneJT" count="1" craft_time="1">
 	<ingredient name="resourceRockSmall" count="1"/>
 </recipe>
+
+		<recipe name="resourceBone" count="1" craft_time="3">
+			<ingredient name="resourceBoneFragmentsJT" count="3"/>
+		</recipe>
 		
 	</append>
 
@@ -68,8 +72,10 @@
 	<set xpath="/recipes/recipe[@name='meleeToolShovelT0StoneShovel']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordageJT</set>
 	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT0StoneSledgehammer']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordageJT</set>
 	<set xpath="/recipes/recipe[@name='meleeToolRepairT0StoneAxe']/ingredient[@name='resourceYuccaFibers']/@name">resourceFiberCordageJT</set>
-	<set xpath="/recipes/recipe[@name='bedroll']/ingredient[@name='resourceYuccaFibers']/@count">24</set>
+	<set xpath="/recipes/recipe[@name='bedrollBlockVariantHelper']/ingredient[@name='resourceYuccaFibers']/@count">24</set>
 
+	<set xpath="/recipes/recipe[@name='meleeToolRepairT0StoneAxe']/ingredient[@name='resourceFiberCordageJT']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='meleeToolShovelT0StoneShovel']/ingredient[@name='resourceFiberCordageJT']/@count">3</set>
 
 
 	<append xpath="/recipes">
@@ -87,7 +93,7 @@
 
 
 
-	<insertAfter xpath="/recipes/recipe[@name='bedroll']/ingredient[@name='resourceYuccaFibers']">
+	<insertAfter xpath="/recipes/recipe[@name='bedrollBlockVariantHelper']/ingredient[@name='resourceYuccaFibers']">
 		<ingredient name="resourceFiberCordageJT" count="3"/>
 		<ingredient name="resourceStickJT" count="10"/>
 
@@ -123,7 +129,7 @@
 
 	</insertAfter>
 
-	<setattribute xpath="/recipes/recipe[@name='bedroll']" name="craft_time">6</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='bedrollBlockVariantHelper']" name="craft_time">6</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='apparelPlantFiberGloves']" name="craft_time">4</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='apparelPlantFiberHat']" name="craft_time">4</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='apparelPlantFiberHood']" name="craft_time">4</setattribute>
@@ -141,7 +147,7 @@ or (contains(@name, 'secureDoorWooden'))
 	</append>
 
 
-<!-- 	<append xpath="/recipes/recipe[@name='woodFrameBlockVariantHelper']">
+<!-- 	<append xpath="/recipes/recipe[@name='frameShapes:VariantHelper']">
 		<ingredient name="resourceWoodFrameParts" count="4"/>
 
 	</append>	 -->
@@ -223,14 +229,20 @@ or (contains(@name, 'scrapHatch_v1'))
 		</recipe>
 		
 
-		<recipe name="resourceLeather" count="3" craft_time="30" craft_area="tanningRack">
+		<recipe name="resourceLeather" count="3" craft_time="30">
 			<ingredient name="resourceAnimalHideJT" count="1"/>
 		</recipe>
 
 
 	</append>	
 
-	<setattribute xpath="/recipes/recipe[@name='woodFrameBlockVariantHelper']" name="craft_time">2</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='frameShapes:VariantHelper']" name="craft_time">2</setattribute>
+	<!-- <setattribute xpath="/recipes/recipe[@name='frameShapes:VariantHelper']" name="craft_area">tableSawJT</setattribute> -->
+	
+	<insertAfter xpath="/recipes/recipe[@name='frameShapes:VariantHelper']/ingredient[@name='resourceWood']">
+		<ingredient name="resourceWoodNailJT" count="2"/>
+
+	</insertAfter>
 
 	<remove xpath="/recipes/recipe[@name='campfire']"/>
 

@@ -1,0 +1,164 @@
+<JaxTeller718>
+
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,resourceElectricParts,resourceRepairKit,toolBeaker,smallEngine</append>
+
+
+	<append xpath="/items">	
+
+
+		<item name="partsWorkbenchJT">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="ItemTypeIcon" value="gunsmithing"/>
+			<property name="CustomIcon" value="workbench"/>
+			<property name="DescriptionKey" value="stationPartsGroupDesc"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MelectricParts"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="100"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="32"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientExp" value="15"/>
+			<property name="CraftingIngredientTime" value="2"/>
+			<!-- <property name="RepairTime" value="2"/>
+	<property name="RepairAmount" value="400"/> -->
+		</item>
+
+		<item name="partsForgeJT">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="ItemTypeIcon" value="gunsmithing"/>
+			<property name="CustomIcon" value="forge"/>
+			<property name="DescriptionKey" value="stationPartsGroupDesc"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MelectricParts"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="100"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="32"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientExp" value="15"/>
+			<property name="CraftingIngredientTime" value="2"/>
+			<!-- <property name="RepairTime" value="2"/>
+	<property name="RepairAmount" value="400"/> -->
+		</item>
+
+		<item name="partsChemistryStationJT">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="ItemTypeIcon" value="gunsmithing"/>
+			<property name="CustomIcon" value="chemistryStation"/>
+			<property name="DescriptionKey" value="stationPartsGroupDesc"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MelectricParts"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="100"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="32"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientExp" value="15"/>
+			<property name="CraftingIngredientTime" value="2"/>
+			<!-- <property name="RepairTime" value="2"/>
+	<property name="RepairAmount" value="400"/> -->
+		</item>
+
+		<item name="partsTableSawJT">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="ItemTypeIcon" value="gunsmithing"/>
+			<property name="CustomIcon" value="tableSaw"/>
+			<property name="DescriptionKey" value="stationPartsGroupDesc"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MelectricParts"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="100"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="32"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientExp" value="15"/>
+			<property name="CraftingIngredientTime" value="2"/>
+			<!-- <property name="RepairTime" value="2"/>
+	<property name="RepairAmount" value="400"/> -->
+		</item>
+
+		<item name="partsBatteryBankJT">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="ItemTypeIcon" value="gunsmithing"/>
+			<property name="CustomIcon" value="batterybank"/>
+			<property name="DescriptionKey" value="stationPartsGroupDesc"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MelectricParts"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="100"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="32"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientExp" value="15"/>
+			<property name="CraftingIngredientTime" value="2"/>
+			<!-- <property name="RepairTime" value="2"/>
+	<property name="RepairAmount" value="400"/> -->
+		</item>
+
+		<item name="partsGeneratorJT">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="ItemTypeIcon" value="gunsmithing"/>
+			<property name="CustomIcon" value="generatorbank"/>
+			<property name="DescriptionKey" value="stationPartsGroupDesc"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MelectricParts"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="100"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="32"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientExp" value="15"/>
+			<property name="CraftingIngredientTime" value="2"/>
+			<!-- <property name="RepairTime" value="2"/>
+	<property name="RepairAmount" value="400"/> -->
+		</item>
+
+
+
+		<item name="partsCementMixerJT">
+			<!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="ItemTypeIcon" value="gunsmithing"/>
+			<property name="CustomIcon" value="cementMixer"/>
+			<property name="DescriptionKey" value="stationPartsGroupDesc"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MelectricParts"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="100"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="32"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientExp" value="15"/>
+			<property name="CraftingIngredientTime" value="2"/>
+			<!-- <property name="RepairTime" value="2"/>
+	<property name="RepairAmount" value="400"/> -->
+		</item>
+
+
+	</append>
+
+
+
+
+</JaxTeller718>

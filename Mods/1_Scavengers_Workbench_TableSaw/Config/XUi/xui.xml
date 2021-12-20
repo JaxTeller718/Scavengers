@@ -1,0 +1,24 @@
+<JaxTeller718>
+	<insertAfter xpath="/xui/ruleset/window_group[@name='workstation_chemistryStation']">
+		<window_group name="workstation_tableSawJT" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowFuel"/>
+			<window name="windowOutput"/>
+			<window name="windowNonPagingHeader"/>
+			<!-- <window name="windowCombine" /> -->
+		</window_group>
+	</insertAfter>
+	<insertAfter xpath="/xui/ruleset/window_group[@name='workstation_tableSawJT']">
+		<window_group name="workstation_tableSaw" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowFuel"/>
+			<window name="windowOutput"/>
+			<window name="windowNonPagingHeader"/>
+			<!-- <window name="windowCombine" /> -->
+		</window_group>
+	</insertAfter>
+</JaxTeller718>

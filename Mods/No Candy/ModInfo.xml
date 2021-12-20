@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="No Candy" />
-		<Description value="Removes all candies from traders and vending machines, what allows you to buy more food" />
-		<Author value="Craluminum2413" />
-		<Version value="1.0.0" />
-	</ModInfo>
-</xml>

@@ -1,0 +1,9 @@
+﻿Key,Source,Context,English
+tableSawJT,blocks,Workstation,Table Saw,,,,,
+tableSawJTDesc,blocks,Workstation,"Create furniture, advanced shapes and decorations for your base.",,,,,
+tableSawJTSchematic,blocks,Workstation,Table Saw Schematic,,,,,
+tableSawBladeJT,items,Item,Saw Blade,,,,,
+tableSawBladeJTDesc,items,Item,A sharp blade from a table saw. You can use this later on to make your own table saw.,,,,,
+cntTableSawBustedRandomLootHelperJT,blocks,Container,= Destroyed Table Saw = Random Helper,,,,,
+cntTableSawBustedRandomLootHelperJTDesc,blocks,Container,Can spawn a table saw.  10% chance for a working one.,,,,,
+cntCollapsedtableSawJT,blocks,Container,Destroyed Table Saw,,,,,

@@ -1,0 +1,11 @@
+<JaxTeller718>
+
+	<append xpath="/recipes">
+
+		<recipe name="cntCardboardStorageJT" count="1">
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourcePaper" count="25"/>
+		</recipe>
+
+	</append>
+</JaxTeller718>

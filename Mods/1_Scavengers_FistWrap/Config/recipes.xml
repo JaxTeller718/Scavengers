@@ -1,0 +1,13 @@
+<JaxTeller718>
+
+
+	<append xpath="/recipes">
+
+<recipe name="meleeWpnKnucklesT0FiberKnucklesJT" count="1" craft_time="7" tags="perkMiner69r">
+	<ingredient name="resourceFiberCordageJT" count="2"/>
+	<ingredient name="resourceYuccaFibers" count="12"/>
+</recipe>
+
+	</append>
+
+</JaxTeller718>

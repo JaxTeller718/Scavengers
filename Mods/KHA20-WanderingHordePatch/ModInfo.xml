@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="Wandering Horde Frequency For Vanilla" />
+    <Description value="Allows the player to increase the frequency of the wandering horde" />
+    <Author value="KhaineGB" />
+    <Version value="1.0" />
+    <Website value="" />
+  </ModInfo>
+</xml>

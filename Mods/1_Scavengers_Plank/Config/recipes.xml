@@ -6,23 +6,11 @@
 	<append xpath="/recipes" >	
 
 
-
-
-<!-- 		<recipe name="meleeRock" count="1" craft_time="4">
-			<ingredient name="resourceRockSmall" count="2" />
-		</recipe> -->
-
-		<recipe name="meleeWpnClubT0Plank" count="1" craft_time="4">
+		<recipe name="meleeWpnClubT0PlankJT" count="1" craft_time="4">
 			<ingredient name="resourceWood" count="1" />
 		</recipe>
 
 	</append>
 
-	<remove xpath="/recipes/recipe[@name='meleeToolShovelT2SteelShovel']" />
-	<remove xpath="/recipes/recipe[@name='meleeToolShovelT1IronShovel']" />
-	<remove xpath="/recipes/recipe[@name='meleeToolPickT2SteelPickaxe']" />
-	<remove xpath="/recipes/recipe[@name='meleeToolPickT1IronPickaxe']" />
-	<remove xpath="/recipes/recipe[@name='meleeToolAxeT1IronFireaxe']" />
-	<remove xpath="/recipes/recipe[@name='meleeToolAxeT2SteelAxe']" />
 
 </JaxTeller718>

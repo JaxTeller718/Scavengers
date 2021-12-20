@@ -1,0 +1,165 @@
+<configs>
+
+
+<append xpath="/recipes">
+	<recipe name="Disassemble 7.62mm (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo762mmBulletBall" count="10"/>
+	</recipe>
+	<recipe name="Disassemble 7.62mm (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo762mmBulletBall" count="50"/>
+	</recipe>
+	<recipe name="Disassemble 7.62mm (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo762mmBulletBall" count="250"/>
+	</recipe>
+
+	<recipe name="Disassemble 9mm (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo9mmBulletBall" count="10"/>
+	</recipe>
+	<recipe name="Disassemble 9mm (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo9mmBulletBall" count="50"/>
+	</recipe>
+	<recipe name="Disassemble 9mm (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo9mmBulletBall" count="250"/>
+	</recipe>
+
+	<recipe name="Disassemble 44Magnum (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo44MagnumBulletBall" count="10"/>
+	</recipe>
+	<recipe name="Disassemble 44Magnum (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo44MagnumBulletBall" count="50"/>
+	</recipe>
+	<recipe name="Disassemble 44Magnum (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo44MagnumBulletBall" count="250"/>
+	</recipe>
+	<recipe name="Disassemble 44Magnum AP (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo44MagnumBulletAP" count="10"/>
+	</recipe>
+	<recipe name="Disassemble 44Magnum AP (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo44MagnumBulletAP" count="50"/>
+	</recipe>
+	<recipe name="Disassemble 44Magnum AP (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammo44MagnumBulletAP" count="250"/>
+	</recipe>
+
+	<recipe name="Disassemble Shotgun Shells (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoShotgunShell" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Shotgun Shells (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoShotgunShell" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Shotgun Shells (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoShotgunShell" count="250"/>
+	</recipe>
+	
+	<recipe name="Disassemble Shotgun Slugs (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoShotgunSlug" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Shotgun Slugs (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoShotgunSlug" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Shotgun Slugs (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoShotgunSlug" count="250"/>
+	</recipe>
+	
+
+	<recipe name="Disassemble Stone Arrow (10)" count="1" craft_time = "1">
+		<ingredient name="ammoArrowStone" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Stone Arrow (50)" count="1" craft_time = "1">
+		<ingredient name="ammoArrowStone" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Stone Arrow (250)" count="1" craft_time = "1">
+		<ingredient name="ammoArrowStone" count="250"/>
+	</recipe>
+	
+	<recipe name="Disassemble Iron Arrow (10)" count="1" craft_time = "1">
+		<ingredient name="ammoArrowIron" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Iron Arrow (50)" count="1" craft_time = "1">
+		<ingredient name="ammoArrowStone" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Iron Arrow (250)" count="1" craft_time = "1">
+		<ingredient name="ammoArrowStone" count="250"/>
+	</recipe>
+	
+	<recipe name="Disassemble Steel Arrow (10)" count="1" craft_time = "1">
+		<ingredient name="ammoArrowSteelAP" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Steel Arrow (50)" count="1" craft_time = "1">
+		<ingredient name="ammoArrowSteelAP" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Steel Arrow (250)" count="1" craft_time = "1">
+		<ingredient name="ammoArrowSteelAP" count="250"/>
+	</recipe>
+	
+	<recipe name="Disassemble Flaming Arrow (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoArrowFlaming" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Flaming Arrow (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoArrowFlaming" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Flaming Arrow (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoArrowFlaming" count="250"/>
+	</recipe>
+	
+	
+	
+	<recipe name="Disassemble Stone Bolt (10)" count="1" craft_time = "1">
+		<ingredient name="ammoCrossbowBoltStone" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Stone Bolt (50)" count="1" craft_time = "1">
+		<ingredient name="ammoCrossbowBoltStone" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Stone Bolt (250)" count="1" craft_time = "1">
+		<ingredient name="ammoCrossbowBoltStone" count="250"/>
+	</recipe>
+	
+	<recipe name="Disassemble Iron Bolt (10)" count="1" craft_time = "1">
+		<ingredient name="ammoCrossbowBoltIron" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Iron Bolt (50)" count="1" craft_time = "1">
+		<ingredient name="ammoCrossbowBoltStone" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Iron Bolt (250)" count="1" craft_time = "1">
+		<ingredient name="ammoCrossbowBoltStone" count="250"/>
+	</recipe>
+	
+	<recipe name="Disassemble Steel Bolt (10)" count="1" craft_time = "1">
+		<ingredient name="ammoCrossbowBoltSteelAP" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Steel Bolt (50)" count="1" craft_time = "1">
+		<ingredient name="ammoCrossbowBoltSteelAP" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Steel Bolt (250)" count="1" craft_time = "1">
+		<ingredient name="ammoCrossbowBoltSteelAP" count="250"/>
+	</recipe>
+	
+	<recipe name="Disassemble Exploding Bolt (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoCrossbowBoltExploding" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Exploding Bolt (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoCrossbowBoltExploding" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Exploding Bolt (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoCrossbowBoltExploding" count="250"/>
+	</recipe>
+	<recipe name="Disassemble High Explosive Rocket (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoRocketHE" count="10"/>
+	</recipe>
+	<recipe name="Disassemble High Explosive Rocket (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoRocketHE" count="50"/>
+	</recipe>
+	<recipe name="Disassemble High Explosive Rocket (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoRocketHE" count="250"/>
+	</recipe>
+	<recipe name="Disassemble Fragmentation Rocket (10)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoRocketFrag" count="10"/>
+	</recipe>
+	<recipe name="Disassemble Fragmentation Rocket (50)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoRocketFrag" count="50"/>
+	</recipe>
+	<recipe name="Disassemble Fragmentation Rocket (250)" count="1" craft_time = "1" craft_area="workbench">
+		<ingredient name="ammoRocketFrag" count="250"/>
+	</recipe>
+</append>
+</configs>

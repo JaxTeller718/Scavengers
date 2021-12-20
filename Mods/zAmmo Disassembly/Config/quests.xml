@@ -1,0 +1,935 @@
+<configs>
+<append xpath="/quests">
+<!-- Ammo Disassembly -->
+<quest id="disassemble762x10" repeatable="true">
+		<property name="group_name_key" value="Disassemble 7.62mm x 10" />
+		<property name="name_key" value="Disassemble 7.62mm x 10" />
+		<property name="subtitle" value="Disassemble 7.62mm x 10" />
+		<property name="subtitle_key" value="Disassemble 7.62mm x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="30" />
+			<reward type="Item" id="resourceBulletTip" value="10" />
+</quest>
+<quest id="disassemble762x50" repeatable="true">
+		<property name="group_name_key" value="Disassemble 7.62mm x 50" />
+		<property name="name_key" value="Disassemble 7.62mm x 50" />
+		<property name="subtitle" value="Disassemble 7.62mm x 50" />
+		<property name="subtitle_key" value="Disassemble 7.62mm x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="150" />
+			<reward type="Item" id="resourceBulletTip" value="50" />
+</quest>
+<quest id="disassemble762x250" repeatable="true">
+		<property name="group_name_key" value="Disassemble 7.62mm x 250" />
+		<property name="name_key" value="Disassemble 7.62mm x 250" />
+		<property name="subtitle" value="Disassemble 7.62mm x 250" />
+		<property name="subtitle_key" value="Disassemble 7.62mm x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="750" />
+			<reward type="Item" id="resourceBulletTip" value="250" />
+</quest>
+<quest id="disassemble762Steelx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble 7.62mm Steel x 10" />
+		<property name="name_key" value="Disassemble 7.62mm Steel x 10" />
+		<property name="subtitle" value="Disassemble 7.62mm Steel x 10" />
+		<property name="subtitle_key" value="Disassemble 7.62mm Steel x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasingSteel" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="30" />
+			<reward type="Item" id="resourceBulletTip" value="10" />
+</quest>
+<quest id="disassemble762Steelx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble 7.62mm Steel x 50" />
+		<property name="name_key" value="Disassemble 7.62mm Steel x 50" />
+		<property name="subtitle" value="Disassemble 7.62mm Steel x 50" />
+		<property name="subtitle_key" value="Disassemble 7.62mm Steel x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasingSteel" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="150" />
+			<reward type="Item" id="resourceBulletTip" value="50" />
+</quest>
+<quest id="disassemble762Steelx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble 7.62mm Steel x 250" />
+		<property name="name_key" value="Disassemble 7.62mm Steel x 250" />
+		<property name="subtitle" value="Disassemble 7.62mm Steel x 250" />
+		<property name="subtitle_key" value="Disassemble Steel 7.62mm x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasingSteel" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="750" />
+			<reward type="Item" id="resourceBulletTip" value="250" />
+</quest>
+<quest id="disassemble9mmx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble 9mm x 10" />
+		<property name="name_key" value="Disassemble 9mm x 10" />
+		<property name="subtitle" value="Disassemble 9mm x 10" />
+		<property name="subtitle_key" value="Disassemble 9mm x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="10" />
+			<reward type="Item" id="resourceBulletTip" value="10" />
+</quest>
+<quest id="disassemble9mmx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble 9mm x 50" />
+		<property name="name_key" value="Disassemble 9mm x 50" />
+		<property name="subtitle" value="Disassemble 9mm x 50" />
+		<property name="subtitle_key" value="Disassemble 9mm x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="50" />
+			<reward type="Item" id="resourceBulletTip" value="50" />
+</quest>
+<quest id="disassemble9mmx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble 9mm x 250" />
+		<property name="name_key" value="Disassemble 9mm x 250" />
+		<property name="subtitle" value="Disassemble 9mm x 250" />
+		<property name="subtitle_key" value="Disassemble 9mm x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="250" />
+			<reward type="Item" id="resourceBulletTip" value="250" />
+</quest>
+<quest id="disassemble9mmSteelx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble 9mm Steel x 10" />
+		<property name="name_key" value="Disassemble 9mm Steel x 10" />
+		<property name="subtitle" value="Disassemble 9mm Steel x 10" />
+		<property name="subtitle_key" value="Disassemble 9mm Steel x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasingSteel" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="10" />
+			<reward type="Item" id="resourceBulletTip" value="10" />
+</quest>
+<quest id="disassemble9mmSteelx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble 9mm Steel x 50" />
+		<property name="name_key" value="Disassemble 9mm Steel x 50" />
+		<property name="subtitle" value="Disassemble 9mm Steel x 50" />
+		<property name="subtitle_key" value="Disassemble 9mm Steel x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasingSteel" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="50" />
+			<reward type="Item" id="resourceBulletTip" value="50" />
+</quest>
+<quest id="disassemble9mmSteelx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble 9mm Steel x 250" />
+		<property name="name_key" value="Disassemble 9mm Steel x 250" />
+		<property name="subtitle" value="Disassemble 9mm Steel x 250" />
+		<property name="subtitle_key" value="Disassemble 9mm Steel x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasingSteel" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="250" />
+			<reward type="Item" id="resourceBulletTip" value="250" />
+</quest>
+
+<quest id="disassemble44magnumx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble 44 Magnum x 10" />
+		<property name="name_key" value="Disassemble 44 Magnum x 10" />
+		<property name="subtitle" value="Disassemble 44 Magnum x 10" />
+		<property name="subtitle_key" value="Disassemble 44 Magnum x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="30" />
+			<reward type="Item" id="resourceBulletTip" value="10" />
+</quest>
+<quest id="disassemble44magnumx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble 44 Magnum x 50" />
+		<property name="name_key" value="Disassemble 44 Magnum x 50" />
+		<property name="subtitle" value="Disassemble 44 Magnum x 50" />
+		<property name="subtitle_key" value="Disassemble 44 Magnum x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="150" />
+			<reward type="Item" id="resourceBulletTip" value="50" />
+</quest>
+<quest id="disassemble44magnumx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble 44 Magnum x 250" />
+		<property name="name_key" value="Disassemble 44 Magnum x 250" />
+		<property name="subtitle" value="Disassemble 44 Magnum x 250" />
+		<property name="subtitle_key" value="Disassemble 44 Magnum x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="750" />
+			<reward type="Item" id="resourceBulletTip" value="250" />
+</quest>
+<quest id="disassemble44magnumSteelx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble 44 Magnum Steel x 10" />
+		<property name="name_key" value="Disassemble 44 Magnum Steel x 10" />
+		<property name="subtitle" value="Disassemble 44 Magnum Steel x 10" />
+		<property name="subtitle_key" value="Disassemble 44 Magnum Steel x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasingSteel" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="30" />
+			<reward type="Item" id="resourceBulletTip" value="10" />
+</quest>
+<quest id="disassemble44magnumSteelx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble 44 Magnum Steel x 50" />
+		<property name="name_key" value="Disassemble 44 Magnum Steel x 50" />
+		<property name="subtitle" value="Disassemble 44 Magnum Steel x 50" />
+		<property name="subtitle_key" value="Disassemble 44 Magnum Steel x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasingSteel" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="150" />
+			<reward type="Item" id="resourceBulletTip" value="50" />
+</quest>
+<quest id="disassemble44magnumSteelx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble 44 Magnum Steel x 250" />
+		<property name="name_key" value="Disassemble 44 Magnum Steel x 250" />
+		<property name="subtitle" value="Disassemble 44 Magnum Steel x 250" />
+		<property name="subtitle_key" value="Disassemble 44 Magnum Steel x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasingSteel" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="750" />
+			<reward type="Item" id="resourceBulletTip" value="250" />
+</quest>
+<quest id="disassemble44magnumAPx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble 44 Magnum AP x 10" />
+		<property name="name_key" value="Disassemble 44 Magnum AP x 10" />
+		<property name="subtitle" value="Disassemble 44 Magnum AP x 10" />
+		<property name="subtitle_key" value="Disassemble 44 Magnum AP x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="40" />
+			<reward type="Item" id="resourceBulletTip" value="20" />
+</quest>
+<quest id="disassembl4magnumAPx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble 44 Magnum AP x 50" />
+		<property name="name_key" value="Disassemble 44 Magnum AP x 50" />
+		<property name="subtitle" value="Disassemble 44 Magnum AP x 50" />
+		<property name="subtitle_key" value="Disassemble 44 Magnum AP x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="200" />
+			<reward type="Item" id="resourceBulletTip" value="100" />
+</quest>
+<quest id="disassemble4magnumAPx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble 44 Magnum AP x 250" />
+		<property name="name_key" value="Disassemble 44 Magnum AP x 250" />
+		<property name="subtitle" value="Disassemble 44 Magnum AP x 250" />
+		<property name="subtitle_key" value="Disassemble 44 Magnum AP x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="800" />
+			<reward type="Item" id="resourceBulletTip" value="500" />
+</quest>
+
+<quest id="disassembleShotgunShellx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Shotgun Shell x 10" />
+		<property name="name_key" value="Disassemble Shotgun Shell x 10" />
+		<property name="subtitle" value="Disassemble Shotgun Shell x 10" />
+		<property name="subtitle_key" value="Disassemble Shotgun Shell x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBuckshot" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="20" />
+			<reward type="Item" id="resourcePaper" value="10" />
+</quest>
+<quest id="disassembleShotgunShellx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Shotgun Shell x 50" />
+		<property name="name_key" value="Disassemble Shotgun Shell x 50" />
+		<property name="subtitle" value="Disassemble Shotgun Shell x 50" />
+		<property name="subtitle_key" value="Disassemble Shotgun Shell x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBuckshot" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="100" />
+			<reward type="Item" id="resourcePaper" value="50" />
+</quest>
+<quest id="disassembleShotgunShellx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Shotgun Shell x 250" />
+		<property name="name_key" value="Disassemble Shotgun Shell x 250" />
+		<property name="subtitle" value="Disassemble Shotgun Shell x 250" />
+		<property name="subtitle_key" value="Disassemble Shotgun Shell x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBuckshot" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="500" />
+			<reward type="Item" id="resourcePaper" value="250" />
+</quest>
+<quest id="disassembleShotgunSlugx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Shotgun Slug x 10" />
+		<property name="name_key" value="Disassemble Shotgun Slug x 10" />
+		<property name="subtitle" value="Disassemble Shotgun Slug x 10" />
+		<property name="subtitle_key" value="Disassemble Shotgun Slug x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="30" />
+			<reward type="Item" id="resourceGunPowder" value="40" />
+			<reward type="Item" id="resourceBulletTip" value="50" />
+</quest>
+<quest id="disassembleShotgunSlugx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Shotgun Slug x 50" />
+		<property name="name_key" value="Disassemble Shotgun Slug x 50" />
+		<property name="subtitle" value="Disassemble Shotgun Slug x 50" />
+		<property name="subtitle_key" value="Disassemble Shotgun Slug x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="150" />
+			<reward type="Item" id="resourceGunPowder" value="200" />
+			<reward type="Item" id="resourceBulletTip" value="250" />
+</quest>
+<quest id="disassembleShotgunSlugx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Shotgun Slug x 250" />
+		<property name="name_key" value="Disassemble Shotgun Slug x 250" />
+		<property name="subtitle" value="Disassemble Shotgun Slug x 250" />
+		<property name="subtitle_key" value="Disassemble Shotgun Slug x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBulletCasing" value="750" />
+			<reward type="Item" id="resourceGunPowder" value="1000" />
+			<reward type="Item" id="resourceBulletTip" value="1250" />
+</quest>
+
+<quest id="disassembleBlunderbussx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Blunderbuss x 10" />
+		<property name="name_key" value="Disassemble Blunderbuss x 10" />
+		<property name="subtitle" value="Disassemble Blunderbuss x 10" />
+		<property name="subtitle_key" value="Disassemble Blunderbuss x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRockSmall" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="10" />
+			<reward type="Item" id="resourcePaper" value="10" />
+</quest>
+<quest id="disassembleBlunderbussx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Blunderbuss x 50" />
+		<property name="name_key" value="Disassemble Blunderbuss x 50" />
+		<property name="subtitle" value="Disassemble Blunderbuss x 50" />
+		<property name="subtitle_key" value="Disassemble Blunderbuss x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRockSmall" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="50" />
+			<reward type="Item" id="resourcePaper" value="50" />
+</quest>
+<quest id="disassembleBlunderbussx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Blunderbuss x 250" />
+		<property name="name_key" value="Disassemble Blunderbuss x 250" />
+		<property name="subtitle" value="Disassemble Blunderbuss x 250" />
+		<property name="subtitle_key" value="Disassemble Blunderbuss x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRockSmall" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="250" />
+			<reward type="Item" id="resourcePaper" value="250" />
+</quest>
+<quest id="disassembleStoneArrowx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Stone Arrow x 10" />
+		<property name="name_key" value="Disassemble Stone Arrow x 10" />
+		<property name="subtitle" value="Disassemble Stone Arrow x 10" />
+		<property name="subtitle_key" value="Disassemble Stone Arrow x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRockSmall" value="10" />
+			<reward type="Item" id="resourceWood" value="10" />
+			<reward type="Item" id="resourceFeather" value="10" />
+</quest>
+<quest id="disassembleStoneArrowx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Stone Arrow x 50" />
+		<property name="name_key" value="Disassemble Stone Arrow x 50" />
+		<property name="subtitle" value="Disassemble Stone Arrow x 50" />
+		<property name="subtitle_key" value="Disassemble Stone Arrow x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRockSmall" value="50" />
+			<reward type="Item" id="resourceWood" value="50" />
+			<reward type="Item" id="resourceFeather" value="50" />
+</quest>
+<quest id="disassembleStoneArrowx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Stone Arrow x 250" />
+		<property name="name_key" value="Disassemble Stone Arrow x 250" />
+		<property name="subtitle" value="Disassemble Stone Arrow x 250" />
+		<property name="subtitle_key" value="Disassemble Stone Arrow x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRockSmall" value="250" />
+			<reward type="Item" id="resourceWood" value="250" />
+			<reward type="Item" id="resourceFeather" value="250" />
+</quest>
+<quest id="disassembleIronArrowx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Iron Arrow x 10" />
+		<property name="name_key" value="Disassemble Iron Arrow x 10" />
+		<property name="subtitle" value="Disassemble Iron Arrow x 10" />
+		<property name="subtitle_key" value="Disassemble Iron Arrow x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadIron" value="10" />
+			<reward type="Item" id="resourceWood" value="10" />
+			<reward type="Item" id="resourceFeather" value="10" />
+</quest>
+<quest id="disassembleIronArrowx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Iron Arrow x 50" />
+		<property name="name_key" value="Disassemble Iron Arrow x 50" />
+		<property name="subtitle" value="Disassemble Iron Arrow x 50" />
+		<property name="subtitle_key" value="Disassemble Iron Arrow x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadIron" value="50" />
+			<reward type="Item" id="resourceWood" value="50" />
+			<reward type="Item" id="resourceFeather" value="50" />
+</quest>
+<quest id="disassembleIronArrowx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Iron Arrow x 250" />
+		<property name="name_key" value="Disassemble Iron Arrow x 250" />
+		<property name="subtitle" value="Disassemble Iron Arrow x 250" />
+		<property name="subtitle_key" value="Disassemble Iron Arrow x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadIron" value="250" />
+			<reward type="Item" id="resourceWood" value="250" />
+			<reward type="Item" id="resourceFeather" value="250" />
+</quest>
+<quest id="disassembleSteelArrowx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Steel Arrow x 10" />
+		<property name="name_key" value="Disassemble Steel Arrow x 10" />
+		<property name="subtitle" value="Disassemble Steel Arrow x 10" />
+		<property name="subtitle_key" value="Disassemble Steel Arrow x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadSteelAP" value="10" />
+			<reward type="Item" id="resourceWood" value="10" />
+			<reward type="Item" id="resourceFeather" value="10" />
+</quest>
+<quest id="disassembleSteelArrowx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Steel Arrow x 50" />
+		<property name="name_key" value="Disassemble Steel Arrow x 50" />
+		<property name="subtitle" value="Disassemble Steel Arrow x 50" />
+		<property name="subtitle_key" value="Disassemble Steel Arrow x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadSteelAP" value="50" />
+			<reward type="Item" id="resourceWood" value="50" />
+			<reward type="Item" id="resourceFeather" value="50" />
+</quest>
+<quest id="disassembleSteelArrowx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Steel Arrow x 250" />
+		<property name="name_key" value="Disassemble Steel Arrow x 250" />
+		<property name="subtitle" value="Disassemble Steel Arrow x 250" />
+		<property name="subtitle_key" value="Disassemble Steel Arrow x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadSteelAP" value="250" />
+			<reward type="Item" id="resourceWood" value="250" />
+			<reward type="Item" id="resourceFeather" value="250" />
+</quest>
+
+<quest id="disassembleFlamingArrowx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Flaming Arrow x 10" />
+		<property name="name_key" value="Disassemble Flaming Arrow x 10" />
+		<property name="subtitle" value="Disassemble Flaming Arrow x 10" />
+		<property name="subtitle_key" value="Disassemble Flaming Arrow x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="ammoArrowSteelAP" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="20" />
+			<reward type="Item" id="resourceCloth" value="10" />
+			<reward type="Item" id="resourceTallow" value="10" />
+</quest>
+<quest id="disassembleFlamingArrowx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Flaming Arrow x 50" />
+		<property name="name_key" value="Disassemble Flaming Arrow x 50" />
+		<property name="subtitle" value="Disassemble Flaming Arrow x 50" />
+		<property name="subtitle_key" value="Disassemble Flaming Arrow x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="ammoArrowSteelAP" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="100" />
+			<reward type="Item" id="resourceCloth" value="50" />
+			<reward type="Item" id="resourceTallow" value="50" />
+</quest>
+<quest id="disassembleFlamingArrowx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Flaming Arrow x 250" />
+		<property name="name_key" value="Disassemble Flaming Arrow x 250" />
+		<property name="subtitle" value="Disassemble Flaming Arrow x 250" />
+		<property name="subtitle_key" value="Disassemble Flaming Arrow x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="ammoArrowSteelAP" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="500" />
+			<reward type="Item" id="resourceCloth" value="250" />
+			<reward type="Item" id="resourceTallow" value="250" />
+</quest>
+
+
+
+<quest id="disassembleStoneBoltx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Stone Bolt x 10" />
+		<property name="name_key" value="Disassemble Stone Bolt x 10" />
+		<property name="subtitle" value="Disassemble Stone Bolt x 10" />
+		<property name="subtitle_key" value="Disassemble Stone Bolt x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRockSmall" value="10" />
+			<reward type="Item" id="resourceWood" value="10" />
+			<reward type="Item" id="resourceFeather" value="10" />
+</quest>
+<quest id="disassembleStoneBoltx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Stone Bolt x 50" />
+		<property name="name_key" value="Disassemble Stone Bolt x 50" />
+		<property name="subtitle" value="Disassemble Stone Bolt x 50" />
+		<property name="subtitle_key" value="Disassemble Stone Bolt x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRockSmall" value="50" />
+			<reward type="Item" id="resourceWood" value="50" />
+			<reward type="Item" id="resourceFeather" value="50" />
+</quest>
+<quest id="disassembleStoneBoltx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Stone Bolt x 250" />
+		<property name="name_key" value="Disassemble Stone Bolt x 250" />
+		<property name="subtitle" value="Disassemble Stone Bolt x 250" />
+		<property name="subtitle_key" value="Disassemble Stone Bolt x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRockSmall" value="250" />
+			<reward type="Item" id="resourceWood" value="250" />
+			<reward type="Item" id="resourceFeather" value="250" />
+</quest>
+<quest id="disassembleIronBoltx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Iron Bolt x 10" />
+		<property name="name_key" value="Disassemble Iron Bolt x 10" />
+		<property name="subtitle" value="Disassemble Iron Bolt x 10" />
+		<property name="subtitle_key" value="Disassemble Iron Bolt x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadIron" value="10" />
+			<reward type="Item" id="resourceWood" value="10" />
+			<reward type="Item" id="resourceFeather" value="10" />
+</quest>
+<quest id="disassembleIronBoltx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Iron Bolt x 50" />
+		<property name="name_key" value="Disassemble Iron Bolt x 50" />
+		<property name="subtitle" value="Disassemble Iron Bolt x 50" />
+		<property name="subtitle_key" value="Disassemble Iron Bolt x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadIron" value="50" />
+			<reward type="Item" id="resourceWood" value="50" />
+			<reward type="Item" id="resourceFeather" value="50" />
+</quest>
+<quest id="disassembleIronBoltx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Iron Bolt x 250" />
+		<property name="name_key" value="Disassemble Iron Bolt x 250" />
+		<property name="subtitle" value="Disassemble Iron Bolt x 250" />
+		<property name="subtitle_key" value="Disassemble Iron Bolt x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadIron" value="250" />
+			<reward type="Item" id="resourceWood" value="250" />
+			<reward type="Item" id="resourceFeather" value="250" />
+</quest>
+<quest id="disassembleSteelBoltx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Steel Bolt x 10" />
+		<property name="name_key" value="Disassemble Steel Bolt x 10" />
+		<property name="subtitle" value="Disassemble Steel Bolt x 10" />
+		<property name="subtitle_key" value="Disassemble Steel Bolt x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadSteelAP" value="10" />
+			<reward type="Item" id="resourceWood" value="10" />
+			<reward type="Item" id="resourceFeather" value="10" />
+</quest>
+<quest id="disassembleSteelBoltx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Steel Bolt x 50" />
+		<property name="name_key" value="Disassemble Steel Bolt x 50" />
+		<property name="subtitle" value="Disassemble Steel Bolt x 50" />
+		<property name="subtitle_key" value="Disassemble Steel Bolt x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadSteelAP" value="50" />
+			<reward type="Item" id="resourceWood" value="50" />
+			<reward type="Item" id="resourceFeather" value="50" />
+</quest>
+<quest id="disassembleSteelBoltx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Steel Bolt x 250" />
+		<property name="name_key" value="Disassemble Steel Bolt x 250" />
+		<property name="subtitle" value="Disassemble Steel Bolt x 250" />
+		<property name="subtitle_key" value="Disassemble Steel Bolt x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadSteelAP" value="250" />
+			<reward type="Item" id="resourceWood" value="250" />
+			<reward type="Item" id="resourceFeather" value="250" />
+</quest>
+
+<quest id="disassembleExplodingBoltx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Exploding Bolt x 10" />
+		<property name="name_key" value="Disassemble Exploding Bolt x 10" />
+		<property name="subtitle" value="Disassemble Exploding Bolt x 10" />
+		<property name="subtitle_key" value="Disassemble Exploding Bolt x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadSteelAP" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="80" />
+			<reward type="Item" id="resourceDuctTape" value="10" />
+			<reward type="Item" id="resourceWood" value="10" />
+			<reward type="Item" id="resourceFeather" value="10" />
+</quest>
+<quest id="disassembleExplodingBoltx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Exploding Bolt x 50" />
+		<property name="name_key" value="Disassemble Exploding Bolt x 50" />
+		<property name="subtitle" value="Disassemble Exploding Bolt x 50" />
+		<property name="subtitle_key" value="Disassemble Exploding Bolt x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadSteelAP" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="400" />
+			<reward type="Item" id="resourceDuctTape" value="50" />
+			<reward type="Item" id="resourceWood" value="50" />
+			<reward type="Item" id="resourceFeather" value="50" />
+</quest>
+<quest id="disassembleExplodingBoltx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Exploding Bolt x 250" />
+		<property name="name_key" value="Disassemble Exploding Bolt x 250" />
+		<property name="subtitle" value="Disassemble Exploding Bolt x 250" />
+		<property name="subtitle_key" value="Disassemble Exploding Boltx 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceArrowHeadSteelAP" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="400" />
+			<reward type="Item" id="resourceDuctTape" value="50" />
+			<reward type="Item" id="resourceWood" value="50" />
+			<reward type="Item" id="resourceFeather" value="50" />
+</quest>
+<quest id="disassembleHERocketx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Steel Bolt x 10" />
+		<property name="name_key" value="Disassemble Steel Bolt x 10" />
+		<property name="subtitle" value="Disassemble Steel Bolt x 10" />
+		<property name="subtitle_key" value="Disassemble Steel Bolt x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRocketTip" value="10" />
+			<reward type="Item" id="resourceGunPowder" value="160" />
+			<reward type="Item" id="resourceDuctTape" value="30" />
+			<reward type="Item" id="ammoGasCan" value="1000" />
+			<reward type="Item" id="resourceRocketCasing" value="10" />
+</quest>
+<quest id="disassembleHERocketx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Steel Bolt x 50" />
+		<property name="name_key" value="Disassemble Steel Bolt x 50" />
+		<property name="subtitle" value="Disassemble Steel Bolt x 50" />
+		<property name="subtitle_key" value="Disassemble Steel Bolt x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRocketTip" value="50" />
+			<reward type="Item" id="resourceGunPowder" value="800" />
+			<reward type="Item" id="resourceDuctTape" value="150" />
+			<reward type="Item" id="ammoGasCan" value="5000" />
+			<reward type="Item" id="resourceRocketCasing" value="50" />
+</quest>
+<quest id="disassembleHERocketx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Steel Bolt x 250" />
+		<property name="name_key" value="Disassemble Steel Bolt x 250" />
+		<property name="subtitle" value="Disassemble Steel Bolt x 250" />
+		<property name="subtitle_key" value="Disassemble Steel Bolt x 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceRocketTip" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="4000" />
+			<reward type="Item" id="resourceDuctTape" value="750" />
+			<reward type="Item" id="ammoGasCan" value="25000" />
+			<reward type="Item" id="resourceRocketCasing" value="250" />
+</quest>
+
+<quest id="disassembleFragRocketx10" repeatable="true">
+		<property name="group_name_key" value="Disassemble Exploding Bolt x 10" />
+		<property name="name_key" value="Disassemble Exploding Bolt x 10" />
+		<property name="subtitle" value="Disassemble Exploding Bolt x 10" />
+		<property name="subtitle_key" value="Disassemble Exploding Bolt x 10" />
+		<property name="description_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 10 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBuckshot" value="250" />
+			<reward type="Item" id="resourceGunPowder" value="160" />
+			<reward type="Item" id="resourceDuctTape" value="30" />
+			<reward type="Item" id="ammoGasCan" value="1000" />
+			<reward type="Item" id="resourceRocketCasing" value="10" />
+</quest>
+<quest id="disassembleFragRocketx50" repeatable="true">
+		<property name="group_name_key" value="Disassemble Exploding Bolt x 50" />
+		<property name="name_key" value="Disassemble Exploding Bolt x 50" />
+		<property name="subtitle" value="Disassemble Exploding Bolt x 50" />
+		<property name="subtitle_key" value="Disassemble Exploding Bolt x 50" />
+		<property name="description_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 50 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBuckshot" value="1250" />
+			<reward type="Item" id="resourceGunPowder" value="800" />
+			<reward type="Item" id="resourceDuctTape" value="150" />
+			<reward type="Item" id="ammoGasCan" value="5000" />
+			<reward type="Item" id="resourceRocketCasing" value="50" />
+</quest>
+<quest id="disassembleFragRocketx250" repeatable="true">
+		<property name="group_name_key" value="Disassemble Exploding Bolt x 250" />
+		<property name="name_key" value="Disassemble Exploding Bolt x 250" />
+		<property name="subtitle" value="Disassemble Exploding Bolt x 250" />
+		<property name="subtitle_key" value="Disassemble Exploding Boltx 250" />
+		<property name="description_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="icon" value="ui_game_symbol_rifle" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy" />
+		<property name="offer_key" value="Disassemble 250 of this type of ammo and get back the original resources used to make them" />
+		<property name="shareable" value="false" />
+			<reward type="Item" id="resourceBuckshot" value="6250" />
+			<reward type="Item" id="resourceGunPowder" value="4000" />
+			<reward type="Item" id="resourceDuctTape" value="750" />
+			<reward type="Item" id="ammoGasCan" value="25000" />
+			<reward type="Item" id="resourceRocketCasing" value="250" />
+</quest>
+</append>
+</configs>

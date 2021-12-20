@@ -17,13 +17,14 @@
 		<property name="category_key" value="challenge" />
 		<property name="offer_key" value="starterkit_offer" />
 
-		<reward type="Item" id="drinkCanteenCleaned" value="1" isfixed="true"/>
-		<reward type="Item" id="foodCanChili" value="2" isfixed="true"/>
+		<reward type="Item" id="drinkCanteenCleanedJT" value="1" isfixed="true"/>
+		<reward type="Item" id="foodCanChili" value="1" isfixed="true"/>
 		<!-- <reward type="Item" id="craftingBackpack" value="1" isfixed="true"/> -->
 		<reward type="Item" id="keystoneBlock" value="1" isfixed="true"/>
 <!-- 		<reward type="Item" id="cntStartingStorage" value="1" isfixed="true"/>
 		<reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="6" isfixed="true"/> -->
-		<reward type="Item" id="meleeWpnClubT0Plank" value="6" isfixed="true"/>
+		<reward type="Item" id="meleeWpnClubT0PlankJT" value="4" isfixed="true"/>
+		<reward type="Item" id="meleeWpnKnucklesT0FiberKnucklesJT" value="1" isfixed="true"/>
 
 	</quest>
 

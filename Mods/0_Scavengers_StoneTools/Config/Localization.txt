@@ -1,0 +1,3 @@
+﻿Key,Source,Context,English
+meleeToolPickT0StonePickaxeJT,items,Tool,Stone Pickaxe,,,,,
+meleeToolPickT0StonePickaxeJTDesc,items,Tool,"The best way to gather stone and ore from rocks and boulders early on. \nRepair with Small Stone.",,,,,

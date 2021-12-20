@@ -1,19 +1,40 @@
 ﻿Key,English
-quest_BasicSurvival2a,Basic Survival 2/7
-quest_BasicSurvival2b,Basic Survival 3/7
-quest_BasicSurvival3a,Basic Survival 4/7
-quest_BasicSurvival4a,Basic Survival 5/7
-quest_BasicSurvival5a,Basic Survival 6/7
-quest_BasicSurvival6a,Basic Survival 7/7
+quest_BasicSurvival1,Basic Survival 1/12
+quest_BasicSurvival1c,Basic Survival 1/12
+quest_BasicSurvival1a,Basic Survival 2/12
+quest_BasicSurvival2a,Basic Survival 3/12
+quest_BasicSurvival2aa,Basic Survival 4/12
+quest_BasicSurvival2b,Basic Survival 5/12
+quest_BasicSurvival3a,Basic Survival 6/12
+quest_BasicSurvival4a,Basic Survival 7/12
+quest_BasicSurvival3b,Basic Survival 8/12
+quest_BasicSurvival4b,Basic Survival 9/12
+quest_BasicSurvival5a,Basic Survival 10/12
+quest_BasicSurvival6a,Basic Survival 11/12
+quest_BasicSurvival7a,Basic Survival 12/12
+
+quest_BasicSurvival1c_subtitle,Open Your Book and Wear Fiber Wraps
+quest_BasicSurvival1c_description,"Opening your given book will reward you with some starting items. You will receive a plank and a set of Fiber Wraps.\n\nEquip the fiber wraps so that you can punch grass and crops without damaging yourself. You can always make new ones if they break on you."
+quest_BasicSurvival1a_subtitle,Craft A Bedroll
+quest_BasicSurvival1a_description,"Craft a Bedroll by gathering plant fibers and crafting fiber cordage. Once you have the ingredients open your crafting inventory, navigate to the basics recipe category, highlight the recipe and click the craft button.\n\nPlace the Bedroll in the world by first equipping it and using the secondary action key. Once placed you'll see a Bed Icon on your compass and map. This will lead you back to your home and will act as a re-spawn point if you die."
 quest_BasicSurvival2a_subtitle,Craft A Stone Axe
 quest_BasicSurvival2a_description,You will need a stone axe to gather wood and break down some doors. Make a stone axe.
+quest_BasicSurvival2aa_subtitle,Chop Logs
+quest_BasicSurvival2aa_description,You will need to chop down trees and place the logs you receive to get wood. Chop the logs.
 quest_BasicSurvival2b_subtitle,Craft A Stone Pickaxe
 quest_BasicSurvival2b_description,You will need a stone pickaxe to gather ores and break down some metal doors. Make a stone pickaxe.
 quest_BasicSurvival3a_subtitle,Collect Trash Bags
 quest_BasicSurvival3a_description,Storage is incredibly difficult at first. Fortunately you can make a choice to loot trash or break the bags and collect them. They can be placed down for a very small amount of space. Break 3 trash piles and place them down somewhere.
 quest_BasicSurvival4a_subtitle,Craft A Backpack
 quest_BasicSurvival4a_description,Backpack space is very realistic. Fortunately you can craft different tiers of backpacks and wear them to open up space. Each tier is harder to craft but unlocks more space. Craft a Hobo Backpack and wear it.
+quest_BasicSurvival3b_subtitle,Craft Plant Fiber Clothing
+quest_BasicSurvival3b_description,"Craft plant fiber clothing to protect you from damage and keep you warm in cold weather. Gather plant fibers by attacking grass and small plants. Once you have the ingredients, access the Inventory and locate the Clothing category of the Crafting window. Craft plant fiber clothing."
+quest_BasicSurvival4b_subtitle,Wear Plant Fiber Clothing
+quest_BasicSurvival4b_description,"To wear your plant fiber clothing, access the Inventory and select an article of clothing, then select Wear in the Action window. Once dressed, access the Character menu to see the insulation and defense your worn clothing provides in the top left of the Character window."
+
 quest_BasicSurvival5a_subtitle,Pry Off Loose Boards
 quest_BasicSurvival5a_description,Building is kept realistic. As such you will not be able to just craft frames. You will need to find a house and board it up and reinforce it. There are boards in the world that you can pry from fences and boxes and windows. Pry some of these boards off and take them back to your hideout. While there place them to plug any holes in your base.
-quest_BasicSurvival6a_subtitle,Fill Your Canteen
-quest_BasicSurvival6a_description,Your canteen is a guaranteed source of hydration. Take your empty canteen and fill it. You will then need to boil the water on a campfire to drink it.
+quest_BasicSurvival6a_subtitle,Make Your Home
+quest_BasicSurvival6a_description,You may want to construct wooden frames to plug holes ina house or create your own. Craft wood nails from wood and make some frames and place them. Then upgrade them.
+quest_BasicSurvival7a_subtitle,Campfires and Canteens
+quest_BasicSurvival7a_description,Craft a campfire and place it. Your canteen is a guaranteed source of hydration. Take your empty canteen and fill it. You will then need to boil the water on a campfire to drink it.

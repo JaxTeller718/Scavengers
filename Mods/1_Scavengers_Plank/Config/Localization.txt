@@ -1,12 +1,3 @@
 ﻿Key,Source,Context,English
-meleeWpnClubT0Plank,items,Tool,Wood Plank,,,,,
-meleeWpnClubT0PlankDesc,items,Tool,"A plank is the perfect tool to bash some zombie brains in. \Repair with Wood.",,,,,
-quest_BasicSurvival2c,Quest,Quest Info,Basic Survival 3/8,Fabriquez une hache de pierre,Fertige eine Steinaxt,,Fabrica un hacha de piedra.,
-quest_BasicSurvival2c_subtitle,Quest,Quest Info,Crafting Primitive Tools,Fabriquez une hache de pierre,Fertige eine Steinaxt,,Fabrica un hacha de piedra.,
-quest_BasicSurvival2c_description,Quest,Quest Info,Until you can find some more advanced resources you can use sharp rocks to collect resources. Collect some rocks and craft what you need to get started.,Fabriquez une hache de pierre,Fertige eine Steinaxt,,Fabrica un hacha de piedra.,
-quest_BasicSurvival2a_subtitle,Quest,Quest Info,Craft Stone Tools,Fabriquez une hache de pierre,Fertige eine Steinaxt,,Fabrica un hacha de piedra.,
-
-quest_BasicSurvival2d,Quest,Quest Info,Basic Survival 4/8,Fabriquez une hache de pierre,Fertige eine Steinaxt,,Fabrica un hacha de piedra.,
-quest_BasicSurvival2d_subtitle,Quest,Quest Info,Crafting Primitive Weapons,Fabriquez une hache de pierre,Fertige eine Steinaxt,,Fabrica un hacha de piedra.,
-quest_BasicSurvival2d_description,Quest,Quest Info,Until you can find some more advanced resources you can use planks to kill any zombies you come across. Collect some wood and craft what you need to get started.,Fabriquez une hache de pierre,Fertige eine Steinaxt,,Fabrica un hacha de piedra.,
-
+meleeWpnClubT0PlankJT,items,Tool,Wood Plank,,,,,
+meleeWpnClubT0PlankJTDesc,items,Tool,"A plank is the perfect tool to bash some zombie brains in. \Repair with Wood.",,,,,

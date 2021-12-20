@@ -2,30 +2,53 @@
 
 
 	<append xpath="lootcontainers/lootgroup[@name='schematicsToolsT2']">
-		<item name="meleeToolSalvageT4CrowbarSchematic"/>
-
+		<item name="meleeToolSalvageT4CrowbarJTSchematic"/>
 	</append>
 
-	<append xpath="lootcontainers/lootgroup[@name='automotive']">
-		<item name="meleeToolSalvageT4Crowbar" prob="0.0015" />
-
+	<append xpath="lootcontainers/lootgroup[@name='groupToolsT3']">
+		<item name="meleeToolSalvageT4CrowbarJT" loot_prob_template="medLow"/>
 	</append>
 
-
-	<append xpath="lootcontainers/lootgroup[@name='groupQuestTools']">
-		<item name="meleeToolSalvageT4Crowbar" loot_prob_template="GradeCLootLow"/>
-
+	<append xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']">
+		<item name="meleeToolSalvageT4CrowbarJT"/>
 	</append>
 
-	<append xpath="/lootcontainers/lootgroup[@name='junk']">
-		<item name="meleeToolSalvageT4Crowbar" prob="0.4"/>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestToolsT3']">
+		<item name="meleeToolSalvageT4CrowbarJT"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAirDropT5Bundles']">
+		<item name="meleeToolSalvageT4CrowbarJT"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupRollingToolbox03']">
+		<item group="groupToolsT3Crowbar" loot_prob_template="veryLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_tier3tool']">
+		<item name="meleeToolSalvageT4CrowbarJT"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='groupCarWeaponsTools']">
+		<item name="meleeToolSalvageT4CrowbarJT" loot_prob_template="veryLow"/>
 	</append>
 
-	<append xpath="/lootcontainers/lootcontainer[@id='124']">
-		<item name="meleeToolSalvageT4Crowbar" prob="0.4"/>
-	</append>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestWrench']">
+
+<lootgroup name="groupQuestCrowbar" count="all">
+	<item name="meleeToolSalvageT4CrowbarJT"/>
+</lootgroup>
+
+	</insertAfter>
 
 
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupToolsT1ClawHammer']">
 
+<!-- *** Crowbar_Loot -->
+<lootgroup name="groupToolsT3Crowbar" loot_quality_template="QLTemplateT3">
+	<item name="meleeToolSalvageT4CrowbarJT"/>
+</lootgroup>
+
+	</insertAfter>
 
 </JaxTeller718>

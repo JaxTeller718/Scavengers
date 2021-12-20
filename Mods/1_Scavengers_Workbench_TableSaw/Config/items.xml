@@ -1,0 +1,26 @@
+<JaxTeller718>
+	<append xpath="/items">
+		<item name="tableSawJTSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="tableSaw"/>
+			<property name="Unlocks" value="tableSawJT"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="tableSawJT" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		<item name="tableSawBladeJT">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceForgedSteel"/>
+			<property name="Stacknumber" value="50"/>
+			<!-- STK loot -->
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="240"/>
+			<property name="Group" value="Resources"/>
+		</item>
+	</append>
+</JaxTeller718>

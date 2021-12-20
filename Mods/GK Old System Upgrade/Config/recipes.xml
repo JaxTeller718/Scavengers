@@ -1,0 +1,21 @@
+<Gouki>
+
+    <append xpath="/recipes">
+	
+	    <recipe name="resourceEmptyMold" count="1" craft_time="6">
+	        <ingredient name="resourceClayLump" count="6"/>
+	        <ingredient name="drinkJarBoiledWater" count="1"/>
+        </recipe>
+		
+		<recipe name="toolBrickMold" count="1" craft_time="12">
+	        <ingredient name="resourceEmptyMold" count="1"/>
+	        <ingredient name="resourceBricks" count="1"/>
+        </recipe>
+	
+	    <recipe name="resourceBricks" count="1" material_based="true" craft_time="10" craft_area="forge" craft_tool="toolBrickMold">
+	        <ingredient name="unit_clay" count="12"/>
+        </recipe>
+		
+	</append>
+
+</Gouki>

@@ -1,0 +1,7 @@
+<configs>
+	<insertAfter xpath="/quests/quest[@id='quest_tier5complete']/reward[@type='LootItem' and 'groupQuestAmmoCraftingBundle']">
+		<reward type="LootItem" id="groupQuestCrowbar" ischosen="true" value="6"/>
+
+	</insertAfter>
+
+</configs>

@@ -1,0 +1,682 @@
+<JaxTeller718>
+	<append xpath="/items">
+	
+		<item name="bookDeadEyeJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkDeadEye"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookDemolitionsExpertJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkDemolitionsExpert"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookJavelinMasterJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkJavelinMaster"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookLockPickingJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkLockPicking"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookInfiltratorJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkInfiltrator"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookAnimalTrackerJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkAnimalTracker"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookPenetratorJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkPenetrator"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookLuckyLooterJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkLuckyLooter"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookTreasureHunterJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkTreasureHunter"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookSalvageOperationsJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkSalvageOperations"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookBoomstickJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkBoomstick"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookPummelPeteJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkPummelPete"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookSkullCrusherJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkSkullCrusher"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookSexualTrexJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkSexualTrex"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookHeavyArmorJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkHeavyArmor"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookPackMuleJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkPackMule"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookMasterChefJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkMasterChef"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookMiner69rJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkMiner69r"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookMotherLodeJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkMotherLode"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookBrawlerJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkBrawler"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookMachineGunnerJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkMachineGunner"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookTheHuntsmanJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkTheHuntsman"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookWellInsulatedJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkWellInsulated"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookLivingOffTheLandJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkLivingOffTheLand"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookPainToleranceJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkPainTolerance"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookHealingFactorJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkHealingFactor"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookSlowMetabolismJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkSlowMetabolism"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookRuleOneCardioJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkRuleOneCardio"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookArcheryJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkArchery"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookGunslingerJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkGunslinger"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookDeepCutsJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkDeepCuts"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookRunAndGunJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkRunAndGun"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookFlurryOfBlowsJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkFlurryOfBlows"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookLightArmorJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkLightArmor"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookParkourJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkParkour"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookHiddenStrikeJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkHiddenStrike"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookFromTheShadowsJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkFromTheShadows"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookElectrocutionerJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkElectrocutioner"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookTurretsJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkTurrets"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookBetterBarterJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkBetterBarter"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookDaringAdventurerJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkDaringAdventurer"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookCharismaticNatureJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkCharismaticNature"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookPhysicianJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkPhysician"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookAdvancedEngineeringJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkAdvancedEngineering"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+		<item name="bookGreaseMonkeyJT">
+			<property name="CustomIcon" value="skillMagazineRH"/>
+			<property name="DescriptionKey" value="scavengerPerkBookDesc"/>
+			<property name="Extends" value="schematicMaster"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property class="Action0">
+				<property name="Class" value="GainSkill"/>
+				<property name="Skills_to_gain" value="perkGreaseMonkey"/>
+			</property>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="levelup" play_in_head="true"/>
+			</effect_group>
+			<property name="Group" value="Books"/>
+		</item>
+
+
+	</append>
+</JaxTeller718>

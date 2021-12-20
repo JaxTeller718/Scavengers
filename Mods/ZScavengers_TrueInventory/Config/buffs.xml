@@ -65,7 +65,7 @@
 		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
 	</effect_group>
 </buff>
-<buff name="backpackT1" hidden="true">
+<buff name="backpackT0V1" hidden="true">
 	<stack_type value="ignore"/>
 	<update_rate value="0.2"/>
 	<duration value="0"/>
@@ -81,12 +81,44 @@
 		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
 	</effect_group>
 </buff>
+<buff name="backpackT1" hidden="true">
+	<stack_type value="ignore"/>
+	<update_rate value="0.2"/>
+	<duration value="0"/>
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="15"/>
+	
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
+			<requirement name="IsFPV"/> <!--1st-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="backpack" prefab="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2" parentTransform="Spine" localPos="-0.12,0,-0.02" localRot="0,-170,-90">
+			<requirement name="!IsFPV"/> <!--3rd-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
+	</effect_group>
+</buff>
+<buff name="backpackT1V1" hidden="true">
+	<stack_type value="ignore"/>
+	<update_rate value="0.2"/>
+	<duration value="0"/>
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="20"/>
+	
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
+			<requirement name="IsFPV"/> <!--1st-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="backpack" prefab="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_2" parentTransform="Spine" localPos="-0.12,0,-0.02" localRot="0,-170,-90">
+			<requirement name="!IsFPV"/> <!--3rd-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
+	</effect_group>
+</buff>
 <buff name="backpackT2" hidden="true">
 	<stack_type value="ignore"/>
 	<update_rate value="0.2"/>
 	<duration value="0"/>
 	<effect_group tiered="false">
-		<passive_effect name="CarryCapacity" operation="base_add" value="30"/>
+		<passive_effect name="CarryCapacity" operation="base_add" value="25"/>
 	
 		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
 			<requirement name="IsFPV"/> <!--1st-->
@@ -119,6 +151,22 @@
 	<duration value="0"/>
 	<effect_group tiered="false">
 		<passive_effect name="CarryCapacity" operation="base_add" value="40"/>
+		
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
+			<requirement name="IsFPV"/> <!--1st-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="backpack" prefab="#@modfolder:Resources/trueInventory_playerBackpack.unity3d?propertyOfEihwaz_backpack_4" parentTransform="Spine" localPos="-0.12,0,-0.18" localRot="0,-183,-90">
+			<requirement name="!IsFPV"/> <!--3rd-->
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="backpack"/>
+	</effect_group>
+</buff>
+<buff name="backpackT3V1" hidden="true">
+	<stack_type value="ignore"/>
+	<update_rate value="0.2"/>
+	<duration value="0"/>
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="50"/>
 		
 		<triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="backpack">
 			<requirement name="IsFPV"/> <!--1st-->

@@ -1,0 +1,18 @@
+<JaxTeller718>
+
+	<append xpath="/blockplaceholders/placeholder[@name='cntWorkstationsBustedRandomLootHelper']">
+		<block name="tableSaw" prob=".06"/>
+		<block name="cntCollapsedtableSawJT" prob=".6"/>
+	</append>
+
+	
+
+	<append xpath="/blockplaceholders">
+
+	<placeholder name="cntTableSawBustedRandomLootHelperJT">
+		<block name="tableSaw" prob=".2"/>
+		<block name="cntCollapsedtableSawJT" prob="1"/>
+	</placeholder>
+
+	</append>
+</JaxTeller718>

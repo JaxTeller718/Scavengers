@@ -1,0 +1,22 @@
+<JaxTeller718>
+	<append xpath="/recipes">
+		<recipe name="tableSawJT" count="1" craft_time="190" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="25"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceSpring" count="4"/>
+			<ingredient name="resourceScrewsJT" count="4"/>
+			<ingredient name="tableSawBladeJT" count="1"/>
+			<ingredient name="resourceFiberCordageJT" count="10"/>
+		</recipe>
+	</append>
+	<setattribute xpath="/recipes/recipe [ starts-with(@name, 'window03Wood')	 or (contains(@name, 'candleTableLightPlayer'))  or (contains(@name, 'woodFurnitureBlockVariantHelper'))  or (contains(@name, 'woodSignBlockVariantHelper'))  or (contains(@name, 'looseBoardsTrapBlock1x1'))  or (contains(@name, 'looseBoardsTrapBlock3x3'))  or (contains(@name, 'looseBoardsTrapPlate1x1'))  or (contains(@name, 'window03Wood'))  or (contains(@name, 'woodBars'))  or (contains(@name, 'woodBarsCentered'))  or (contains(@name, 'woodCatwalkBlockVariantHelper'))  or (contains(@name, 'woodFenceRailingTrellisSheetBlockVariantHelper'))  or (contains(@name, 'woodHatch1_v1'))  or (contains(@name, 'woodLogPillar100'))  or (contains(@name, 'woodPlate'))  or (contains(@name, 'woodCTRPlate'))  or (contains(@name, 'woodPole'))  or (contains(@name, 'woodStairs25'))  or (contains(@name, 'cntSecureStorageChest'))  or (contains(@name, 'cntWoodFurnitureBlockVariantHelper')) 	 and not(contains(@craft_area, 'forge'))  and not(contains(@craft_area, 'campfire'))  and not(contains(@craft_area, 'survivalCampfireJT'))  and not(contains(@craft_area, 'cementMixer'))  and not(contains(@craft_area, 'tablesaw'))  and not(contains(@craft_area, 'chemistryStation'))  and not(contains(@craft_area, 'workbench'))  and not(contains(@craft_area, 'personalWorkbenchJT'))  and not(contains(@craft_area, 'tanningRackJT')) 		 ]" name="craft_area">tableSawJT</setattribute>
+	<append xpath="/recipes">
+
+		<recipe name="trapSpikesWoodDmg0" count="2" craft_area="tableSawJT">
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceFiberCordageJT" count="1"/>
+		</recipe>
+
+	</append>
+</JaxTeller718>
