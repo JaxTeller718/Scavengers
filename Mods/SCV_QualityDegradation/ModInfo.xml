@@ -1,0 +1,9 @@
+﻿<xml>
+	<ModInfo>
+		<Name value="SCV_QualityDegradation" />
+		<Description value="Adds degradation to quality 1 to 6 on repair" />
+		<Author value="JaxTeller718" />
+		<Version value="A20" />
+		<Website value="" />
+	</ModInfo>
+</xml>
