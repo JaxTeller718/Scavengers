@@ -50,9 +50,6 @@
 			<property name="Shape" value="ModelEntity"/>
 			<property name="OnlySimpleRotations" value="true"/>
 			<property name="IsTerrainDecoration" value="true"/>
-			<property name="ModelOffset" value="0,0,0"/>
-			<property name="GndAlign" value="1"/>
-			<property name="Mesh" value="models"/>
 			<property name="Collide" value="melee,bullet,arrow,rocket"/>
 			<drop event="Harvest" name="resourceFeather" count="3" prob="0.35" tag="allHarvest"/>
 			<drop event="Harvest" name="resourceFeather" count="2" prob="0.6" tag="allHarvest"/>
