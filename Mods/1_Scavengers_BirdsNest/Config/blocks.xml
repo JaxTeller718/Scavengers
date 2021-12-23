@@ -1,10 +1,44 @@
 <JaxTeller718>
-	<set xpath="/blocks/block[@name='cntBirdnest']/property[@name='Material']/@value">Mplants</set>
+<!-- 	<set xpath="/blocks/block[@name='cntBirdnest']/property[@name='Material']/@value">Mplants</set>
 	<append xpath="/blocks/block[@name='cntBirdnest']">
 		<property name="Model" value="#@modfolder:Resources/JaxTeller718_BirdsNest.unity3d?birdsNestRH"/>
 		<property name="CustomIcon" value="birdsNestFullJT"/>
 		<property name="DowngradeBlock" value="birdsNestEmptyJT"/>
-	</append>
+	<property name="ModelOffset" value="0,1,0"/>
+	</append> -->
+	
+	<remove xpath="/blocks/block[@name='cntBirdnest']"/>
+	
+	
+	<insertAfter xpath="/blocks/block[@name='birdBathPlanter']">
+	
+<block name="cntBirdnest">
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mplants"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="Shape" value="Ext3dModel"/>
+	<property name="Texture" value="293"/>
+	<property name="Model" value="#@modfolder:Resources/JaxTeller718_BirdsNest.unity3d?birdsNestRH"/>
+	<property name="CustomIcon" value="birdsNestFullJT"/>
+	<property name="DowngradeBlock" value="birdsNestEmptyJT"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="GndAlign" value="1"/>
+	<property name="LootList" value="birdNest"/>
+	<drop event="Harvest" name="resourceCloth" count="1" prob="0.3" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceFeather" count="3" prob="0.35" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceFeather" count="2" prob="0.6" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceYuccaFibers" count="2,8"/>
+	<property name="FilterTags" value="MC_building,SC_loot"/>
+	<property name="IndexName" value="quest_feather"/>
+</block>
+
+	</insertAfter>
+	
 	<append xpath="/blocks">
 		<block name="birdsNestEmptyJT">
 			<property name="Material" value="Mplants"/>
@@ -17,7 +51,6 @@
 			<property name="OnlySimpleRotations" value="true"/>
 			<property name="IsTerrainDecoration" value="true"/>
 			<property name="Collide" value="melee,bullet,arrow,rocket"/>
-			<drop event="Harvest" name="resourceBoneFragmentsRH" count="1,4" prob="0.9" tag="allHarvest"/>
 			<drop event="Harvest" name="resourceFeather" count="3" prob="0.35" tag="allHarvest"/>
 			<drop event="Harvest" name="resourceFeather" count="2" prob="0.6" tag="allHarvest"/>
 			<drop event="Destroy" name="resourceYuccaFibers" count="2,8"/>
