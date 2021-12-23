@@ -1,6 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\SCV_DisableVehiclesOnBloodMoon\bin\Debug\SCV_DisableVehiclesOnBloodMoon.dll
-C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\SCV_DisableVehiclesOnBloodMoon\bin\Debug\SCV_DisableVehiclesOnBloodMoon.pdb
-C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\SCV_DisableVehiclesOnBloodMoon\obj\Debug\SCV_DisableVehiclesOnBloodMoon.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\SCV_DisableVehiclesOnBloodMoon\obj\Debug\SCV_DisableVehiclesOnBloodMoon.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\SCV_DisableVehiclesOnBloodMoon\obj\Debug\SCV_DisableVehiclesOnBloodMoon.dll
-C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\SCV_DisableVehiclesOnBloodMoon\obj\Debug\SCV_DisableVehiclesOnBloodMoon.pdb
