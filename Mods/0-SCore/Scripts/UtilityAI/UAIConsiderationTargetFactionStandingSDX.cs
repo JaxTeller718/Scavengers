@@ -28,20 +28,8 @@
             if (targetEntity == null)
                 return 0f;
 
-            if (targetEntity.IsDead())
-                return 0f;
-
-            // Checks if we are allies, either share a leader, or is our leader.
-            if (SCoreUtils.IsAlly(_context, targetEntity))
-                return 0f;
-
-            // Do we have a revenge target? Are they the ones attacking us?
-            var revengeTarget = _context.Self.GetRevengeTarget();
-            if (revengeTarget != null)
-            {
-                if (revengeTarget.entityId == targetEntity.entityId)
-                    return 1f;
-            }
+            if (SCoreUtils.IsEnemy(_context.Self, targetEntity)) 
+                return 1f;
 
             // If the target entity is attacking our leader, target them too.
             var leader = EntityUtilities.GetLeaderOrOwner(_context.Self.entityId);
@@ -60,8 +48,8 @@
             {
                 case FactionManager.Relationship.Hate:
                     return 1f;
-                case FactionManager.Relationship.Dislike:  // Added a 1 here for an example. Is there a difference between a Hate and Dislike?
-                    return 1f;
+                case FactionManager.Relationship.Dislike:  
+                    return 0.5f;
                 case FactionManager.Relationship.Neutral:
                 case FactionManager.Relationship.Like:
                 case FactionManager.Relationship.Love:

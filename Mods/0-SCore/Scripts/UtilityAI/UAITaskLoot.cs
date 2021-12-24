@@ -7,74 +7,63 @@ namespace UAI
         private static readonly string AdvFeatureClass = "AdvancedTroubleshootingFeatures";
         private static readonly string Feature = "UtilityAILoggingMin";
 
-        private string _buff;
         private string _targetTypes;
-        private bool _hadBuff;
         private Vector3 _vector;
+
+        private float _timeOut = 100f;
+        private float _currentTimeout;
+        private string _buff;
 
         protected override void initializeParameters()
         {
             base.initializeParameters();
-            if (Parameters.ContainsKey("buff")) _buff = Parameters["buff"];
             if (Parameters.ContainsKey("TargetType")) _targetTypes = Parameters["TargetType"];
+            if (Parameters.ContainsKey("timeout")) _timeOut = StringParsers.ParseFloat(Parameters["timeout"]);
+            if (Parameters.ContainsKey("buff")) _buff = Parameters["buff"];
+
         }
 
         public override void Update(Context _context)
         {
-            // true if you looted it.
+            if (SCoreUtils.IsBlocked(_context))
+                this.Stop(_context);
+
             if (SCoreUtils.CheckContainer(_context, _vector))
             {
-                Stop(_context);
+                if (!_context.Self.Buffs.HasBuff(_buff))
+                    _context.Self.Buffs.AddBuff(_buff);
+
+                _currentTimeout--;
+                if (_currentTimeout < 0) Stop(_context);
                 return;
             }
 
-            base.Update(_context);
-            SCoreUtils.CheckForClosedDoor(_context);
-
-            if (SCoreUtils.IsBlocked(_context))
-            {
-                EntityUtilities.Stop(_context.Self.entityId);
-                AdvLogging.DisplayLog(AdvFeatureClass, Feature, $"{GetType()} Am Blocked.: {_context.Self.EntityName} ( {_context.Self.entityId} ");
-                Stop(_context);
-                _context.Self.getNavigator().clearPath();
-            }
+           base.Update(_context);
         }
 
-        public override void Reset(Context _context)
-        {
-            _hadBuff = false;
-            _vector = Vector3.zero;
-            base.Reset(_context);
-        }
-
-        public override void Stop(Context _context)
-        {
-            if (SCoreUtils.HasBuff(_context, _buff))
-            {
-                EntityUtilities.Stop(_context.Self.entityId);
-                // Interrupt the buff we are being attacked.
-                if (EntityUtilities.GetAttackOrRevengeTarget(_context.Self.entityId) == null)
-                    return;
-            }
-
-            AdvLogging.DisplayLog(AdvFeatureClass, Feature, $"{GetType()} Stop: {_context.Self.EntityName} ( {_context.Self.entityId} ");
-            _vector = Vector3.zero;
-            base.Stop(_context);
-        }
 
         public override void Start(Context _context)
         {
             var paths = SCoreUtils.ScanForTileEntities(_context, _targetTypes);
             if (paths.Count == 0)
             {
-
                 Stop(_context);
                 return;
             }
 
+            if (distance == 0)
+                distance = 4f;
+
             _vector = paths[0];
+            if (paths.Count > 3)
+            {
+                var randIndedx = _context.Self.rand.RandomRange(3);
+                _vector = paths[randIndedx];
+            }
+
+            _currentTimeout = _timeOut;
             AdvLogging.DisplayLog(AdvFeatureClass, Feature, $"{GetType()} Start Workstation: {_context.Self.EntityName} ( {_context.Self.entityId} Position: {_vector} ");
-            SCoreUtils.FindPath(_context, _vector + Vector3.forward, false);
+            SCoreUtils.FindPath(_context, _vector, false);
             _context.ActionData.Started = true;
             _context.ActionData.Executing = true;
         }

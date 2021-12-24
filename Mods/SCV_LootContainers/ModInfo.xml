@@ -1,7 +1,7 @@
 ﻿<xml>
 	<ModInfo>
 		<Name value="SCV_LootContainers" />
-		<Description value="Adds degradation to quality 1 to 6 on repair" />
+		<Description value="Removes the ability to drop loot inside POI containers." />
 		<Author value="JaxTeller718" />
 		<Version value="A20" />
 		<Website value="" />

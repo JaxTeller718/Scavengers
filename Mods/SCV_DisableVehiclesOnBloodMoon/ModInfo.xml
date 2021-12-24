@@ -1,7 +1,7 @@
 ﻿<xml>
 	<ModInfo>
 		<Name value="SCV_DisableVehiclesOnBloodMoon" />
-		<Description value="Adds degradation to quality 1 to 6 on repair" />
+		<Description value="Disables all vehicles on Blood Moons." />
 		<Author value="JaxTeller718" />
 		<Version value="A20" />
 		<Website value="" />

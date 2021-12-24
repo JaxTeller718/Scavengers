@@ -20,10 +20,8 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 // ReSharper disable once CheckNamespace
-public class EntityAliveSDX : EntityTrader, IInventoryChangedListener
+public class EntityAliveSDX : EntityTrader
 {
-    public event Action InventoryChangedEvent;
-
     public List<string> lstQuests = new List<string>();
     public bool isAlwaysAwake;
 
@@ -82,19 +80,6 @@ public class EntityAliveSDX : EntityTrader, IInventoryChangedListener
     public ItemValue meleeWeapon = ItemClass.GetItem("meleeClubIron");
     public QuestJournal questJournal = new QuestJournal();
 
-    private void callInventoryChanged()
-    {
-        if (this.InventoryChangedEvent != null)
-        {
-            this.InventoryChangedEvent();
-        }
-    }
-
-    public void OnInventoryChanged(Inventory _inventory)
-    {
-        Debug.Log("Inventory Changed");
-    }
-
     public override string EntityName
     {
         get
@@ -138,6 +123,10 @@ public class EntityAliveSDX : EntityTrader, IInventoryChangedListener
     {
         if (send)
         {
+            var enemy = GetRevengeTarget();
+            if (enemy != null)
+                enemy.SetAttackTarget(null, 50);
+                
             Buffs.AddCustomVar("onMission", 1f);
             emodel.avatarController.SetBool("IsBusy", true);
             RootTransform.gameObject.SetActive(false);
@@ -353,6 +342,8 @@ public class EntityAliveSDX : EntityTrader, IInventoryChangedListener
     {
         base.PostInit();
 
+        SetupDebugNameHUD(true);
+
         // disable god mode, since that's enabled by default in the NPC
         IsGodMode.Value = false;
 
@@ -379,11 +370,6 @@ public class EntityAliveSDX : EntityTrader, IInventoryChangedListener
 
         // Does a quick local scan to see what pathing blocks, if any, are nearby. If one is found nearby, then it'll use that code for pathing.
         SetupAutoPathingBlocks();
-
-        this.inventory.AddChangeListener(this);
-        this.inventory.OnToolbeltItemsChangedInternal += this.callInventoryChanged;
-        this.bag.OnBackpackItemsChangedInternal += this.callInventoryChanged;
-        this.equipment.OnChanged += this.callInventoryChanged;
     }
 
     public virtual void UpdatePatrolPoints(Vector3 position)
@@ -599,6 +585,7 @@ public class EntityAliveSDX : EntityTrader, IInventoryChangedListener
                 this.HandleNavObject();
             }
         }
+
         SetupAutoPathingBlocks();
 
         if (Buffs.HasCustomVar("PathingCode") && Buffs.GetCustomVar("PathingCode") == -1)
@@ -839,6 +826,11 @@ public class EntityAliveSDX : EntityTrader, IInventoryChangedListener
         return speed;
     }
 
+    public override float GetMoveSpeedAggro()
+    {
+        var speed = EffectManager.GetValue(PassiveEffects.RunSpeed, null, this.moveSpeedPanic, this, null, default(FastTags), true, true, true, true, 1, true);
+        return speed;
+    }
     public new float GetMoveSpeedPanic()
     {
         var speed = EffectManager.GetValue(PassiveEffects.RunSpeed, null, this.moveSpeedPanic, this, null, default(FastTags), true, true, true, true, 1, true);

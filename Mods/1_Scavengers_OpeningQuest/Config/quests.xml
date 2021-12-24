@@ -297,7 +297,6 @@
 		<objective type="Craft" id="campfire" value="1" phase="2"/>
 		<objective type="BlockPlace" id="campfire" value="1" phase="2"/>
 		
-		<objective type="FetchKeep" id="drinkCanteenFullJT" value="1" phase="3"/>
 		<objective type="Craft" id="drinkCanteenCleanedJT" value="1" phase="3"/>
 
 		<reward type="Exp" value="50"/>

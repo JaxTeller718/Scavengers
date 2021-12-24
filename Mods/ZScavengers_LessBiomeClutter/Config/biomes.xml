@@ -5,7 +5,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='rock05']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='rock06']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='rock07']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='cntForestRandomLootHelper']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='plantedBlueberry3Harvest']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.3']/decorations/decoration[@type='block' and @blockname='plantedSnowberry3Harvest']/@prob">0.07</set>
@@ -19,13 +19,13 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock05']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock06']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock07']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeWinterEverGreen']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeWinterPine13m']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeWinterPine19m']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeWinterPine28m']/@prob">0.003</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeSnowyDeadBush']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.1</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeSnowyDeadBush']/@prob">0.007</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.15</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
 
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
@@ -36,13 +36,13 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock05']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock06']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock07']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeWinterEverGreen']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeWinterPine13m']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeWinterPine19m']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeWinterPine28m']/@prob">0.003</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeSnowyDeadBush']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.1</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeSnowyDeadBush']/@prob">0.007</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.15</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
 	
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
@@ -53,13 +53,13 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock05']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock06']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock07']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeWinterEverGreen']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeWinterPine13m']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeWinterPine19m']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeWinterPine28m']/@prob">0.003</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeSnowyDeadBush']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.1</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeSnowyDeadBush']/@prob">0.007</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.15</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
 	
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
@@ -70,13 +70,13 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='rock05']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='rock06']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='rock07']/@prob">0.005</set>	
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeWinterEverGreen']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeWinterPine13m']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeWinterPine19m']/@prob">0.003</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeWinterPine28m']/@prob">0.003</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeSnowyDeadBush']/@prob">0.005</set>	
-	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.1</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeSnowyDeadBush']/@prob">0.007</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeSnowyGrassDiagonal']/@prob">0.15</set>	
 	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
 	
 	
@@ -86,9 +86,9 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.01</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.01</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.01</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='treeDeadPineLeaf']/@prob">0.03</set>	
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.09</set>	
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.09</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='treeDeadPineLeaf']/@prob">0.04</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.15</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.27']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.15</set>	
 
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='rockResource02']/@prob">0.00033</set>
@@ -98,8 +98,8 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.01</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.01</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.01</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.09</set>	
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.09</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.15</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.15</set>	
 	
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rockResource02']/@prob">0.00033</set>
@@ -110,7 +110,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.002</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.002</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.002</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeDeadPineLeaf']/@prob">0.007</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeJuniper4m']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeMountainPine12m']/@prob">0.001</set>
@@ -128,8 +128,8 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeFirLrg01']/@prob">0.0005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeMountainPine48m']/@prob">0.0005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.09</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.09</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.15</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.15</set>
 
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rockResource02']/@prob">0.00033</set>
@@ -140,7 +140,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.002</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.002</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.002</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeDeadPineLeaf']/@prob">0.007</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeJuniper4m']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeMountainPine12m']/@prob">0.001</set>
@@ -158,8 +158,8 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeFirLrg01']/@prob">0.0005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeMountainPine48m']/@prob">0.0005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.09</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.09</set>	
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.15</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.15</set>	
 	
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rockResource02']/@prob">0.00033</set>
@@ -169,7 +169,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.002</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.002</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.002</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeDeadPineLeaf']/@prob">0.007</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeJuniper4m']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeMountainPine12m']/@prob">0.001</set>
@@ -182,8 +182,8 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeFirLrg01']/@prob">0.0005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeMountainPine48m']/@prob">0.0005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.09</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.09</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.15</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.15</set>
 
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='rockResource02']/@prob">0.00033</set>
@@ -194,7 +194,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.002</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.002</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.002</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeDeadPineLeaf']/@prob">0.007</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeJuniper4m']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeMountainPine12m']/@prob">0.001</set>
@@ -212,8 +212,8 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeFirLrg01']/@prob">0.0005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeMountainPine48m']/@prob">0.0005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.09</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.09</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.15</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeShortGrass']/@prob">0.15</set>
 	
 
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.29']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
@@ -253,7 +253,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.402']/decorations/decoration[@type='block' and @blockname='treeDesertShrub']/@prob">0.05</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.402']/decorations/decoration[@type='block' and @blockname='driftwood']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.402']/decorations/decoration[@type='block' and @blockname='driftwood2']/@prob">0.001</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.402']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.402']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.402']/decorations/decoration[@type='block' and @blockname='decoCowSkull']/@prob">0.00015</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.402']/decorations/decoration[@type='block' and @blockname='treeCactus06']/@prob">0.0009</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.402']/decorations/decoration[@type='block' and @blockname='treeBrownGrassDiagonal']/@prob">0.00025</set>
@@ -277,7 +277,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeDesertShrub']/@prob">0.05</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='driftwood']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='driftwood2']/@prob">0.001</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='decoCowSkull']/@prob">0.00015</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeCactus06']/@prob">0.0009</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeBrownGrassDiagonal']/@prob">0.00025</set>
@@ -301,7 +301,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeDesertShrub']/@prob">0.05</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='driftwood']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='driftwood2']/@prob">0.001</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='decoCowSkull']/@prob">0.00015</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeCactus06']/@prob">0.0009</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeBrownGrassDiagonal']/@prob">0.00025</set>
@@ -325,7 +325,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@type='block' and @blockname='treeDesertShrub']/@prob">0.05</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@type='block' and @blockname='driftwood']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@type='block' and @blockname='driftwood2']/@prob">0.001</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@type='block' and @blockname='decoCowSkull']/@prob">0.00015</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@type='block' and @blockname='treeCactus06']/@prob">0.0009</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@type='block' and @blockname='treeBrownGrassDiagonal']/@prob">0.00025</set>
@@ -349,7 +349,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='water']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeDeadPineLeaf']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='water']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='carsRandomHelper']/@prob">0.001</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='water']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeBrownGrassDiagonal']/@prob">0.15</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='water']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.1</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='water']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.15</set>
 
 	<set xpath="/worldgeneration/biomes/biome[@name='water']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rockResource']/@prob">0.00033</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='water']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rockResource02']/@prob">0.00033</set>
@@ -447,7 +447,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.004</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.004</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.004</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cinderBlocks01']/@prob">0.006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cinderBlocks02']/@prob">0.006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cinderBlocks03']/@prob">0.006</set>
@@ -494,7 +494,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.004</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.004</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.004</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cinderBlocks01']/@prob">0.006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cinderBlocks02']/@prob">0.006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cinderBlocks03']/@prob">0.006</set>
@@ -541,7 +541,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.004</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.004</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.004</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cinderBlocks01']/@prob">0.006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cinderBlocks02']/@prob">0.006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cinderBlocks03']/@prob">0.006</set>
@@ -588,7 +588,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.004</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.004</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.004</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@type='block' and @blockname='cinderBlocks01']/@prob">0.006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@type='block' and @blockname='cinderBlocks02']/@prob">0.006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@type='block' and @blockname='cinderBlocks03']/@prob">0.006</set>
@@ -638,7 +638,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treePineBurntLrg']/@prob">0.03</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treePineBurntMed']/@prob">0.03</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treePineBurntFullMed']/@prob">0.03</set>
@@ -665,7 +665,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treePineBurntLrg']/@prob">0.03</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treePineBurntMed']/@prob">0.03</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treePineBurntFullMed']/@prob">0.03</set>
@@ -692,7 +692,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treePineBurntLrg']/@prob">0.03</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treePineBurntMed']/@prob">0.03</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treePineBurntFullMed']/@prob">0.03</set>
@@ -719,7 +719,7 @@
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@type='block' and @blockname='rock01']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@type='block' and @blockname='rock02']/@prob">0.005</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@type='block' and @blockname='rock04']/@prob">0.005</set>
-	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.009</set>
+	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0006</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@type='block' and @blockname='treePineBurntLrg']/@prob">0.03</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@type='block' and @blockname='treePineBurntMed']/@prob">0.03</set>
 	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@type='block' and @blockname='treePineBurntFullMed']/@prob">0.03</set>
@@ -803,7 +803,7 @@
 	
 	
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations">
-		<decoration type="block" blockname="treeForestGrassDiagonal" prob=".05"/>
+		<decoration type="block" blockname="treeForestGrassDiagonal" prob=".1"/>
 	</append>
 	
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">

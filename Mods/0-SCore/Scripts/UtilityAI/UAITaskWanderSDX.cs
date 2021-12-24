@@ -31,8 +31,8 @@ namespace UAI
             if (maxWanderDistance == 0)
                 maxWanderDistance = 20;
 
-        // The y is lower than max wander, since they tend to try to climb up steep hills.
-            _position = RandomPositionGenerator.Calc(_context.Self, (int)maxWanderDistance, 5);
+         // The y is lower than max wander, since they tend to try to climb up steep hills.
+            _position = RandomPositionGenerator.Calc(_context.Self, (int)maxWanderDistance, 10);
 
             // If interests points have been specified, random roll to see if the npc will path towards them or not.
             if (!string.IsNullOrEmpty(_interest))
@@ -59,11 +59,11 @@ namespace UAI
                 this.Stop(_context);
 
             base.Update(_context);
-
             var distance = Vector3.Distance(_context.Self.position, _position);
             if (distance < 0.5f)
             {
                 _context.Self.SetLookPosition(_position);
+                Stop(_context);
             }
 
         }
