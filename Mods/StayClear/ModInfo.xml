@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="StayClear" />
+    <Description value="After you clear a POI, it stays cleared" />
+    <Author value="Ryuyan" />
+    <Version value="1.3.0" />
+    <Website value="https://github.com/ryuyan-ninja/7dtdmod-stayclear" />
+  </ModInfo>
+</xml>

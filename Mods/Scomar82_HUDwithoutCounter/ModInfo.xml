@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Scomar82_HUDwithoutCounter" />
+		<Description value="Simple HUD-Modification without Counters" />
+		<Author value="Scomar" />
+		<Version value="2.4" compatible="A20"/>
+		<Website value="https://github.com/Scomar82/7-Days-Modlets" />
+	</ModInfo>
+</xml>
